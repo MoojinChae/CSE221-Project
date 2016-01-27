@@ -8,7 +8,7 @@ In home directory(/home/pi),
 1. sudo rpi-update && sudo reboot
 2. sudo wget https://raw.githubusercontent.com/notro/rpi-source/master/rpi-source -O /usr/bin/rpi-source && sudo chmod +x /usr/bin/rpi-source
 3. rpi-source --skip-gcc
-4. Copying kernel directory(with files) into home directory(/home/pi/kernel)
+4. copying kernel directory(with files) into home directory(/home/pi/kernel)
 5. make
 6. sudo make install
 7. sudo depmod

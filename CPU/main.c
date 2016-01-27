@@ -1,7 +1,6 @@
 #include "cpu.h"
 
-int main()
-{
+int main(){
 
 	float overhead = get_overhead();
 

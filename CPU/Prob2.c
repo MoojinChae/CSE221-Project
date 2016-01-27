@@ -8,7 +8,7 @@ void prob2(float overhead){
     int n = 0;
     t = ccnt_read() - t;
 
-    printf("function took %f cycles in #%d\n", (float)(t - overhead), i);
+    printf("%dth variable creation : %f\n", i, (float)(t - overhead));
   }
 
   return;  

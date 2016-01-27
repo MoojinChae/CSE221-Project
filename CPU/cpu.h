@@ -21,15 +21,15 @@ inline unsigned ccnt_read(){
 }
 
 inline unsigned get_overhead(){
-	unsigned start, end;
+	unsigned t;
 	float total = 0;
 
 	for(int i=1; i<=OVERHEAD_TEST_NUM; i++){
-		start = ccnt_read();
-		end = ccnt_read();
-		total += (float)(end - start);
+		t = ccnt_read();
+		t = ccnt_read() - t;
+		total += (float)t;
 
-		printf("%dth measurement overhead: %d\n",i, end - start);
+		printf("%dth measurement overhead: %d\n",i, t);
 	}
 	printf("Avg measurement overhead: %f\n", (float)total/OVERHEAD_TEST_NUM);
 
