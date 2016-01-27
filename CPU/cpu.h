@@ -7,6 +7,7 @@
 #include <sys/wait.h>
 #include <unistd.h>
 #include <sys/types.h>
+#include <sched.h>
 
 #define OVERHEAD_TEST_NUM 10000
 
@@ -15,14 +16,8 @@ void prob4(float overhead);
 
 inline unsigned ccnt_read(){
 	unsigned cc;
-	asm volatile ("mrc p15, 0, %0, c15, c12, 1" : "=r" (cc));
+	asm volatile ("mrc p15, 0, %0, c9, c13, 0" : "=r" (cc));
 	return cc;
-}
-
-inline unsigned pmcr_read(){
-	unsigned val;
-	asm volatile("mrc   p15, 0, %0, c15, c12, 0" : "=r"(val));
-	return val;
 }
 
 inline unsigned get_overhead(){
