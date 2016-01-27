@@ -15,7 +15,7 @@ void prob4(float overhead) {
     kill(child_pid, SIGKILL);
   }
   
-  printf ("creating process took %f cycles", (float)((overall_t - num_iter*overhead)/num_iter));
+  printf ("creating process took %f cycles\n", (float)((overall_t - num_iter*overhead)/num_iter));
 
   return;
 }
