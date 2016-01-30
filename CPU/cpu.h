@@ -8,10 +8,12 @@
 #include <unistd.h>
 #include <sys/types.h>
 #include <sched.h>
+#include <syscall.h>
 
 #define OVERHEAD_TEST_NUM 10
 
 void prob2(float overhead);
+void prob3(float overhead);
 void prob4(float overhead);
 
 inline unsigned ccnt_read(){
@@ -24,12 +26,12 @@ inline unsigned get_overhead(){
 	unsigned t;
 	float total = 0;
 
-	for(int i=1; i<=OVERHEAD_TEST_NUM; i++){
+	for(int i=1; i<=10; i++){
 		t = ccnt_read();
 		t = ccnt_read() - t;
 		total += (float)t;
 
-		printf("%dth measurement overhead: %d\n",i, t);
+		//printf("%dth measurement overhead: %d\n",i, t);
 	}
 	printf("Avg measurement overhead: %f\n", (float)total/OVERHEAD_TEST_NUM);
 

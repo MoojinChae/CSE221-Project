@@ -1,7 +1,7 @@
 CC=g++
 CFLAGS=-c -Wall -std=c++0x -g -O0
 LDFLAGS=#-lstdc++
-SOURCES=prob2.c prob4.c main.c
+SOURCES=prob2.c prob3.c prob4.c main.c
 OBJECTS=$(SOURCES:.c=.o)
 EXECUTABLE=run
 

@@ -1,8 +1,9 @@
 #include "./cpu.h"
 
 void prob4(float overhead){
+  printf("====Problem 4 start====\n");
   unsigned t, overall_t;
-  int num_iter = 10000;
+  int num_iter = 10;
   int child_pid = -1;
 
   overall_t = 0;
@@ -10,12 +11,16 @@ void prob4(float overhead){
     t = ccnt_read();
     child_pid = fork();
     t = ccnt_read() - t;
+    overall_t += (t-overhead);
 
-    overall_t += t;
-    kill(child_pid, SIGKILL);
+    if (child_pid >1){
+      kill(child_pid, SIGKILL);
+      printf("%dth process creation : %f\n", i, (float)(t-overhead));
+    }
   }
 
-  printf("process creation : %f\n", (float)((overall_t - num_iter*overhead)/num_iter));
+  printf("avg process creation : %f\n", (float)((overall_t)/num_iter));
 
+  printf("====Problem 4 end====\n");
   return;
 }
