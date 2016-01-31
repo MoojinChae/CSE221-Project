@@ -1,4 +1,7 @@
-#include "./cpu.h"
+#include "cpu.h"
+#include <stdio.h>
+#include <syscall.h>
+#include <unistd.h>
 
 void prob3(float overhead){
 	printf("====Problem 3 start====\n");
