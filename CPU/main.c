@@ -1,12 +1,12 @@
 #include "cpu.h"
 
-int main(){
+int main() {
 
-	float overhead = get_overhead();
+    float overhead = get_overhead();
 
-	prob2(overhead);
-	prob3(overhead);
-	prob4(overhead);
+    prob2(overhead);
+    prob3(overhead);
+    prob4(overhead);
 
-	return 0;
+    return 0;
 }
