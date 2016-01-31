@@ -1,5 +1,6 @@
 CC=gcc
 CFLAGS=-c -Wall -g -std=gnu11 -O0 -Wno-attributes -Wno-unused-variable -Wno-unused-function
+LDFLAGS=-lpthread
 COMMON=cpu.c
 PROB1=$(COMMON) problem1.c
 PROB2=$(COMMON) problem2.c
@@ -29,7 +30,7 @@ problem4: $(OBJECT4)
 	$(CC) $(OBJECT4) -o $@
 
 problem5: $(OBJECT5)
-	$(CC) $(OBJECT5) -o $@
+	$(CC) $(OBJECT5) $(LDFLAGS) -o $@
 
 clean:
 	$(RM) $(OBJECTS) $(EXECUTABLE)
