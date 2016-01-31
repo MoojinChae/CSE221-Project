@@ -7,5 +7,9 @@
 *.symvers
 modules.order
 .tmp_versions/
-run
+CPU/problem1
+CPU/problem2
+CPU/problem3
+CPU/problem4
+CPU/problem5
 
