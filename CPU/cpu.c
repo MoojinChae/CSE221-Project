@@ -1,4 +1,5 @@
 #include "cpu.h"
+#include <stdio.h>
 
 inline unsigned ccnt_read(){
     volatile unsigned cc;

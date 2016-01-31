@@ -1,15 +1,6 @@
 #ifndef CPU_H_
 #define CPU_H_
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdint.h>
-#include <sys/wait.h>
-#include <unistd.h>
-#include <sys/types.h>
-#include <sched.h>
-#include <syscall.h>
-
 #define OVERHEAD_TEST_NUM 10
 
 unsigned ccnt_read();
