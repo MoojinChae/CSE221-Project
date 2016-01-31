@@ -2,7 +2,6 @@
 #include <stdio.h>
 
 void prob2(float overhead){
-	printf("====Problem 2 start====\n");
 	unsigned t;
 	int num_iter = 8;
 
@@ -14,6 +13,13 @@ void prob2(float overhead){
 		printf("%dth variable creation : %f\n", i, (float)(t - overhead));
 	}
 
-	printf("====Problem 2 end====\n");
 	return;  
 }
+
+int main(){
+    float overhead = get_overhead();
+    printf("====Problem 2 start====\n");
+    prob2(overhead);
+    printf("====Problem 2 end====\n");
+}
+

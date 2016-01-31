@@ -4,7 +4,6 @@
 #include <unistd.h>
 
 void prob3(float overhead){
-	printf("====Problem 3 start====\n");
 	unsigned t, overall_t;
 	int num_iter = 10;
 
@@ -20,6 +19,13 @@ void prob3(float overhead){
 
 	printf("avg system call creation : %f\n", (float)((overall_t)/num_iter));
 
-	printf("====Problem 3 end====\n");
   return;  
 }
+
+int main(){
+    float overhead = get_overhead();
+    printf("====Problem 3 start====\n");
+    prob3(overhead);
+    printf("====Problem 3 end====\n");
+}
+

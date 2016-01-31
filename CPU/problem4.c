@@ -5,7 +5,7 @@
 #include <unistd.h>
 
 void prob4(float overhead){
-  printf("====Problem 4 start====\n");
+  
   unsigned t, overall_t;
   int num_iter = 10;
   int child_pid = -1;
@@ -25,6 +25,14 @@ void prob4(float overhead){
 
   printf("avg process creation : %f\n", (float)((overall_t)/num_iter));
 
-  printf("====Problem 4 end====\n");
+  
   return;
 }
+
+int main(){
+  float overhead = get_overhead();
+  printf("====Problem 4 start====\n");
+  prob4(overhead);
+  printf("====Problem 4 end====\n");
+}
+
