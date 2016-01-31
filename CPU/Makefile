@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-c -Wall -g -std=gnu11 -O0
+CFLAGS=-c -Wall -g -std=gnu11 -O0 -Wno-attributes -Wno-unused-variable -Wno-unused-function
 PROB1=cpu.c problem1.c
 PROB2=cpu.c problem2.c
 PROB3=cpu.c problem3.c

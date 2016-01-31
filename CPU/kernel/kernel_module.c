@@ -14,7 +14,7 @@ static void enable_ccnt_read(void* data){
 
 int hello_init(void){
 	printk(KERN_ALERT "Hello kernel :)\n");
-  on_each_cpu(enable_ccnt_read, NULL, 1);
+	on_each_cpu(enable_ccnt_read, NULL, 1);
 	return 0;
 }
 
