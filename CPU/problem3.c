@@ -2,22 +2,28 @@
 #include <stdio.h>
 #include <syscall.h>
 #include <unistd.h>
+#include <time.h>
 
 void prob3(float overhead){
-	unsigned t;
+    unsigned t;
 
-	t = ccnt_read();
-	syscall(SYS_getpid);
-	t = ccnt_read() - t;
+    int num_iter = 1;
 
-	printf("system call(getpid) creation : %f\n", (float)(t - overhead));
+    for (int i = 1; i <= num_iter; i++){
+        t = ccnt_read();
+        //syscall(SYS_getpid);
+        //syscall(SYS_getppid);
+        syscall(SYS_gettimeofday);
+        t = ccnt_read() - t;
 
-	return;  
+        printf("%dth system call creation : %f\n", i, (float)(t - overhead));
+    }
+
+    return;  
 }
 
 int main(){
-	float overhead = 0;//get_overhead();
-	prob3(overhead);
-	return 0;
+    prob3(0);
+    return 0;
 }
 
