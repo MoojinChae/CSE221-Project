@@ -28,7 +28,7 @@ void dummy_proc_7(int a0, int a1, int a2, int a3, int a4, int a5, int a6){
 
 void prob2(float overhead){
     unsigned t;
-    int num_iter = 1000;
+    int num_iter = 100000;
 
     unsigned overall_t = 0;
     for (int i = 1; i <= num_iter; i++){

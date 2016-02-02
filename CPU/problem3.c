@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <syscall.h>
 #include <unistd.h>
-#include <time.h>
+#include <sys/types.h>
 
 void prob3(float overhead){
     unsigned t;
@@ -13,7 +13,7 @@ void prob3(float overhead){
         t = ccnt_read();
         //syscall(SYS_getpid);
         //syscall(SYS_getppid);
-        syscall(SYS_gettimeofday);
+        getppid();
         t = ccnt_read() - t;
 
         printf("%dth system call creation : %f\n", i, (float)(t - overhead));
