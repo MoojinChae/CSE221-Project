@@ -21,14 +21,12 @@ void* mythread (void* arg) {
     int diff = 0;
 
     for (int i = 0; i < CONTEXT_SWITCHING_NUM; i++) {
-        /*
-        diff = ccnt_read() - ccnt;
-        if (add_ccnt) {
-            total += diff;
+        int diff = ccnt_read();
+        if (add_ccnt && diff > ccnt) {
+            total += (diff - ccnt);
             context_switch_num++;
             add_ccnt = false;
         }
-        */
         // printf("Child_thread %lu, ccnt = %u\n", pthread_self() % 1000, diff);
         pthread_yield();
     }
@@ -49,19 +47,20 @@ unsigned thread_context_switching_time() {
     }
 
     for (int i = 0; i < CONTEXT_SWITCHING_NUM; i++) {
-        // add_ccnt = true;
-        // ccnt = ccnt_read();
+        add_ccnt = true;
+        ccnt = ccnt_read();
         // printf("Main_thread %lu, ccnt = %u\n", pthread_self() % 1000, ccnt);
         pthread_yield();
     }
 
     pthread_join(tid, NULL);
-    int end_ccnt = ccnt_read();
-    int diff = end_ccnt - start_ccnt;
-    printf("start: %u, end: %u, diff: %u\n", start_ccnt, end_ccnt, diff);
-    printf("average: %u\n", diff / (CONTEXT_SWITCHING_NUM * 2));
-    // unsigned average = total / context_switch_num;
-    // printf("Average thread context switch time: %u\n", average);
+    // int end_ccnt = ccnt_read();
+    // int diff = end_ccnt - start_ccnt;
+    // printf("start: %u, end: %u, diff: %u\n", start_ccnt, end_ccnt, diff);
+    // printf("average: %u\n", diff / (CONTEXT_SWITCHING_NUM * 2));
+    unsigned average = total / context_switch_num;
+    printf("total: %u, context_switch_num: %u\n", total, context_switch_num);
+    printf("Average thread context switch time: %u\n", average);
     return 0;
 }
 
