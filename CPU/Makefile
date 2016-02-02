@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-c -Wall -g -std=gnu11 -O0 -Wno-attributes -Wno-unused-variable -Wno-unused-function
+CFLAGS=-c -Wall -g -std=gnu11 -O0 -Wno-attributes -Wno-unused-variable -Wno-unused-function -Wno-uninitialized
 LDFLAGS=-lpthread
 COMMON=cpu.c
 PROB1=$(COMMON) problem1.c
@@ -10,6 +10,7 @@ PROB4THREAD1=$(COMMON) problem4_thread1.c
 PROB4THREAD2=$(COMMON) problem4_thread2.c
 PROB5PROCESS=$(COMMON) problem5_process.c
 PROB5THREAD=$(COMMON) problem5_thread.c
+PIPE=$(COMMON) pipe.c
 OBJECT1=$(PROB1:.c=.o)
 OBJECT2=$(PROB2:.c=.o)
 OBJECT3=$(PROB3:.c=.o)
@@ -18,8 +19,9 @@ OBJECT4THREAD1=$(PROB4THREAD1:.c=.o)
 OBJECT4THREAD2=$(PROB4THREAD2:.c=.o)
 OBJECT5PROCESS=$(PROB5PROCESS:.c=.o)
 OBJECT5THREAD=$(PROB5THREAD:.c=.o)
-OBJECTS = $(OBJECT1) $(OBJECT2) $(OBJECT3) $(OBJECT4PROCESS) $(OBJECT4THREAD1) $(OBJECT4THREAD2) $(OBJECT5PROCESS) $(OBJECT5THREAD)
-EXECUTABLE = problem1 problem2 problem3 problem4_process problem4_thread1 problem4_thread2 problem5_process problem5_thread
+OBJECTPIPE=$(PIPE:.c=.o)	
+OBJECTS = $(OBJECT1) $(OBJECT2) $(OBJECT3) $(OBJECT4PROCESS) $(OBJECT4THREAD1) $(OBJECT4THREAD2) $(OBJECT5PROCESS) $(OBJECT5THREAD) $(OBJECTPIPE)
+EXECUTABLE = problem1 problem2 problem3 problem4_process problem4_thread1 problem4_thread2 problem5_process problem5_thread pipe
 
 all: $(EXECUTABLE)
 
@@ -46,6 +48,9 @@ problem5_process: $(OBJECT5PROCESS)
 
 problem5_thread: $(OBJECT5THREAD)
 	$(CC) $(OBJECT5THREAD) $(LDFLAGS) -o $@
+
+pipe: $(OBJECTPIPE)
+	$(CC) $(OBJECTPIPE) -o $@
 
 clean:
 	$(RM) $(OBJECTS) $(EXECUTABLE)
