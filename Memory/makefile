@@ -13,7 +13,7 @@ problem1: $(OBJECT1)
 	$(CC) $(OBJECT1) -o $@ -lm
 
 problem2: $(OBJECT2)
-	$(CC) $(OBJECT2) -o $@
+	$(CC) $(OBJECT2) -o $@ -lm
 
 clean:
 	$(RM) $(OBJECTS) $(EXECUTABLE)

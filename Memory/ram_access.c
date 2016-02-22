@@ -3,17 +3,17 @@
 #include <stdlib.h>
 #include <math.h>
 
-#define LOOP_TIME_TEST_NUM 100000
+#define LOOP_TIME_TEST_NUM 1000000
 static const int arr_min_size = 256;
-static const int stride_min_size = 128;
-
+static const int stride_min_size = 4096;
 
 void measure_latency(float overhead){
-    unsigned t, overall_t;
+    unsigned t;
+    float avg, stddev;
     int arr_size, stride_size, int_arr_size, int_stride_size;
     void **measure;
 
-    for(int i=0; i<5; i++){
+    for(int i=0; i<1; i++){
         stride_size = stride_min_size * pow(2,i);
         for(int j=0; j<20; j++){
             arr_size = arr_min_size * pow(2,j);
@@ -26,14 +26,19 @@ void measure_latency(float overhead){
             }
 
             measure = (void **)array;
-            overall_t = 0;
-            for(int k=0; k<LOOP_TIME_TEST_NUM; k++){
+            avg = 0.0;
+            stddev = 0.0;
+            for(int k=1; k<=LOOP_TIME_TEST_NUM; k++){
                 t = ccnt_read();
                 measure = *measure;
                 t = ccnt_read() - t;
-                overall_t += t - overhead;
+
+                float prev_avg = avg;
+                avg += (t - overhead - prev_avg) / k;
+                stddev += (t - overhead - prev_avg) * (t - overhead - avg);
             }
-            printf("arr size = %d, stride size = %d, average = %f\n", arr_size, stride_size, (float)overall_t/LOOP_TIME_TEST_NUM);
+            stddev = sqrt(stddev / (LOOP_TIME_TEST_NUM - 1));
+            printf("arr size = %d, stride size = %d, average = %f, std = %f\n", arr_size, stride_size, avg, stddev);
 
             free(array);
         }
