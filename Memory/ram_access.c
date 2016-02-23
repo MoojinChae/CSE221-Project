@@ -23,7 +23,8 @@ void measure_latency(float overhead){
             int_stride_size = stride_size / sizeof(int *);
             for (int k = 0; k < int_arr_size; k++) {
                 //array[k] = (int *) &array[(k + int_stride_size) % int_arr_size];
-                array[k] = (int *) &array[(((k/int_stride_size)+2)*int_stride_size+rand()%int_stride_size)%int_arr_size];
+                //array[k] = (int *) &array[(((k/int_stride_size)+2)*int_stride_size+rand()%int_stride_size)%int_arr_size];
+                array[k] = (int *) &array[(k + int_stride_size + rand() % int_stride_size) % int_arr_size];
             }
 
             measure = (void **)array;
