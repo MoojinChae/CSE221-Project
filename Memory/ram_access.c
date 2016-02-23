@@ -5,7 +5,7 @@
 
 #define LOOP_TIME_TEST_NUM 100000
 static const int arr_min_size = 256;
-static const int stride_min_size = 4096;
+static const int stride_min_size = 4092;
 
 void measure_latency(float overhead){
     unsigned t, min, max;
@@ -21,9 +21,11 @@ void measure_latency(float overhead){
 
             int_arr_size = arr_size / sizeof(int *);
             int_stride_size = stride_size / sizeof(int *);
-            for (int k = 0; k < int_arr_size; k++) {
-                array[k] = (int *) &array[(k + int_stride_size) % int_arr_size];
+            for (int k = 0; k < int_arr_size-1; k++) {
+                //array[k] = (int *) &array[(k + int_stride_size) % int_arr_size];
+                array[k] = (int *) &array[k+1];
             }
+            array[int_arr_size-1] = (int *) &array[0];
 
             measure = (void **)array;
             avg = 0.0;
@@ -31,8 +33,10 @@ void measure_latency(float overhead){
             min = 100000000;
             max = 0;
             for(int k=1; k<=LOOP_TIME_TEST_NUM; k++){
+                int index = int_stride_size % int_arr_size;
                 t = ccnt_read();
-                measure = *measure;
+                //measure = *measure;
+                measure = measure[index];
                 t = ccnt_read() - t;
 
                 float prev_avg = avg;
