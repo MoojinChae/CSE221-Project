@@ -15,12 +15,12 @@ int prob3() {
     int fd = -1;
 
     // mmap
-    if ((fd = open("/home/pi/random", O_RDWR, 0)) == -1) {
+    if ((fd = open("./random", O_RDWR, 0)) == -1) {
         fprintf(stderr, "ERROR: fd open");
         return -1;
     }
 
-    addr = (char *)mmap(NULL, 512 * 1024 * 1024, PROT_READ,
+    addr = (char *)mmap(NULL, 64 * 1024 * 1024, PROT_READ,
                         MAP_PRIVATE, fd, 0);
 
     if (addr == MAP_FAILED) {
@@ -36,7 +36,7 @@ int prob3() {
     unsigned long long total = 0;
 
     // Read with 128K distance
-    for (int i = 0; i < 128 * 1024 * 1024; i += 128 * 1024) {
+    for (int i = 0; i < 64 * 1024 * 1024; i += 128 * 1024) {
         start_time = ccnt_read();
         temp = *(addr + i);
         end_time = ccnt_read();
