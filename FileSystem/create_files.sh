@@ -15,4 +15,5 @@ dd if=/dev/urandom of=./random32M bs=4096 count=8192
 dd if=/dev/urandom of=./random64M bs=4096 count=16384
 dd if=/dev/urandom of=./random128M bs=4096 count=32768
 dd if=/dev/urandom of=./random256M bs=4096 count=65536
-
+dd if=/dev/urandom of=./random512M bs=4096 count=131072
+dd if=/dev/urandom of=./random1G bs=4096 count=262144

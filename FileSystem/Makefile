@@ -19,6 +19,6 @@ problem2_seq: $(OBJECT2SEQ)
 
 problem2_rand: $(OBJECT2RAND)
 	$(CC) $(OBJECT2RAND) -o $@ -lm
-clean:
 
+clean:
 	$(RM) $(OBJECTS) $(EXECUTABLE)
