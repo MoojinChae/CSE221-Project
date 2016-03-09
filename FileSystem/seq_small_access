@@ -1,0 +1,399 @@
+INSTANT start time: 15408 sec 555773845 ns, end time: 15408 sec 564047933 ns
+INSTANT size: 4096, time: 0 sec 8274088 ns, time in ns: 8274088, cycles: 7441063
+INSTANT start time: 15408 sec 564399444 ns, end time: 15408 sec 566044085 ns
+INSTANT size: 4096, time: 0 sec 1644641 ns, time in ns: 1644641, cycles: 559759
+INSTANT start time: 15408 sec 566096585 ns, end time: 15408 sec 567629454 ns
+INSTANT size: 4096, time: 0 sec 1532869 ns, time in ns: 1532869, cycles: 216420
+INSTANT start time: 15408 sec 567663725 ns, end time: 15408 sec 569201282 ns
+INSTANT size: 4096, time: 0 sec 1537557 ns, time in ns: 1537557, cycles: 178254
+INSTANT start time: 15408 sec 569229616 ns, end time: 15408 sec 570734204 ns
+INSTANT size: 4096, time: 0 sec 1504588 ns, time in ns: 1504588, cycles: 296974
+INSTANT start time: 15408 sec 570767068 ns, end time: 15408 sec 572316969 ns
+INSTANT size: 4096, time: 0 sec 1549901 ns, time in ns: 1549901, cycles: 601465
+INSTANT start time: 15408 sec 572367438 ns, end time: 15408 sec 573937234 ns
+INSTANT size: 4096, time: 0 sec 1569796 ns, time in ns: 1569796, cycles: 1411023
+INSTANT start time: 15408 sec 573984578 ns, end time: 15408 sec 580249233 ns
+INSTANT size: 4096, time: 0 sec 6264655 ns, time in ns: 6264655, cycles: 5633834
+INSTANT start time: 15408 sec 580340536 ns, end time: 15408 sec 582381740 ns
+INSTANT size: 4096, time: 0 sec 2041204 ns, time in ns: 2041204, cycles: 1834449
+INSTANT start time: 15408 sec 582448771 ns, end time: 15408 sec 584023203 ns
+INSTANT size: 4096, time: 0 sec 1574432 ns, time in ns: 1574432, cycles: 1415224
+size: 4096, average time in ns: 2749373, average cycles: 1958846
+INSTANT start time: 15408 sec 584079453 ns, end time: 15408 sec 585708208 ns
+INSTANT size: 8192, time: 0 sec 1628755 ns, time in ns: 1628755, cycles: 1463755
+INSTANT start time: 15408 sec 585768209 ns, end time: 15408 sec 587807694 ns
+INSTANT size: 8192, time: 0 sec 2039485 ns, time in ns: 2039485, cycles: 1832917
+INSTANT start time: 15408 sec 587881549 ns, end time: 15408 sec 589477179 ns
+INSTANT size: 8192, time: 0 sec 1595630 ns, time in ns: 1595630, cycles: 1433439
+INSTANT start time: 15408 sec 589543064 ns, end time: 15408 sec 591536925 ns
+INSTANT size: 8192, time: 0 sec 1993861 ns, time in ns: 1993861, cycles: 1791202
+INSTANT start time: 15408 sec 591611091 ns, end time: 15408 sec 593203805 ns
+INSTANT size: 8192, time: 0 sec 1592714 ns, time in ns: 1592714, cycles: 1431559
+INSTANT start time: 15408 sec 593269847 ns, end time: 15408 sec 595278290 ns
+INSTANT size: 8192, time: 0 sec 2008443 ns, time in ns: 2008443, cycles: 1806141
+INSTANT start time: 15408 sec 595401468 ns, end time: 15408 sec 596984702 ns
+INSTANT size: 8192, time: 0 sec 1583234 ns, time in ns: 1583234, cycles: 1422782
+INSTANT start time: 15408 sec 597052098 ns, end time: 15408 sec 599135281 ns
+INSTANT size: 8192, time: 0 sec 2083183 ns, time in ns: 2083183, cycles: 1870843
+INSTANT start time: 15408 sec 599235125 ns, end time: 15408 sec 601212267 ns
+INSTANT size: 8192, time: 0 sec 1977142 ns, time in ns: 1977142, cycles: 1775442
+INSTANT start time: 15408 sec 601314715 ns, end time: 15408 sec 603562378 ns
+INSTANT size: 8192, time: 0 sec 2247663 ns, time in ns: 2247663, cycles: 2009177
+size: 8192, average time in ns: 1875011, average cycles: 1683725
+INSTANT start time: 15408 sec 603671806 ns, end time: 15408 sec 607664735 ns
+INSTANT size: 16384, time: 0 sec 3992929 ns, time in ns: 3992929, cycles: 3589168
+INSTANT start time: 15408 sec 607764110 ns, end time: 15408 sec 611496205 ns
+INSTANT size: 16384, time: 0 sec 3732095 ns, time in ns: 3732095, cycles: 3355124
+INSTANT start time: 15408 sec 611597716 ns, end time: 15408 sec 615342884 ns
+INSTANT size: 16384, time: 0 sec 3745168 ns, time in ns: 3745168, cycles: 2928636
+INSTANT start time: 15408 sec 615425853 ns, end time: 15408 sec 618568883 ns
+INSTANT size: 16384, time: 0 sec 3143030 ns, time in ns: 3143030, cycles: 613371
+INSTANT start time: 15408 sec 618605863 ns, end time: 15408 sec 621725247 ns
+INSTANT size: 16384, time: 0 sec 3119384 ns, time in ns: 3119384, cycles: 634192
+INSTANT start time: 15408 sec 621754831 ns, end time: 15408 sec 624810361 ns
+INSTANT size: 16384, time: 0 sec 3055530 ns, time in ns: 3055530, cycles: 518887
+INSTANT start time: 15408 sec 625013591 ns, end time: 15408 sec 628153913 ns
+INSTANT size: 16384, time: 0 sec 3140322 ns, time in ns: 3140322, cycles: 615304
+INSTANT start time: 15408 sec 628187351 ns, end time: 15408 sec 631245850 ns
+INSTANT size: 16384, time: 0 sec 3058499 ns, time in ns: 3058499, cycles: 552984
+INSTANT start time: 15408 sec 631273558 ns, end time: 15408 sec 634369818 ns
+INSTANT size: 16384, time: 0 sec 3096260 ns, time in ns: 3096260, cycles: 534668
+INSTANT start time: 15408 sec 634399818 ns, end time: 15408 sec 637471650 ns
+INSTANT size: 16384, time: 0 sec 3071832 ns, time in ns: 3071832, cycles: 561827
+size: 16384, average time in ns: 3315504, average cycles: 1390416
+INSTANT start time: 15408 sec 637507744 ns, end time: 15408 sec 643621930 ns
+INSTANT size: 32768, time: 0 sec 6114186 ns, time in ns: 6114186, cycles: 1084587
+INSTANT start time: 15408 sec 643651045 ns, end time: 15408 sec 649731480 ns
+INSTANT size: 32768, time: 0 sec 6080435 ns, time in ns: 6080435, cycles: 1122593
+INSTANT start time: 15408 sec 649760022 ns, end time: 15408 sec 655842905 ns
+INSTANT size: 32768, time: 0 sec 6082883 ns, time in ns: 6082883, cycles: 1104222
+INSTANT start time: 15408 sec 655869624 ns, end time: 15408 sec 661935008 ns
+INSTANT size: 32768, time: 0 sec 6065384 ns, time in ns: 6065384, cycles: 1108530
+INSTANT start time: 15408 sec 661961831 ns, end time: 15408 sec 668021849 ns
+INSTANT size: 32768, time: 0 sec 6060018 ns, time in ns: 6060018, cycles: 1105978
+INSTANT start time: 15408 sec 668048360 ns, end time: 15408 sec 674173066 ns
+INSTANT size: 32768, time: 0 sec 6124706 ns, time in ns: 6124706, cycles: 1060845
+INSTANT start time: 15408 sec 674202233 ns, end time: 15408 sec 680308971 ns
+INSTANT size: 32768, time: 0 sec 6106738 ns, time in ns: 6106738, cycles: 1153972
+INSTANT start time: 15408 sec 680338137 ns, end time: 15408 sec 686407063 ns
+INSTANT size: 32768, time: 0 sec 6068926 ns, time in ns: 6068926, cycles: 1095367
+INSTANT start time: 15408 sec 686433729 ns, end time: 15408 sec 692532082 ns
+INSTANT size: 32768, time: 0 sec 6098353 ns, time in ns: 6098353, cycles: 1064288
+INSTANT start time: 15408 sec 692558592 ns, end time: 15408 sec 698653767 ns
+INSTANT size: 32768, time: 0 sec 6095175 ns, time in ns: 6095175, cycles: 1169679
+size: 32768, average time in ns: 6089680, average cycles: 1107006
+INSTANT start time: 15408 sec 698689236 ns, end time: 15408 sec 711965058 ns
+INSTANT size: 65536, time: 0 sec 13275822 ns, time in ns: 13275822, cycles: 2257239
+INSTANT start time: 15408 sec 711992871 ns, end time: 15408 sec 725258225 ns
+INSTANT size: 65536, time: 0 sec 13265354 ns, time in ns: 13265354, cycles: 2169039
+INSTANT start time: 15408 sec 725284995 ns, end time: 15408 sec 738562953 ns
+INSTANT size: 65536, time: 0 sec 13277958 ns, time in ns: 13277958, cycles: 2198830
+INSTANT start time: 15408 sec 738591339 ns, end time: 15408 sec 751781692 ns
+INSTANT size: 65536, time: 0 sec 13190353 ns, time in ns: 13190353, cycles: 2182064
+INSTANT start time: 15408 sec 751809192 ns, end time: 15408 sec 765050535 ns
+INSTANT size: 65536, time: 0 sec 13241343 ns, time in ns: 13241343, cycles: 2202613
+INSTANT start time: 15408 sec 765080119 ns, end time: 15408 sec 778290108 ns
+INSTANT size: 65536, time: 0 sec 13209989 ns, time in ns: 13209989, cycles: 2196738
+INSTANT start time: 15408 sec 778316514 ns, end time: 15408 sec 791593743 ns
+INSTANT size: 65536, time: 0 sec 13277229 ns, time in ns: 13277229, cycles: 2227678
+INSTANT start time: 15408 sec 791621086 ns, end time: 15408 sec 804867898 ns
+INSTANT size: 65536, time: 0 sec 13246812 ns, time in ns: 13246812, cycles: 2328615
+INSTANT start time: 15408 sec 804900398 ns, end time: 15408 sec 818214346 ns
+INSTANT size: 65536, time: 0 sec 13313948 ns, time in ns: 13313948, cycles: 2203947
+INSTANT start time: 15408 sec 818241377 ns, end time: 15408 sec 831548606 ns
+INSTANT size: 65536, time: 0 sec 13307229 ns, time in ns: 13307229, cycles: 2245553
+size: 65536, average time in ns: 13260603, average cycles: 2221231
+INSTANT start time: 15408 sec 831665585 ns, end time: 15408 sec 855948004 ns
+INSTANT size: 131072, time: 0 sec 24282419 ns, time in ns: 24282419, cycles: 4391682
+INSTANT start time: 15408 sec 855979150 ns, end time: 15408 sec 880109538 ns
+INSTANT size: 131072, time: 0 sec 24130388 ns, time in ns: 24130388, cycles: 4308021
+INSTANT start time: 15408 sec 880137142 ns, end time: 15408 sec 904551124 ns
+INSTANT size: 131072, time: 0 sec 24413982 ns, time in ns: 24413982, cycles: 5573936
+INSTANT start time: 15408 sec 904586905 ns, end time: 15408 sec 928637709 ns
+INSTANT size: 131072, time: 0 sec 24050804 ns, time in ns: 24050804, cycles: 4293330
+INSTANT start time: 15408 sec 928665938 ns, end time: 15408 sec 952726221 ns
+INSTANT size: 131072, time: 0 sec 24060283 ns, time in ns: 24060283, cycles: 4420778
+INSTANT start time: 15408 sec 952755700 ns, end time: 15408 sec 976771087 ns
+INSTANT size: 131072, time: 0 sec 24015387 ns, time in ns: 24015387, cycles: 4218875
+INSTANT start time: 15408 sec 976799889 ns, end time: 15409 sec 869078 ns
+INSTANT size: 131072, time: 0 sec 24069189 ns, time in ns: 24069189, cycles: 4578160
+INSTANT start time: 15409 sec 902047 ns, end time: 15409 sec 25025559 ns
+INSTANT size: 131072, time: 0 sec 24123512 ns, time in ns: 24123512, cycles: 4270983
+INSTANT start time: 15409 sec 25053997 ns, end time: 15409 sec 49166259 ns
+INSTANT size: 131072, time: 0 sec 24112262 ns, time in ns: 24112262, cycles: 4312843
+INSTANT start time: 15409 sec 49194645 ns, end time: 15409 sec 73301594 ns
+INSTANT size: 131072, time: 0 sec 24106949 ns, time in ns: 24106949, cycles: 4271211
+size: 131072, average time in ns: 24136517, average cycles: 4463981
+INSTANT start time: 15409 sec 73337480 ns, end time: 15409 sec 121837370 ns
+INSTANT size: 262144, time: 0 sec 48499890 ns, time in ns: 48499890, cycles: 8688291
+INSTANT start time: 15409 sec 121866693 ns, end time: 15409 sec 170463093 ns
+INSTANT size: 262144, time: 0 sec 48596400 ns, time in ns: 48596400, cycles: 8602639
+INSTANT start time: 15409 sec 170492156 ns, end time: 15409 sec 219087306 ns
+INSTANT size: 262144, time: 0 sec 48595150 ns, time in ns: 48595150, cycles: 8757962
+INSTANT start time: 15409 sec 219118556 ns, end time: 15409 sec 267755738 ns
+INSTANT size: 262144, time: 0 sec 48637182 ns, time in ns: 48637182, cycles: 8772987
+INSTANT start time: 15409 sec 267812457 ns, end time: 15409 sec 316500941 ns
+INSTANT size: 262144, time: 0 sec 48688484 ns, time in ns: 48688484, cycles: 9035684
+INSTANT start time: 15409 sec 316550004 ns, end time: 15409 sec 365289790 ns
+INSTANT size: 262144, time: 0 sec 48739786 ns, time in ns: 48739786, cycles: 8727407
+INSTANT start time: 15409 sec 365321978 ns, end time: 15409 sec 414059785 ns
+INSTANT size: 262144, time: 0 sec 48737807 ns, time in ns: 48737807, cycles: 9089446
+INSTANT start time: 15409 sec 414097702 ns, end time: 15409 sec 462903061 ns
+INSTANT size: 262144, time: 0 sec 48805359 ns, time in ns: 48805359, cycles: 8692218
+INSTANT start time: 15409 sec 462939364 ns, end time: 15409 sec 511457951 ns
+INSTANT size: 262144, time: 0 sec 48518587 ns, time in ns: 48518587, cycles: 8800625
+INSTANT start time: 15409 sec 511488264 ns, end time: 15409 sec 563354987 ns
+INSTANT size: 262144, time: 0 sec 51866723 ns, time in ns: 51866723, cycles: 11817005
+size: 262144, average time in ns: 48968536, average cycles: 9098426
+INSTANT start time: 15409 sec 563467071 ns, end time: 15409 sec 661260030 ns
+INSTANT size: 524288, time: 0 sec 97792959 ns, time in ns: 97792959, cycles: 17519586
+INSTANT start time: 15409 sec 661305811 ns, end time: 15409 sec 758711581 ns
+INSTANT size: 524288, time: 0 sec 97405770 ns, time in ns: 97405770, cycles: 17395567
+INSTANT start time: 15409 sec 758745540 ns, end time: 15409 sec 856545373 ns
+INSTANT size: 524288, time: 0 sec 97799833 ns, time in ns: 97799833, cycles: 17322842
+INSTANT start time: 15409 sec 856576832 ns, end time: 15409 sec 953916872 ns
+INSTANT size: 524288, time: 0 sec 97340040 ns, time in ns: 97340040, cycles: 17371770
+INSTANT start time: 15409 sec 953947966 ns, end time: 15410 sec 62741740 ns
+INSTANT size: 524288, time: 0 sec 108793774 ns, time in ns: 108793774, cycles: 18566642
+INSTANT start time: 15410 sec 62916428 ns, end time: 15410 sec 160565740 ns
+INSTANT size: 524288, time: 0 sec 97649312 ns, time in ns: 97649312, cycles: 17293030
+INSTANT start time: 15410 sec 160601886 ns, end time: 15410 sec 257785312 ns
+INSTANT size: 524288, time: 0 sec 97183426 ns, time in ns: 97183426, cycles: 17560040
+INSTANT start time: 15410 sec 257826927 ns, end time: 15410 sec 355341499 ns
+INSTANT size: 524288, time: 0 sec 97514572 ns, time in ns: 97514572, cycles: 17646021
+INSTANT start time: 15410 sec 355376811 ns, end time: 15410 sec 453091593 ns
+INSTANT size: 524288, time: 0 sec 97714782 ns, time in ns: 97714782, cycles: 17552637
+INSTANT start time: 15410 sec 453132166 ns, end time: 15410 sec 550383248 ns
+INSTANT size: 524288, time: 0 sec 97251082 ns, time in ns: 97251082, cycles: 17640415
+size: 524288, average time in ns: 98644555, average cycles: 17586855
+INSTANT start time: 15410 sec 550426425 ns, end time: 15410 sec 745082755 ns
+INSTANT size: 1048576, time: 0 sec 194656330 ns, time in ns: 194656330, cycles: 34529876
+INSTANT start time: 15410 sec 745115776 ns, end time: 15410 sec 940053826 ns
+INSTANT size: 1048576, time: 0 sec 194938050 ns, time in ns: 194938050, cycles: 35530324
+INSTANT start time: 15410 sec 940086691 ns, end time: 15411 sec 137743030 ns
+INSTANT size: 1048576, time: 0 sec 197656339 ns, time in ns: 197656339, cycles: 37652303
+INSTANT start time: 15411 sec 137823290 ns, end time: 15411 sec 333252383 ns
+INSTANT size: 1048576, time: 0 sec 195429093 ns, time in ns: 195429093, cycles: 35748448
+INSTANT start time: 15411 sec 333311966 ns, end time: 15411 sec 528435433 ns
+INSTANT size: 1048576, time: 0 sec 195123467 ns, time in ns: 195123467, cycles: 35133539
+INSTANT start time: 15411 sec 528486475 ns, end time: 15411 sec 723204211 ns
+INSTANT size: 1048576, time: 0 sec 194717736 ns, time in ns: 194717736, cycles: 34616528
+INSTANT start time: 15411 sec 723240044 ns, end time: 15411 sec 918142624 ns
+INSTANT size: 1048576, time: 0 sec 194902580 ns, time in ns: 194902580, cycles: 34623349
+INSTANT start time: 15411 sec 918173353 ns, end time: 15412 sec 112915932 ns
+INSTANT size: 1048576, time: 0 sec 194742579 ns, time in ns: 194742579, cycles: 34631635
+INSTANT start time: 15412 sec 112944838 ns, end time: 15412 sec 307559084 ns
+INSTANT size: 1048576, time: 0 sec 194614246 ns, time in ns: 194614246, cycles: 34685357
+INSTANT start time: 15412 sec 307593667 ns, end time: 15412 sec 502611351 ns
+INSTANT size: 1048576, time: 0 sec 195017684 ns, time in ns: 195017684, cycles: 34880312
+size: 1048576, average time in ns: 195179810, average cycles: 35203167
+INSTANT start time: 15412 sec 502658643 ns, end time: 15412 sec 888856602 ns
+INSTANT size: 2097152, time: 0 sec 386197959 ns, time in ns: 386197959, cycles: 72125548
+INSTANT start time: 15412 sec 888938113 ns, end time: 15413 sec 272822053 ns
+INSTANT size: 2097152, time: 0 sec 383883940 ns, time in ns: 383883940, cycles: 70751411
+INSTANT start time: 15413 sec 272876845 ns, end time: 15413 sec 656854952 ns
+INSTANT size: 2097152, time: 0 sec 383978107 ns, time in ns: 383978107, cycles: 69397818
+INSTANT start time: 15413 sec 656902140 ns, end time: 15414 sec 40873475 ns
+INSTANT size: 2097152, time: 0 sec 383971335 ns, time in ns: 383971335, cycles: 68819188
+INSTANT start time: 15414 sec 40909516 ns, end time: 15414 sec 427375963 ns
+INSTANT size: 2097152, time: 0 sec 386466447 ns, time in ns: 386466447, cycles: 72026306
+INSTANT start time: 15414 sec 427459192 ns, end time: 15414 sec 811060837 ns
+INSTANT size: 2097152, time: 0 sec 383601645 ns, time in ns: 383601645, cycles: 68565070
+INSTANT start time: 15414 sec 811100472 ns, end time: 15415 sec 195085503 ns
+INSTANT size: 2097152, time: 0 sec 383985031 ns, time in ns: 383985031, cycles: 69979331
+INSTANT start time: 15415 sec 195124878 ns, end time: 15415 sec 582120386 ns
+INSTANT size: 2097152, time: 0 sec 386995508 ns, time in ns: 386995508, cycles: 72173109
+INSTANT start time: 15415 sec 584960915 ns, end time: 15415 sec 973123352 ns
+INSTANT size: 2097152, time: 0 sec 388162437 ns, time in ns: 388162437, cycles: 70007447
+INSTANT start time: 15415 sec 973175644 ns, end time: 15416 sec 357500829 ns
+INSTANT size: 2097152, time: 0 sec 384325185 ns, time in ns: 384325185, cycles: 69026400
+size: 2097152, average time in ns: 385156759, average cycles: 70287162
+INSTANT start time: 15416 sec 357555569 ns, end time: 15417 sec 138432641 ns
+INSTANT size: 4194304, time: 0 sec 780877072 ns, time in ns: 780877072, cycles: 143684560
+INSTANT start time: 15417 sec 138518110 ns, end time: 15417 sec 915751782 ns
+INSTANT size: 4194304, time: 0 sec 777233672 ns, time in ns: 777233672, cycles: 142700757
+INSTANT start time: 15417 sec 915824178 ns, end time: 15418 sec 694887487 ns
+INSTANT size: 4194304, time: 0 sec 779063309 ns, time in ns: 779063309, cycles: 142564983
+INSTANT start time: 15418 sec 694974362 ns, end time: 15419 sec 472418392 ns
+INSTANT size: 4194304, time: 0 sec 777444030 ns, time in ns: 777444030, cycles: 142035203
+INSTANT start time: 15419 sec 472478965 ns, end time: 15420 sec 251563829 ns
+INSTANT size: 4194304, time: 0 sec 779084864 ns, time in ns: 779084864, cycles: 141923189
+INSTANT start time: 15420 sec 251647944 ns, end time: 15421 sec 36261468 ns
+INSTANT size: 4194304, time: 0 sec 784613524 ns, time in ns: 784613524, cycles: 141425516
+INSTANT start time: 15421 sec 36327510 ns, end time: 15421 sec 815259346 ns
+INSTANT size: 4194304, time: 0 sec 778931836 ns, time in ns: 778931836, cycles: 142138039
+INSTANT start time: 15421 sec 815342159 ns, end time: 15422 sec 592682998 ns
+INSTANT size: 4194304, time: 0 sec 777340839 ns, time in ns: 777340839, cycles: 140616833
+INSTANT start time: 15422 sec 592753310 ns, end time: 15423 sec 372251287 ns
+INSTANT size: 4194304, time: 0 sec 779497977 ns, time in ns: 779497977, cycles: 146403489
+INSTANT start time: 15423 sec 372336808 ns, end time: 15424 sec 148706230 ns
+INSTANT size: 4194304, time: 0 sec 776369422 ns, time in ns: 776369422, cycles: 139712772
+size: 4194304, average time in ns: 779045654, average cycles: 142320534
+INSTANT start time: 15424 sec 148768626 ns, end time: 15425 sec 716678704 ns
+INSTANT size: 8388608, time: 1 sec 567910078 ns, time in ns: 1567910078, cycles: 285182050
+INSTANT start time: 15425 sec 716764694 ns, end time: 15427 sec 276458013 ns
+INSTANT size: 8388608, time: 1 sec 559693319 ns, time in ns: 1559693319, cycles: 282096124
+INSTANT start time: 15427 sec 276543899 ns, end time: 15428 sec 837054290 ns
+INSTANT size: 8388608, time: 1 sec 560510391 ns, time in ns: 1560510391, cycles: 282169811
+INSTANT start time: 15428 sec 837134759 ns, end time: 15431 sec 300925164 ns
+INSTANT size: 8388608, time: 2 sec 463790405 ns, time in ns: 2463790405, cycles: 335699404
+INSTANT start time: 15431 sec 301013029 ns, end time: 15432 sec 989846056 ns
+INSTANT size: 8388608, time: 1 sec 688833027 ns, time in ns: 1688833027, cycles: 408074516
+INSTANT start time: 15432 sec 989927046 ns, end time: 15434 sec 622739943 ns
+INSTANT size: 8388608, time: 1 sec 632812897 ns, time in ns: 1632812897, cycles: 284065298
+INSTANT start time: 15434 sec 622825725 ns, end time: 15436 sec 268818957 ns
+INSTANT size: 8388608, time: 1 sec 645993232 ns, time in ns: 1645993232, cycles: 285010418
+INSTANT start time: 15436 sec 268905780 ns, end time: 15437 sec 903016931 ns
+INSTANT size: 8388608, time: 1 sec 634111151 ns, time in ns: 1634111151, cycles: 284592339
+INSTANT start time: 15437 sec 903101463 ns, end time: 15440 sec 291758759 ns
+INSTANT size: 8388608, time: 2 sec 388657296 ns, time in ns: 2388657296, cycles: 315005813
+INSTANT start time: 15440 sec 291842301 ns, end time: 15441 sec 932378850 ns
+INSTANT size: 8388608, time: 1 sec 640536549 ns, time in ns: 1640536549, cycles: 284916273
+size: 8388608, average time in ns: 1778284834, average cycles: 304681204
+INSTANT start time: 15441 sec 932461506 ns, end time: 15445 sec 604535635 ns
+INSTANT size: 16777216, time: 3 sec 672074129 ns, time in ns: 3672074129, cycles: 584957248
+INSTANT start time: 15445 sec 604621781 ns, end time: 15448 sec 891698842 ns
+INSTANT size: 16777216, time: 3 sec 287077061 ns, time in ns: 3287077061, cycles: 587452289
+INSTANT start time: 15448 sec 892665563 ns, end time: 15452 sec 192450307 ns
+INSTANT size: 16777216, time: 3 sec 299784744 ns, time in ns: 3299784744, cycles: 611350552
+INSTANT start time: 15452 sec 192536505 ns, end time: 15455 sec 480558185 ns
+INSTANT size: 16777216, time: 3 sec 288021680 ns, time in ns: 3288021680, cycles: 571663850
+INSTANT start time: 15455 sec 480645998 ns, end time: 15458 sec 761950618 ns
+INSTANT size: 16777216, time: 3 sec 281304620 ns, time in ns: 3281304620, cycles: 570255601
+INSTANT start time: 15458 sec 762038796 ns, end time: 15462 sec 41769912 ns
+INSTANT size: 16777216, time: 3 sec 279731116 ns, time in ns: 3279731116, cycles: 567761811
+INSTANT start time: 15462 sec 41853558 ns, end time: 15465 sec 860751785 ns
+INSTANT size: 16777216, time: 3 sec 818898227 ns, time in ns: 3818898227, cycles: 589708807
+INSTANT start time: 15465 sec 860834911 ns, end time: 15469 sec 132027694 ns
+INSTANT size: 16777216, time: 3 sec 271192783 ns, time in ns: 3271192783, cycles: 568879380
+INSTANT start time: 15469 sec 132116080 ns, end time: 15472 sec 414843470 ns
+INSTANT size: 16777216, time: 3 sec 282727390 ns, time in ns: 3282727390, cycles: 569407874
+INSTANT start time: 15472 sec 414918470 ns, end time: 15475 sec 690893958 ns
+INSTANT size: 16777216, time: 3 sec 275975488 ns, time in ns: 3275975488, cycles: 573376046
+size: 16777216, average time in ns: 3375678723, average cycles: 579481345
+INSTANT start time: 15475 sec 690989375 ns, end time: 15482 sec 803204272 ns
+INSTANT size: 33554432, time: 7 sec 112214897 ns, time in ns: 7112214897, cycles: 1155787464
+INSTANT start time: 15482 sec 803292449 ns, end time: 15489 sec 361050287 ns
+INSTANT size: 33554432, time: 6 sec 557757838 ns, time in ns: 6557757838, cycles: 1141314669
+INSTANT start time: 15489 sec 361134922 ns, end time: 15495 sec 917398504 ns
+INSTANT size: 33554432, time: 6 sec 556263582 ns, time in ns: 6556263582, cycles: 1156549306
+INSTANT start time: 15495 sec 917487827 ns, end time: 15502 sec 462122128 ns
+INSTANT size: 33554432, time: 6 sec 544634301 ns, time in ns: 6544634301, cycles: 1143299348
+INSTANT start time: 15502 sec 462202128 ns, end time: 15509 sec 16589079 ns
+INSTANT size: 33554432, time: 6 sec 554386951 ns, time in ns: 6554386951, cycles: 1169252836
+INSTANT start time: 15509 sec 16679184 ns, end time: 15515 sec 595901843 ns
+INSTANT size: 33554432, time: 6 sec 579222659 ns, time in ns: 6579222659, cycles: 1174681039
+INSTANT start time: 15515 sec 596010333 ns, end time: 15522 sec 137191617 ns
+INSTANT size: 33554432, time: 6 sec 541181284 ns, time in ns: 6541181284, cycles: 1140413698
+INSTANT start time: 15522 sec 137279742 ns, end time: 15528 sec 681359287 ns
+INSTANT size: 33554432, time: 6 sec 544079545 ns, time in ns: 6544079545, cycles: 1139890228
+INSTANT start time: 15528 sec 681447413 ns, end time: 15535 sec 226128232 ns
+INSTANT size: 33554432, time: 6 sec 544680819 ns, time in ns: 6544680819, cycles: 1144582774
+INSTANT start time: 15535 sec 226219118 ns, end time: 15541 sec 777006540 ns
+INSTANT size: 33554432, time: 6 sec 550787422 ns, time in ns: 6550787422, cycles: 1143214594
+size: 33554432, average time in ns: 6608520929, average cycles: 1150898595
+INSTANT start time: 15541 sec 777104770 ns, end time: 15554 sec 846707900 ns
+INSTANT size: 67108864, time: 13 sec 69603130 ns, time in ns: 13069603130, cycles: 2291722314
+INSTANT start time: 15554 sec 846795660 ns, end time: 15567 sec 905409295 ns
+INSTANT size: 67108864, time: 13 sec 58613635 ns, time in ns: 13058613635, cycles: 2282465035
+INSTANT start time: 15567 sec 905497212 ns, end time: 15580 sec 999310625 ns
+INSTANT size: 67108864, time: 13 sec 93813413 ns, time in ns: 13093813413, cycles: 2342844422
+INSTANT start time: 15580 sec 999396563 ns, end time: 15594 sec 57947941 ns
+INSTANT size: 67108864, time: 13 sec 58551378 ns, time in ns: 13058551378, cycles: 2272173814
+INSTANT start time: 15594 sec 58037316 ns, end time: 15607 sec 125255978 ns
+INSTANT size: 67108864, time: 13 sec 67218662 ns, time in ns: 13067218662, cycles: 2280329407
+INSTANT start time: 15607 sec 125510197 ns, end time: 15620 sec 212412940 ns
+INSTANT size: 67108864, time: 13 sec 86902743 ns, time in ns: 13086902743, cycles: 2308352223
+INSTANT start time: 15620 sec 212520961 ns, end time: 15633 sec 304823384 ns
+INSTANT size: 67108864, time: 13 sec 92302423 ns, time in ns: 13092302423, cycles: 2341275410
+INSTANT start time: 15633 sec 304905207 ns, end time: 15646 sec 399481008 ns
+INSTANT size: 67108864, time: 13 sec 94575801 ns, time in ns: 13094575801, cycles: 2281350628
+INSTANT start time: 15646 sec 399567310 ns, end time: 15659 sec 470049208 ns
+INSTANT size: 67108864, time: 13 sec 70481898 ns, time in ns: 13070481898, cycles: 2281097795
+INSTANT start time: 15659 sec 470135511 ns, end time: 15672 sec 558119107 ns
+INSTANT size: 67108864, time: 13 sec 87983596 ns, time in ns: 13087983596, cycles: 2305516415
+size: 67108864, average time in ns: 13078004667, average cycles: 2298712746
+INSTANT start time: 15672 sec 558217492 ns, end time: 15698 sec 766454496 ns
+INSTANT size: 134217728, time: 26 sec 208237004 ns, time in ns: 26208237004, cycles: 328216682
+INSTANT start time: 15698 sec 766540329 ns, end time: 15724 sec 949154491 ns
+INSTANT size: 134217728, time: 26 sec 182614162 ns, time in ns: 26182614162, cycles: 268811049
+INSTANT start time: 15724 sec 949243398 ns, end time: 15751 sec 168269538 ns
+INSTANT size: 134217728, time: 26 sec 219026140 ns, time in ns: 26219026140, cycles: 349928609
+INSTANT start time: 15751 sec 168359069 ns, end time: 15777 sec 346322807 ns
+INSTANT size: 134217728, time: 26 sec 177963738 ns, time in ns: 26177963738, cycles: 260593815
+INSTANT start time: 15777 sec 346414526 ns, end time: 15803 sec 560672039 ns
+INSTANT size: 134217728, time: 26 sec 214257513 ns, time in ns: 26214257513, cycles: 288655321
+INSTANT start time: 15803 sec 560786310 ns, end time: 15829 sec 824071753 ns
+INSTANT size: 134217728, time: 26 sec 263285443 ns, time in ns: 26263285443, cycles: 509549384
+INSTANT start time: 15829 sec 824162534 ns, end time: 15855 sec 998817911 ns
+INSTANT size: 134217728, time: 26 sec 174655377 ns, time in ns: 26174655377, cycles: 290521478
+INSTANT start time: 15855 sec 998907390 ns, end time: 15882 sec 194641074 ns
+INSTANT size: 134217728, time: 26 sec 195733684 ns, time in ns: 26195733684, cycles: 329503818
+INSTANT start time: 15882 sec 194727792 ns, end time: 15908 sec 359846976 ns
+INSTANT size: 134217728, time: 26 sec 165119184 ns, time in ns: 26165119184, cycles: 264345284
+INSTANT start time: 15908 sec 359936456 ns, end time: 15934 sec 559360228 ns
+INSTANT size: 134217728, time: 26 sec 199423772 ns, time in ns: 26199423772, cycles: 337912130
+size: 134217728, average time in ns: 26200031601, average cycles: 322803757
+INSTANT start time: 15934 sec 559458926 ns, end time: 15987 sec 265542250 ns
+INSTANT size: 268435456, time: 52 sec 706083324 ns, time in ns: 52706083324, cycles: 584253981
+INSTANT start time: 15987 sec 265631990 ns, end time: 16039 sec 968661986 ns
+INSTANT size: 268435456, time: 52 sec 703029996 ns, time in ns: 52703029996, cycles: 525260496
+INSTANT start time: 16039 sec 968744538 ns, end time: 16092 sec 645461524 ns
+INSTANT size: 268435456, time: 52 sec 676716986 ns, time in ns: 52676716986, cycles: 509743895
+INSTANT start time: 16092 sec 645538972 ns, end time: 16145 sec 379288121 ns
+INSTANT size: 268435456, time: 52 sec 733749149 ns, time in ns: 52733749149, cycles: 677578548
+INSTANT start time: 16145 sec 379367965 ns, end time: 16198 sec 44759211 ns
+INSTANT size: 268435456, time: 52 sec 665391246 ns, time in ns: 52665391246, cycles: 520405658
+INSTANT start time: 16198 sec 44842284 ns, end time: 16250 sec 723133747 ns
+INSTANT size: 268435456, time: 52 sec 678291463 ns, time in ns: 52678291463, cycles: 515802043
+INSTANT start time: 16250 sec 723214840 ns, end time: 16303 sec 432620624 ns
+INSTANT size: 268435456, time: 52 sec 709405784 ns, time in ns: 52709405784, cycles: 524577162
+INSTANT start time: 16303 sec 432700884 ns, end time: 16356 sec 125240579 ns
+INSTANT size: 268435456, time: 52 sec 692539695 ns, time in ns: 52692539695, cycles: 512513549
+INSTANT start time: 16356 sec 125478131 ns, end time: 16408 sec 840292318 ns
+INSTANT size: 268435456, time: 52 sec 714814187 ns, time in ns: 52714814187, cycles: 493507861
+INSTANT start time: 16408 sec 840625286 ns, end time: 16461 sec 538851779 ns
+INSTANT size: 268435456, time: 52 sec 698226493 ns, time in ns: 52698226493, cycles: 511189598
+size: 268435456, average time in ns: 52697824832, average cycles: 537483279
+INSTANT start time: 16461 sec 538945112 ns, end time: 16566 sec 773260195 ns
+INSTANT size: 536870912, time: 105 sec 234315083 ns, time in ns: 105234315083, cycles: 989696273
+INSTANT start time: 16566 sec 773342851 ns, end time: 16672 sec 87999470 ns
+INSTANT size: 536870912, time: 105 sec 314656619 ns, time in ns: 105314656619, cycles: 1190349915
+INSTANT start time: 16672 sec 88082699 ns, end time: 16777 sec 413448067 ns
+INSTANT size: 536870912, time: 105 sec 325365368 ns, time in ns: 105325365368, cycles: 1022370452
+INSTANT start time: 16777 sec 413532129 ns, end time: 16882 sec 726767175 ns
+INSTANT size: 536870912, time: 105 sec 313235046 ns, time in ns: 105313235046, cycles: 957660021
+INSTANT start time: 16882 sec 726850456 ns, end time: 16988 sec 72170770 ns
+INSTANT size: 536870912, time: 105 sec 345320314 ns, time in ns: 105345320314, cycles: 1171552389
+INSTANT start time: 16988 sec 72254155 ns, end time: 17093 sec 377579782 ns
+INSTANT size: 536870912, time: 105 sec 305325627 ns, time in ns: 105305325627, cycles: 1032101747
+INSTANT start time: 17093 sec 377662021 ns, end time: 17198 sec 758373895 ns
+INSTANT size: 536870912, time: 105 sec 380711874 ns, time in ns: 105380711874, cycles: 1232396601
+INSTANT start time: 17198 sec 758454207 ns, end time: 17304 sec 54567219 ns
+INSTANT size: 536870912, time: 105 sec 296113012 ns, time in ns: 105296113012, cycles: 965317557
+INSTANT start time: 17304 sec 54650292 ns, end time: 17409 sec 364508508 ns
+INSTANT size: 536870912, time: 105 sec 309858216 ns, time in ns: 105309858216, cycles: 998571160
+INSTANT start time: 17409 sec 364590591 ns, end time: 17514 sec 669811673 ns
+INSTANT size: 536870912, time: 105 sec 305221082 ns, time in ns: 105305221082, cycles: 1031669063
+size: 536870912, average time in ns: 105313012224, average cycles: 1059168517
+INSTANT start time: 17514 sec 669903339 ns, end time: 17725 sec 921086871 ns
+INSTANT size: 1073741824, time: 211 sec 251183532 ns, time in ns: 211251183532, cycles: 2680874582
+INSTANT start time: 17725 sec 921165361 ns, end time: 17937 sec 683937763 ns
+INSTANT size: 1073741824, time: 211 sec 762772402 ns, time in ns: 211762772402, cycles: 2766484393
+INSTANT start time: 17937 sec 684015679 ns, end time: 18149 sec 416523455 ns
+INSTANT size: 1073741824, time: 211 sec 732507776 ns, time in ns: 211732507776, cycles: 2615742238
+INSTANT start time: 18149 sec 416599965 ns, end time: 18360 sec 484144414 ns
+INSTANT size: 1073741824, time: 211 sec 67544449 ns, time in ns: 211067544449, cycles: 2508165108
+INSTANT start time: 18360 sec 484224205 ns, end time: 18571 sec 660781659 ns
+INSTANT size: 1073741824, time: 211 sec 176557454 ns, time in ns: 211176557454, cycles: 2730252133
+INSTANT start time: 18571 sec 660862336 ns, end time: 18782 sec 818893733 ns
+INSTANT size: 1073741824, time: 211 sec 158031397 ns, time in ns: 211158031397, cycles: 2701719587
+INSTANT start time: 18782 sec 818971597 ns, end time: 18993 sec 929577907 ns
+INSTANT size: 1073741824, time: 211 sec 110606310 ns, time in ns: 211110606310, cycles: 2541629053
+INSTANT start time: 18993 sec 929677699 ns, end time: 19206 sec 379783594 ns
+INSTANT size: 1073741824, time: 212 sec 450105895 ns, time in ns: 212450105895, cycles: 2808426052
+INSTANT start time: 19206 sec 379864896 ns, end time: 19417 sec 554896179 ns
+INSTANT size: 1073741824, time: 211 sec 175031283 ns, time in ns: 211175031283, cycles: 2559654650
+INSTANT start time: 19417 sec 554958835 ns, end time: 19628 sec 792337521 ns
+INSTANT size: 1073741824, time: 211 sec 237378686 ns, time in ns: 211237378686, cycles: 2651142660
+size: 1073741824, average time in ns: 211412171918, average cycles: 2656409045
