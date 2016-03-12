@@ -3,11 +3,13 @@ CFLAGS=-c -Wall -g -std=gnu11 -O0 -Wno-attributes -Wno-implicit-function-declara
 PROB1=file_cache_size.c
 PROB2SEQ=file_read_seq.c
 PROB2RAND=file_read_rand.c
+PROB4=file_contention.c
 OBJECT1=$(PROB1:.c=.o)
 OBJECT2SEQ=$(PROB2SEQ:.c=.o)
 OBJECT2RAND=$(PROB2RAND:.c=.o)
-OBJECTS=$(OBJECT1) $(OBJECT2SEQ) $(OBJECT2RAND)
-EXECUTABLE=problem1 problem2_seq problem2_rand
+OBJECT4=$(PROB4:.c=.o)
+OBJECTS=$(OBJECT1) $(OBJECT2SEQ) $(OBJECT2RAND) $(OBJECT4)
+EXECUTABLE=problem1 problem2_seq problem2_rand problem4
 
 all: $(EXECUTABLE)
 
@@ -19,6 +21,9 @@ problem2_seq: $(OBJECT2SEQ)
 
 problem2_rand: $(OBJECT2RAND)
 	$(CC) $(OBJECT2RAND) -o $@ -lm
+
+problem4: $(OBJECT4)
+	$(CC) $(OBJECT4) -o $@ -lm
 
 clean:
 	$(RM) $(OBJECTS) $(EXECUTABLE)

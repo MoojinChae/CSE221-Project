@@ -1,0 +1,1080 @@
+========START: num_of_processes : 1 try: 0========
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 1 sec 640217409 ns, start time: 76116 sec 633920603 ns, end time: 76118 sec 274138012 ns
+end reading child_pid: 13194, status: 256
+========END: num_of_processes : 1 try: 0========
+
+========START: num_of_processes : 1 try: 1========
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 1 sec 712301667 ns, start time: 76118 sec 278691813 ns, end time: 76119 sec 990993480 ns
+end reading child_pid: 13195, status: 256
+========END: num_of_processes : 1 try: 1========
+
+========START: num_of_processes : 1 try: 2========
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 1 sec 620455429 ns, start time: 76119 sec 994545355 ns, end time: 76121 sec 615000784 ns
+end reading child_pid: 13196, status: 256
+========END: num_of_processes : 1 try: 2========
+
+========START: num_of_processes : 1 try: 3========
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 1 sec 596577567 ns, start time: 76121 sec 618574794 ns, end time: 76123 sec 215152361 ns
+end reading child_pid: 13197, status: 256
+========END: num_of_processes : 1 try: 3========
+
+========START: num_of_processes : 1 try: 4========
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 1 sec 605649595 ns, start time: 76123 sec 218739236 ns, end time: 76124 sec 824388831 ns
+end reading child_pid: 13198, status: 256
+========END: num_of_processes : 1 try: 4========
+
+========START: num_of_processes : 1 try: 5========
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 1 sec 636347350 ns, start time: 76124 sec 827905602 ns, end time: 76126 sec 464252952 ns
+end reading child_pid: 13199, status: 256
+========END: num_of_processes : 1 try: 5========
+
+========START: num_of_processes : 1 try: 6========
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 1 sec 624209538 ns, start time: 76126 sec 467789149 ns, end time: 76128 sec 91998687 ns
+end reading child_pid: 13200, status: 256
+========END: num_of_processes : 1 try: 6========
+
+========START: num_of_processes : 1 try: 7========
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 1 sec 622834589 ns, start time: 76128 sec 95574728 ns, end time: 76129 sec 718409317 ns
+end reading child_pid: 13201, status: 256
+========END: num_of_processes : 1 try: 7========
+
+========START: num_of_processes : 1 try: 8========
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 1 sec 623535004 ns, start time: 76129 sec 722117233 ns, end time: 76131 sec 345652237 ns
+end reading child_pid: 13202, status: 256
+========END: num_of_processes : 1 try: 8========
+
+========START: num_of_processes : 1 try: 9========
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 1 sec 631358856 ns, start time: 76131 sec 349172392 ns, end time: 76132 sec 980531248 ns
+end reading child_pid: 13203, status: 256
+========END: num_of_processes : 1 try: 9========
+
+========START: num_of_processes : 2 try: 0========
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 4 sec 447173557 ns, start time: 76132 sec 984429997 ns, end time: 76137 sec 431603554 ns
+end reading child_pid: 13205, status: 256
+INSTANT diff: 4 sec 448576630 ns, start time: 76132 sec 985955622 ns, end time: 76137 sec 434532252 ns
+end reading child_pid: 13204, status: 256
+========END: num_of_processes : 2 try: 0========
+
+========START: num_of_processes : 2 try: 1========
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 4 sec 594562845 ns, start time: 76137 sec 437900585 ns, end time: 76142 sec 32463430 ns
+end reading child_pid: 13207, status: 256
+INSTANT diff: 4 sec 596197169 ns, start time: 76137 sec 439176105 ns, end time: 76142 sec 35373274 ns
+end reading child_pid: 13206, status: 256
+========END: num_of_processes : 2 try: 1========
+
+========START: num_of_processes : 2 try: 2========
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 5 sec 596111886 ns, start time: 76142 sec 38759263 ns, end time: 76147 sec 634871149 ns
+end reading child_pid: 13209, status: 256
+INSTANT diff: 5 sec 597332198 ns, start time: 76142 sec 40410252 ns, end time: 76147 sec 637742450 ns
+end reading child_pid: 13208, status: 256
+========END: num_of_processes : 2 try: 2========
+
+========START: num_of_processes : 2 try: 3========
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 4 sec 453999563 ns, start time: 76147 sec 641406825 ns, end time: 76152 sec 95406388 ns
+end reading child_pid: 13211, status: 256
+INSTANT diff: 4 sec 454526542 ns, start time: 76147 sec 642660314 ns, end time: 76152 sec 97186856 ns
+end reading child_pid: 13210, status: 256
+========END: num_of_processes : 2 try: 3========
+
+========START: num_of_processes : 2 try: 4========
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 4 sec 470360071 ns, start time: 76152 sec 100768210 ns, end time: 76156 sec 571128281 ns
+end reading child_pid: 13213, status: 256
+INSTANT diff: 4 sec 470889706 ns, start time: 76152 sec 101979616 ns, end time: 76156 sec 572869322 ns
+end reading child_pid: 13212, status: 256
+========END: num_of_processes : 2 try: 4========
+
+========START: num_of_processes : 2 try: 5========
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 4 sec 454253865 ns, start time: 76156 sec 576253957 ns, end time: 76161 sec 30507822 ns
+end reading child_pid: 13215, status: 256
+INSTANT diff: 4 sec 455808396 ns, start time: 76156 sec 577554790 ns, end time: 76161 sec 33363186 ns
+end reading child_pid: 13214, status: 256
+========END: num_of_processes : 2 try: 5========
+
+========START: num_of_processes : 2 try: 6========
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 4 sec 480510464 ns, start time: 76161 sec 36953863 ns, end time: 76165 sec 517464327 ns
+end reading child_pid: 13218, status: 256
+INSTANT diff: 4 sec 481059683 ns, start time: 76161 sec 38120373 ns, end time: 76165 sec 519180056 ns
+end reading child_pid: 13217, status: 256
+========END: num_of_processes : 2 try: 6========
+
+========START: num_of_processes : 2 try: 7========
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 4 sec 469108998 ns, start time: 76165 sec 522722243 ns, end time: 76169 sec 991831241 ns
+end reading child_pid: 13220, status: 256
+INSTANT diff: 4 sec 469635352 ns, start time: 76165 sec 523941774 ns, end time: 76169 sec 993577126 ns
+end reading child_pid: 13219, status: 256
+========END: num_of_processes : 2 try: 7========
+
+========START: num_of_processes : 2 try: 8========
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 4 sec 447347585 ns, start time: 76169 sec 997078375 ns, end time: 76174 sec 444425960 ns
+end reading child_pid: 13222, status: 256
+INSTANT diff: 4 sec 448944616 ns, start time: 76169 sec 998387542 ns, end time: 76174 sec 447332158 ns
+end reading child_pid: 13221, status: 256
+========END: num_of_processes : 2 try: 8========
+
+========START: num_of_processes : 2 try: 9========
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 5 sec 531444355 ns, start time: 76174 sec 450855334 ns, end time: 76179 sec 982299689 ns
+end reading child_pid: 13224, status: 256
+INSTANT diff: 5 sec 533036073 ns, start time: 76174 sec 452137261 ns, end time: 76179 sec 985173334 ns
+end reading child_pid: 13223, status: 256
+========END: num_of_processes : 2 try: 9========
+
+========START: num_of_processes : 4 try: 0========
+start reading child pid: 0, filename: ./random8M_3
+start reading child pid: 0, filename: ./random8M_2
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 7 sec 936823002 ns, start time: 76179 sec 989745885 ns, end time: 76187 sec 926568887 ns
+end reading child_pid: 13228, status: 256
+INSTANT diff: 7 sec 938907273 ns, start time: 76179 sec 991782499 ns, end time: 76187 sec 930689772 ns
+end reading child_pid: 13227, status: 256
+INSTANT diff: 7 sec 939787428 ns, start time: 76179 sec 992254635 ns, end time: 76187 sec 932042063 ns
+end reading child_pid: 13226, status: 256
+INSTANT diff: 7 sec 932092795 ns, start time: 76180 sec 2494424 ns, end time: 76187 sec 934587219 ns
+end reading child_pid: 13225, status: 256
+========END: num_of_processes : 4 try: 0========
+
+========START: num_of_processes : 4 try: 1========
+start reading child pid: 0, filename: ./random8M_3
+start reading child pid: 0, filename: ./random8M_2
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 7 sec 921137347 ns, start time: 76187 sec 947892893 ns, end time: 76195 sec 869030240 ns
+end reading child_pid: 13232, status: 256
+INSTANT diff: 7 sec 924566096 ns, start time: 76187 sec 948319404 ns, end time: 76195 sec 872885500 ns
+end reading child_pid: 13231, status: 256
+INSTANT diff: 7 sec 925775263 ns, start time: 76187 sec 948557789 ns, end time: 76195 sec 874333052 ns
+end reading child_pid: 13230, status: 256
+INSTANT diff: 7 sec 925043960 ns, start time: 76187 sec 950608362 ns, end time: 76195 sec 875652322 ns
+end reading child_pid: 13229, status: 256
+========END: num_of_processes : 4 try: 1========
+
+========START: num_of_processes : 4 try: 2========
+start reading child pid: 0, filename: ./random8M_3
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_2
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 7 sec 904709922 ns, start time: 76195 sec 888459715 ns, end time: 76203 sec 793169637 ns
+end reading child_pid: 13236, status: 256
+INSTANT diff: 7 sec 910665285 ns, start time: 76195 sec 889896694 ns, end time: 76203 sec 800561979 ns
+end reading child_pid: 13235, status: 256
+INSTANT diff: 7 sec 911689607 ns, start time: 76195 sec 890208882 ns, end time: 76203 sec 801898489 ns
+end reading child_pid: 13234, status: 256
+INSTANT diff: 7 sec 912081170 ns, start time: 76195 sec 891183569 ns, end time: 76203 sec 803264739 ns
+end reading child_pid: 13233, status: 256
+========END: num_of_processes : 4 try: 2========
+
+========START: num_of_processes : 4 try: 3========
+start reading child pid: 0, filename: ./random8M_3
+start reading child pid: 0, filename: ./random8M_2
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 7 sec 926092905 ns, start time: 76203 sec 818809944 ns, end time: 76211 sec 744902849 ns
+end reading child_pid: 13239, status: 256
+INSTANT diff: 7 sec 931610300 ns, start time: 76203 sec 818188017 ns, end time: 76211 sec 749798317 ns
+end reading child_pid: 13240, status: 256
+INSTANT diff: 7 sec 920557594 ns, start time: 76203 sec 830665775 ns, end time: 76211 sec 751223369 ns
+end reading child_pid: 13238, status: 256
+INSTANT diff: 7 sec 921240354 ns, start time: 76203 sec 831352442 ns, end time: 76211 sec 752592796 ns
+end reading child_pid: 13237, status: 256
+========END: num_of_processes : 4 try: 3========
+
+========START: num_of_processes : 4 try: 4========
+start reading child pid: 0, filename: ./random8M_3
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_2
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 7 sec 935803762 ns, start time: 76211 sec 766085710 ns, end time: 76219 sec 701889472 ns
+end reading child_pid: 13244, status: 256
+INSTANT diff: 7 sec 939368659 ns, start time: 76211 sec 766600710 ns, end time: 76219 sec 705969369 ns
+end reading child_pid: 13243, status: 256
+INSTANT diff: 7 sec 940470744 ns, start time: 76211 sec 766823157 ns, end time: 76219 sec 707293901 ns
+end reading child_pid: 13242, status: 256
+INSTANT diff: 7 sec 940624963 ns, start time: 76211 sec 769173574 ns, end time: 76219 sec 709798537 ns
+end reading child_pid: 13241, status: 256
+========END: num_of_processes : 4 try: 4========
+
+========START: num_of_processes : 4 try: 5========
+start reading child pid: 0, filename: ./random8M_3
+start reading child pid: 0, filename: ./random8M_2
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 7 sec 916812380 ns, start time: 76219 sec 723619531 ns, end time: 76227 sec 640431911 ns
+end reading child_pid: 13247, status: 256
+INSTANT diff: 7 sec 918935402 ns, start time: 76219 sec 723222499 ns, end time: 76227 sec 642157901 ns
+end reading child_pid: 13248, status: 256
+INSTANT diff: 7 sec 922078007 ns, start time: 76219 sec 723856250 ns, end time: 76227 sec 645934257 ns
+end reading child_pid: 13246, status: 256
+INSTANT diff: 7 sec 919671808 ns, start time: 76219 sec 727599949 ns, end time: 76227 sec 647271757 ns
+end reading child_pid: 13245, status: 256
+========END: num_of_processes : 4 try: 5========
+
+========START: num_of_processes : 4 try: 6========
+start reading child pid: 0, filename: ./random8M_3
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_2
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 7 sec 911372236 ns, start time: 76227 sec 661517907 ns, end time: 76235 sec 572890143 ns
+end reading child_pid: 13252, status: 256
+INSTANT diff: 7 sec 913667914 ns, start time: 76227 sec 661007126 ns, end time: 76235 sec 574675040 ns
+end reading child_pid: 13253, status: 256
+INSTANT diff: 7 sec 914219894 ns, start time: 76227 sec 661767959 ns, end time: 76235 sec 575987853 ns
+end reading child_pid: 13251, status: 256
+INSTANT diff: 7 sec 914509477 ns, start time: 76227 sec 662784314 ns, end time: 76235 sec 577293791 ns
+end reading child_pid: 13250, status: 256
+========END: num_of_processes : 4 try: 6========
+
+========START: num_of_processes : 4 try: 7========
+start reading child pid: 0, filename: ./random8M_3
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_2
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 7 sec 915626521 ns, start time: 76235 sec 581956865 ns, end time: 76243 sec 497583386 ns
+end reading child_pid: 13257, status: 256
+INSTANT diff: 7 sec 907988967 ns, start time: 76235 sec 593239629 ns, end time: 76243 sec 501228596 ns
+end reading child_pid: 13256, status: 256
+INSTANT diff: 7 sec 908867197 ns, start time: 76235 sec 593691660 ns, end time: 76243 sec 502558857 ns
+end reading child_pid: 13255, status: 256
+INSTANT diff: 7 sec 909312248 ns, start time: 76235 sec 594605619 ns, end time: 76243 sec 503917867 ns
+end reading child_pid: 13254, status: 256
+========END: num_of_processes : 4 try: 7========
+
+========START: num_of_processes : 4 try: 8========
+start reading child pid: 0, filename: ./random8M_3
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_2
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 8 sec 397679172 ns, start time: 76243 sec 517937923 ns, end time: 76251 sec 915617095 ns
+end reading child_pid: 13261, status: 256
+INSTANT diff: 8 sec 399937818 ns, start time: 76243 sec 519307038 ns, end time: 76251 sec 919244856 ns
+end reading child_pid: 13260, status: 256
+INSTANT diff: 8 sec 401006620 ns, start time: 76243 sec 519703184 ns, end time: 76251 sec 920709804 ns
+end reading child_pid: 13259, status: 256
+INSTANT diff: 8 sec 401173495 ns, start time: 76243 sec 520874799 ns, end time: 76251 sec 922048294 ns
+end reading child_pid: 13258, status: 256
+========END: num_of_processes : 4 try: 8========
+
+========START: num_of_processes : 4 try: 9========
+start reading child pid: 0, filename: ./random8M_3
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_2
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 7 sec 904048053 ns, start time: 76251 sec 930348088 ns, end time: 76259 sec 834396141 ns
+end reading child_pid: 13265, status: 256
+INSTANT diff: 7 sec 899995187 ns, start time: 76251 sec 938062726 ns, end time: 76259 sec 838057913 ns
+end reading child_pid: 13264, status: 256
+INSTANT diff: 7 sec 901198052 ns, start time: 76251 sec 938293924 ns, end time: 76259 sec 839491976 ns
+end reading child_pid: 13263, status: 256
+INSTANT diff: 7 sec 901475604 ns, start time: 76251 sec 939406164 ns, end time: 76259 sec 840881768 ns
+end reading child_pid: 13262, status: 256
+========END: num_of_processes : 4 try: 9========
+
+========START: num_of_processes : 8 try: 0========
+start reading child pid: 0, filename: ./random8M_7
+start reading child pid: 0, filename: ./random8M_5
+start reading child pid: 0, filename: ./random8M_6
+start reading child pid: 0, filename: ./random8M_4
+start reading child pid: 0, filename: ./random8M_3
+start reading child pid: 0, filename: ./random8M_2
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 14 sec 816301763 ns, start time: 76259 sec 859462450 ns, end time: 76274 sec 675764213 ns
+end reading child_pid: 13271, status: 256
+INSTANT diff: 14 sec 825092599 ns, start time: 76259 sec 859072085 ns, end time: 76274 sec 684164684 ns
+end reading child_pid: 13272, status: 256
+INSTANT diff: 14 sec 824387963 ns, start time: 76259 sec 861175732 ns, end time: 76274 sec 685563695 ns
+end reading child_pid: 13273, status: 256
+INSTANT diff: 14 sec 832063591 ns, start time: 76259 sec 861342711 ns, end time: 76274 sec 693406302 ns
+end reading child_pid: 13270, status: 256
+INSTANT diff: 14 sec 835860935 ns, start time: 76259 sec 863391045 ns, end time: 76274 sec 699251980 ns
+INSTANT diff: 14 sec 838712082 ns, start time: 76259 sec 861631044 ns, end time: 76274 sec 700343126 ns
+end reading child_pid: 13269, status: 256
+end reading child_pid: 13268, status: 256
+INSTANT diff: 14 sec 836191352 ns, start time: 76259 sec 865360785 ns, end time: 76274 sec 701552137 ns
+end reading child_pid: 13267, status: 256
+INSTANT diff: 14 sec 835456456 ns, start time: 76259 sec 867427296 ns, end time: 76274 sec 702883752 ns
+end reading child_pid: 13266, status: 256
+========END: num_of_processes : 8 try: 0========
+
+========START: num_of_processes : 8 try: 1========
+start reading child pid: 0, filename: ./random8M_6
+start reading child pid: 0, filename: ./random8M_7
+start reading child pid: 0, filename: ./random8M_5
+start reading child pid: 0, filename: ./random8M_4
+start reading child pid: 0, filename: ./random8M_3
+start reading child pid: 0, filename: ./random8M_2
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 14 sec 798330738 ns, start time: 76274 sec 716823964 ns, end time: 76289 sec 515154702 ns
+end reading child_pid: 13281, status: 256
+INSTANT diff: 14 sec 800585009 ns, start time: 76274 sec 719179694 ns, end time: 76289 sec 519764703 ns
+end reading child_pid: 13277, status: 256
+INSTANT diff: 14 sec 802585323 ns, start time: 76274 sec 718945110 ns, end time: 76289 sec 521530433 ns
+INSTANT diff: 14 sec 803538395 ns, start time: 76274 sec 718641048 ns, end time: 76289 sec 522179443 ns
+INSTANT diff: 14 sec 803844801 ns, start time: 76274 sec 719336934 ns, end time: 76289 sec 523181735 ns
+end reading child_pid: 13279, status: 256
+end reading child_pid: 13280, status: 256
+end reading child_pid: 13278, status: 256
+INSTANT diff: 14 sec 811722408 ns, start time: 76274 sec 719605423 ns, end time: 76289 sec 531327831 ns
+end reading child_pid: 13276, status: 256
+INSTANT diff: 14 sec 811366470 ns, start time: 76274 sec 721202142 ns, end time: 76289 sec 532568612 ns
+end reading child_pid: 13275, status: 256
+INSTANT diff: 14 sec 810677251 ns, start time: 76274 sec 723214435 ns, end time: 76289 sec 533891686 ns
+end reading child_pid: 13274, status: 256
+========END: num_of_processes : 8 try: 1========
+
+========START: num_of_processes : 8 try: 2========
+start reading child pid: 0, filename: ./random8M_6
+start reading child pid: 0, filename: ./random8M_7
+start reading child pid: 0, filename: ./random8M_5
+start reading child pid: 0, filename: ./random8M_4
+start reading child pid: 0, filename: ./random8M_3
+start reading child pid: 0, filename: ./random8M_2
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 14 sec 829216600 ns, start time: 76289 sec 554615285 ns, end time: 76304 sec 383831885 ns
+end reading child_pid: 13287, status: 256
+INSTANT diff: 14 sec 831333475 ns, start time: 76289 sec 554106014 ns, end time: 76304 sec 385439489 ns
+INSTANT diff: 14 sec 831431132 ns, start time: 76289 sec 555082837 ns, end time: 76304 sec 386513969 ns
+end reading child_pid: 13288, status: 256
+end reading child_pid: 13289, status: 256
+INSTANT diff: 14 sec 835796446 ns, start time: 76289 sec 555436743 ns, end time: 76304 sec 391233189 ns
+INSTANT diff: 14 sec 837418477 ns, start time: 76289 sec 554917420 ns, end time: 76304 sec 392335897 ns
+end reading child_pid: 13285, status: 256
+end reading child_pid: 13286, status: 256
+INSTANT diff: 14 sec 844624885 ns, start time: 76289 sec 555657993 ns, end time: 76304 sec 400282878 ns
+end reading child_pid: 13284, status: 256
+INSTANT diff: 14 sec 845741031 ns, start time: 76289 sec 556148358 ns, end time: 76304 sec 401889389 ns
+end reading child_pid: 13283, status: 256
+INSTANT diff: 14 sec 846043948 ns, start time: 76289 sec 557163046 ns, end time: 76304 sec 403206994 ns
+end reading child_pid: 13282, status: 256
+========END: num_of_processes : 8 try: 2========
+
+========START: num_of_processes : 8 try: 3========
+start reading child pid: 0, filename: ./random8M_6
+start reading child pid: 0, filename: ./random8M_5
+start reading child pid: 0, filename: ./random8M_4
+start reading child pid: 0, filename: ./random8M_3
+start reading child pid: 0, filename: ./random8M_2
+start reading child pid: 0, filename: ./random8M_7
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 15 sec 780002371 ns, start time: 76304 sec 423642468 ns, end time: 76320 sec 203644839 ns
+end reading child_pid: 13294, status: 256
+INSTANT diff: 15 sec 781319142 ns, start time: 76304 sec 424061218 ns, end time: 76320 sec 205380360 ns
+end reading child_pid: 13295, status: 256
+INSTANT diff: 15 sec 782919872 ns, start time: 76304 sec 424583353 ns, end time: 76320 sec 207503225 ns
+end reading child_pid: 13297, status: 256
+INSTANT diff: 15 sec 787940290 ns, start time: 76304 sec 424327468 ns, end time: 76320 sec 212267758 ns
+end reading child_pid: 13293, status: 256
+INSTANT diff: 15 sec 788605810 ns, start time: 76304 sec 425017781 ns, end time: 76320 sec 213623591 ns
+end reading child_pid: 13296, status: 256
+INSTANT diff: 15 sec 800885137 ns, start time: 76304 sec 424743718 ns, end time: 76320 sec 225628855 ns
+end reading child_pid: 13292, status: 256
+INSTANT diff: 15 sec 801165084 ns, start time: 76304 sec 425730281 ns, end time: 76320 sec 226895365 ns
+end reading child_pid: 13291, status: 256
+INSTANT diff: 15 sec 801757012 ns, start time: 76304 sec 426442729 ns, end time: 76320 sec 228199741 ns
+end reading child_pid: 13290, status: 256
+========END: num_of_processes : 8 try: 3========
+
+========START: num_of_processes : 8 try: 4========
+start reading child pid: 0, filename: ./random8M_6
+start reading child pid: 0, filename: ./random8M_7
+start reading child pid: 0, filename: ./random8M_5
+start reading child pid: 0, filename: ./random8M_4
+start reading child pid: 0, filename: ./random8M_3
+start reading child pid: 0, filename: ./random8M_2
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 15 sec 321869874 ns, start time: 76320 sec 245796880 ns, end time: 76335 sec 567666754 ns
+end reading child_pid: 13305, status: 256
+INSTANT diff: 15 sec 325708832 ns, start time: 76320 sec 246748339 ns, end time: 76335 sec 572457171 ns
+end reading child_pid: 13301, status: 256
+INSTANT diff: 15 sec 327258625 ns, start time: 76320 sec 246487401 ns, end time: 76335 sec 573746026 ns
+INSTANT diff: 15 sec 328567427 ns, start time: 76320 sec 246234953 ns, end time: 76335 sec 574802380 ns
+INSTANT diff: 15 sec 328609198 ns, start time: 76320 sec 247171360 ns, end time: 76335 sec 575780558 ns
+end reading child_pid: 13302, status: 256
+end reading child_pid: 13303, status: 256
+end reading child_pid: 13304, status: 256
+INSTANT diff: 15 sec 335472272 ns, start time: 76320 sec 247369954 ns, end time: 76335 sec 582842226 ns
+end reading child_pid: 13300, status: 256
+INSTANT diff: 15 sec 335991022 ns, start time: 76320 sec 247823027 ns, end time: 76335 sec 583814049 ns
+end reading child_pid: 13299, status: 256
+INSTANT diff: 15 sec 342084044 ns, start time: 76320 sec 248855840 ns, end time: 76335 sec 590939884 ns
+end reading child_pid: 13298, status: 256
+========END: num_of_processes : 8 try: 4========
+
+========START: num_of_processes : 8 try: 5========
+start reading child pid: 0, filename: ./random8M_6
+start reading child pid: 0, filename: ./random8M_7
+start reading child pid: 0, filename: ./random8M_5
+start reading child pid: 0, filename: ./random8M_4
+start reading child pid: 0, filename: ./random8M_3
+start reading child pid: 0, filename: ./random8M_2
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 14 sec 790920653 ns, start time: 76335 sec 604710252 ns, end time: 76350 sec 395630905 ns
+end reading child_pid: 13311, status: 256
+INSTANT diff: 14 sec 793148570 ns, start time: 76335 sec 604223950 ns, end time: 76350 sec 397372520 ns
+end reading child_pid: 13312, status: 256
+INSTANT diff: 14 sec 793607790 ns, start time: 76335 sec 605153012 ns, end time: 76350 sec 398760802 ns
+end reading child_pid: 13313, status: 256
+INSTANT diff: 14 sec 797532895 ns, start time: 76335 sec 605620304 ns, end time: 76350 sec 403153199 ns
+end reading child_pid: 13309, status: 256
+INSTANT diff: 14 sec 799550239 ns, start time: 76335 sec 604964054 ns, end time: 76350 sec 404514293 ns
+end reading child_pid: 13310, status: 256
+INSTANT diff: 14 sec 805021490 ns, start time: 76335 sec 606283377 ns, end time: 76350 sec 411304867 ns
+end reading child_pid: 13308, status: 256
+INSTANT diff: 14 sec 805085917 ns, start time: 76335 sec 607479054 ns, end time: 76350 sec 412564971 ns
+end reading child_pid: 13307, status: 256
+INSTANT diff: 14 sec 804514979 ns, start time: 76335 sec 609385409 ns, end time: 76350 sec 413900388 ns
+end reading child_pid: 13306, status: 256
+========END: num_of_processes : 8 try: 5========
+
+========START: num_of_processes : 8 try: 6========
+start reading child pid: 0, filename: ./random8M_6
+start reading child pid: 0, filename: ./random8M_7
+start reading child pid: 0, filename: ./random8M_5
+start reading child pid: 0, filename: ./random8M_4
+start reading child pid: 0, filename: ./random8M_3
+start reading child pid: 0, filename: ./random8M_2
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 16 sec 280643807 ns, start time: 76350 sec 434080028 ns, end time: 76366 sec 714723835 ns
+end reading child_pid: 13319, status: 256
+INSTANT diff: 16 sec 282909068 ns, start time: 76350 sec 434488935 ns, end time: 76366 sec 717398003 ns
+end reading child_pid: 13321, status: 256
+INSTANT diff: 16 sec 287110007 ns, start time: 76350 sec 435041643 ns, end time: 76366 sec 722151650 ns
+INSTANT diff: 16 sec 288414590 ns, start time: 76350 sec 434786122 ns, end time: 76366 sec 723200712 ns
+end reading child_pid: 13317, status: 256
+end reading child_pid: 13318, status: 256
+INSTANT diff: 16 sec 289084694 ns, start time: 76350 sec 435657581 ns, end time: 76366 sec 724742275 ns
+end reading child_pid: 13320, status: 256
+INSTANT diff: 16 sec 297082873 ns, start time: 76350 sec 435551487 ns, end time: 76366 sec 732634360 ns
+end reading child_pid: 13316, status: 256
+INSTANT diff: 16 sec 297774696 ns, start time: 76350 sec 436107841 ns, end time: 76366 sec 733882537 ns
+end reading child_pid: 13315, status: 256
+INSTANT diff: 16 sec 301114696 ns, start time: 76350 sec 436969092 ns, end time: 76366 sec 738083788 ns
+end reading child_pid: 13314, status: 256
+========END: num_of_processes : 8 try: 6========
+
+========START: num_of_processes : 8 try: 7========
+start reading child pid: 0, filename: ./random8M_6
+start reading child pid: 0, filename: ./random8M_7
+start reading child pid: 0, filename: ./random8M_5
+start reading child pid: 0, filename: ./random8M_4
+start reading child pid: 0, filename: ./random8M_3
+start reading child pid: 0, filename: ./random8M_2
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 15 sec 755728332 ns, start time: 76366 sec 764291398 ns, end time: 76382 sec 520019730 ns
+end reading child_pid: 13327, status: 256
+INSTANT diff: 15 sec 763449375 ns, start time: 76366 sec 764743690 ns, end time: 76382 sec 528193065 ns
+end reading child_pid: 13326, status: 256
+INSTANT diff: 15 sec 764364844 ns, start time: 76366 sec 765194523 ns, end time: 76382 sec 529559367 ns
+INSTANT diff: 15 sec 765196823 ns, start time: 76366 sec 765022180 ns, end time: 76382 sec 530219003 ns
+end reading child_pid: 13329, status: 256
+end reading child_pid: 13328, status: 256
+INSTANT diff: 15 sec 775773856 ns, start time: 76366 sec 765767909 ns, end time: 76382 sec 541541765 ns
+end reading child_pid: 13324, status: 256
+INSTANT diff: 15 sec 777121565 ns, start time: 76366 sec 765413638 ns, end time: 76382 sec 542535203 ns
+end reading child_pid: 13325, status: 256
+INSTANT diff: 15 sec 777425888 ns, start time: 76366 sec 766334159 ns, end time: 76382 sec 543760047 ns
+end reading child_pid: 13323, status: 256
+INSTANT diff: 15 sec 777539013 ns, start time: 76366 sec 767536659 ns, end time: 76382 sec 545075672 ns
+end reading child_pid: 13322, status: 256
+========END: num_of_processes : 8 try: 7========
+
+========START: num_of_processes : 8 try: 8========
+start reading child pid: 0, filename: ./random8M_6
+start reading child pid: 0, filename: ./random8M_7
+start reading child pid: 0, filename: ./random8M_5
+start reading child pid: 0, filename: ./random8M_4
+start reading child pid: 0, filename: ./random8M_3
+start reading child pid: 0, filename: ./random8M_2
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 15 sec 750794743 ns, start time: 76382 sec 561655780 ns, end time: 76398 sec 312450523 ns
+end reading child_pid: 13337, status: 256
+INSTANT diff: 15 sec 756582661 ns, start time: 76382 sec 562193020 ns, end time: 76398 sec 318775681 ns
+end reading child_pid: 13334, status: 256
+INSTANT diff: 15 sec 757497297 ns, start time: 76382 sec 562604374 ns, end time: 76398 sec 320101671 ns
+INSTANT diff: 15 sec 758579745 ns, start time: 76382 sec 562440936 ns, end time: 76398 sec 321020681 ns
+end reading child_pid: 13336, status: 256
+end reading child_pid: 13335, status: 256
+INSTANT diff: 15 sec 769951518 ns, start time: 76382 sec 562841926 ns, end time: 76398 sec 332793444 ns
+end reading child_pid: 13333, status: 256
+INSTANT diff: 15 sec 770800893 ns, start time: 76382 sec 563054791 ns, end time: 76398 sec 333855684 ns
+end reading child_pid: 13332, status: 256
+INSTANT diff: 15 sec 774112769 ns, start time: 76382 sec 563514582 ns, end time: 76398 sec 337627351 ns
+end reading child_pid: 13331, status: 256
+INSTANT diff: 15 sec 773866988 ns, start time: 76382 sec 565123072 ns, end time: 76398 sec 338990060 ns
+end reading child_pid: 13330, status: 256
+========END: num_of_processes : 8 try: 8========
+
+========START: num_of_processes : 8 try: 9========
+start reading child pid: 0, filename: ./random8M_6
+start reading child pid: 0, filename: ./random8M_7
+start reading child pid: 0, filename: ./random8M_5
+start reading child pid: 0, filename: ./random8M_4
+start reading child pid: 0, filename: ./random8M_3
+start reading child pid: 0, filename: ./random8M_2
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 15 sec 833789818 ns, start time: 76398 sec 354734177 ns, end time: 76414 sec 188523995 ns
+end reading child_pid: 13345, status: 256
+INSTANT diff: 15 sec 839551954 ns, start time: 76398 sec 355418709 ns, end time: 76414 sec 194970663 ns
+end reading child_pid: 13342, status: 256
+INSTANT diff: 15 sec 841257840 ns, start time: 76398 sec 355160636 ns, end time: 76414 sec 196418476 ns
+INSTANT diff: 15 sec 841757267 ns, start time: 76398 sec 355576313 ns, end time: 76414 sec 197333580 ns
+end reading child_pid: 13343, status: 256
+end reading child_pid: 13344, status: 256
+INSTANT diff: 15 sec 846875393 ns, start time: 76398 sec 355785480 ns, end time: 76414 sec 202660873 ns
+INSTANT diff: 15 sec 848822165 ns, start time: 76398 sec 356004073 ns, end time: 76414 sec 204826238 ns
+end reading child_pid: 13340, status: 256
+end reading child_pid: 13341, status: 256
+INSTANT diff: 15 sec 856186020 ns, start time: 76398 sec 356634074 ns, end time: 76414 sec 212820094 ns
+end reading child_pid: 13339, status: 256
+INSTANT diff: 15 sec 856588573 ns, start time: 76398 sec 358309386 ns, end time: 76414 sec 214897959 ns
+end reading child_pid: 13338, status: 256
+========END: num_of_processes : 8 try: 9========
+
+========START: num_of_processes : 16 try: 0========
+start reading child pid: 0, filename: ./random8M_6
+start reading child pid: 0, filename: ./random8M_7
+start reading child pid: 0, filename: ./random8M_11
+start reading child pid: 0, filename: ./random8M_8
+start reading child pid: 0, filename: ./random8M_9
+start reading child pid: 0, filename: ./random8M_10
+start reading child pid: 0, filename: ./random8M_5
+start reading child pid: 0, filename: ./random8M_12
+start reading child pid: 0, filename: ./random8M_4
+start reading child pid: 0, filename: ./random8M_3
+start reading child pid: 0, filename: ./random8M_13
+start reading child pid: 0, filename: ./random8M_14
+start reading child pid: 0, filename: ./random8M_2
+start reading child pid: 0, filename: ./random8M_15
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 27 sec 848591727 ns, start time: 76414 sec 251890778 ns, end time: 76442 sec 100482505 ns
+end reading child_pid: 13353, status: 256
+INSTANT diff: 27 sec 851564852 ns, start time: 76414 sec 250722601 ns, end time: 76442 sec 102287453 ns
+end reading child_pid: 13355, status: 256
+INSTANT diff: 27 sec 852578915 ns, start time: 76414 sec 251137028 ns, end time: 76442 sec 103715943 ns
+INSTANT diff: 27 sec 852731572 ns, start time: 76414 sec 251669059 ns, end time: 76442 sec 104400631 ns
+end reading child_pid: 13357, status: 256
+INSTANT diff: 27 sec 853425791 ns, start time: 76414 sec 252145882 ns, end time: 76442 sec 105571673 ns
+INSTANT diff: 27 sec 851949123 ns, start time: 76414 sec 254610154 ns, end time: 76442 sec 106559277 ns
+end reading child_pid: 13359, status: 256
+end reading child_pid: 13358, status: 256
+end reading child_pid: 13356, status: 256
+INSTANT diff: 27 sec 858742041 ns, start time: 76414 sec 251464632 ns, end time: 76442 sec 110206673 ns
+end reading child_pid: 13354, status: 256
+INSTANT diff: 27 sec 868796209 ns, start time: 76414 sec 253592341 ns, end time: 76442 sec 122388550 ns
+end reading child_pid: 13349, status: 256
+INSTANT diff: 27 sec 869646834 ns, start time: 76414 sec 253836508 ns, end time: 76442 sec 123483342 ns
+end reading child_pid: 13350, status: 256
+INSTANT diff: 27 sec 871317408 ns, start time: 76414 sec 253198226 ns, end time: 76442 sec 124515634 ns
+end reading child_pid: 13351, status: 256
+INSTANT diff: 27 sec 869496626 ns, start time: 76414 sec 256010935 ns, end time: 76442 sec 125507561 ns
+end reading child_pid: 13352, status: 256
+INSTANT diff: 27 sec 870591522 ns, start time: 76414 sec 255896300 ns, end time: 76442 sec 126487822 ns
+end reading child_pid: 13360, status: 256
+INSTANT diff: 27 sec 869973241 ns, start time: 76414 sec 257670779 ns, end time: 76442 sec 127644020 ns
+end reading child_pid: 13361, status: 256
+INSTANT diff: 27 sec 869854856 ns, start time: 76414 sec 260408227 ns, end time: 76442 sec 130263083 ns
+INSTANT diff: 27 sec 875130741 ns, start time: 76414 sec 255730050 ns, end time: 76442 sec 130860791 ns
+end reading child_pid: 13348, status: 256
+INSTANT diff: 27 sec 874787565 ns, start time: 76414 sec 257525310 ns, end time: 76442 sec 132312875 ns
+end reading child_pid: 13347, status: 256
+end reading child_pid: 13346, status: 256
+========END: num_of_processes : 16 try: 0========
+
+========START: num_of_processes : 16 try: 1========
+start reading child pid: 0, filename: ./random8M_6
+start reading child pid: 0, filename: ./random8M_7
+start reading child pid: 0, filename: ./random8M_8
+start reading child pid: 0, filename: ./random8M_9
+start reading child pid: 0, filename: ./random8M_5
+start reading child pid: 0, filename: ./random8M_4
+start reading child pid: 0, filename: ./random8M_10
+start reading child pid: 0, filename: ./random8M_3
+start reading child pid: 0, filename: ./random8M_11
+start reading child pid: 0, filename: ./random8M_12
+start reading child pid: 0, filename: ./random8M_2
+start reading child pid: 0, filename: ./random8M_13
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_14
+start reading child pid: 0, filename: ./random8M_15
+start reading child pid: 0, filename: ./random8M_0
+INSTANT diff: 29 sec 980799192 ns, start time: 76442 sec 173317413 ns, end time: 76472 sec 154116605 ns
+end reading child_pid: 13367, status: 256
+INSTANT diff: 29 sec 984669348 ns, start time: 76442 sec 172799080 ns, end time: 76472 sec 157468428 ns
+end reading child_pid: 13371, status: 256
+INSTANT diff: 30 sec 796799 ns, start time: 76442 sec 172406788 ns, end time: 76472 sec 173203587 ns
+end reading child_pid: 13370, status: 256
+INSTANT diff: 30 sec 3578935 ns, start time: 76442 sec 174079601 ns, end time: 76472 sec 177658536 ns
+end reading child_pid: 13366, status: 256
+INSTANT diff: 30 sec 4416643 ns, start time: 76442 sec 174280747 ns, end time: 76472 sec 178697390 ns
+end reading child_pid: 13368, status: 256
+INSTANT diff: 30 sec 6208987 ns, start time: 76442 sec 173502934 ns, end time: 76472 sec 179711921 ns
+end reading child_pid: 13369, status: 256
+INSTANT diff: 30 sec 10089040 ns, start time: 76442 sec 177446164 ns, end time: 76472 sec 187535204 ns
+end reading child_pid: 13364, status: 256
+INSTANT diff: 30 sec 13080030 ns, start time: 76442 sec 175494445 ns, end time: 76472 sec 188574475 ns
+end reading child_pid: 13365, status: 256
+INSTANT diff: 30 sec 11485707 ns, start time: 76442 sec 178053143 ns, end time: 76472 sec 189538850 ns
+end reading child_pid: 13372, status: 256
+INSTANT diff: 30 sec 12921124 ns, start time: 76442 sec 177660278 ns, end time: 76472 sec 190581402 ns
+end reading child_pid: 13373, status: 256
+INSTANT diff: 30 sec 13743780 ns, start time: 76442 sec 177823508 ns, end time: 76472 sec 191567288 ns
+INSTANT diff: 30 sec 12035811 ns, start time: 76442 sec 180529446 ns, end time: 76472 sec 192565257 ns
+INSTANT diff: 30 sec 11629977 ns, start time: 76442 sec 182908613 ns, end time: 76472 sec 194538590 ns
+end reading child_pid: 13374, status: 256
+end reading child_pid: 13375, status: 256
+end reading child_pid: 13376, status: 256
+INSTANT diff: 30 sec 10603206 ns, start time: 76442 sec 184912051 ns, end time: 76472 sec 195515257 ns
+INSTANT diff: 30 sec 11665186 ns, start time: 76442 sec 185415592 ns, end time: 76472 sec 197080778 ns
+end reading child_pid: 13362, status: 256
+INSTANT diff: 30 sec 17109562 ns, start time: 76442 sec 181308977 ns, end time: 76472 sec 198418539 ns
+end reading child_pid: 13363, status: 256
+end reading child_pid: 13377, status: 256
+========END: num_of_processes : 16 try: 1========
+
+========START: num_of_processes : 16 try: 2========
+start reading child pid: 0, filename: ./random8M_5
+start reading child pid: 0, filename: ./random8M_7
+start reading child pid: 0, filename: ./random8M_4
+start reading child pid: 0, filename: ./random8M_6
+start reading child pid: 0, filename: ./random8M_3
+start reading child pid: 0, filename: ./random8M_8
+start reading child pid: 0, filename: ./random8M_9
+start reading child pid: 0, filename: ./random8M_10
+start reading child pid: 0, filename: ./random8M_2
+start reading child pid: 0, filename: ./random8M_11
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_12
+start reading child pid: 0, filename: ./random8M_0
+start reading child pid: 0, filename: ./random8M_13
+start reading child pid: 0, filename: ./random8M_15
+start reading child pid: 0, filename: ./random8M_14
+INSTANT diff: 27 sec 803490663 ns, start time: 76472 sec 232638700 ns, end time: 76500 sec 36129363 ns
+end reading child_pid: 13382, status: 256
+INSTANT diff: 27 sec 805878789 ns, start time: 76472 sec 232010262 ns, end time: 76500 sec 37889051 ns
+end reading child_pid: 13383, status: 256
+INSTANT diff: 27 sec 807577852 ns, start time: 76472 sec 231711408 ns, end time: 76500 sec 39289260 ns
+INSTANT diff: 27 sec 811852331 ns, start time: 76472 sec 228404116 ns, end time: 76500 sec 40256447 ns
+end reading child_pid: 13385, status: 256
+end reading child_pid: 13384, status: 256
+INSTANT diff: 27 sec 818359051 ns, start time: 76472 sec 235207971 ns, end time: 76500 sec 53567022 ns
+end reading child_pid: 13381, status: 256
+INSTANT diff: 27 sec 832065719 ns, start time: 76472 sec 233795575 ns, end time: 76500 sec 65861294 ns
+end reading child_pid: 13386, status: 256
+INSTANT diff: 27 sec 830101969 ns, start time: 76472 sec 238152503 ns, end time: 76500 sec 68254472 ns
+end reading child_pid: 13380, status: 256
+INSTANT diff: 27 sec 830475875 ns, start time: 76472 sec 238777243 ns, end time: 76500 sec 69253118 ns
+end reading child_pid: 13387, status: 256
+INSTANT diff: 27 sec 831737490 ns, start time: 76472 sec 238508753 ns, end time: 76500 sec 70246243 ns
+end reading child_pid: 13388, status: 256
+INSTANT diff: 27 sec 827742645 ns, start time: 76472 sec 243566879 ns, end time: 76500 sec 71309524 ns
+end reading child_pid: 13389, status: 256
+INSTANT diff: 27 sec 828499885 ns, start time: 76472 sec 248819692 ns, end time: 76500 sec 77319577 ns
+end reading child_pid: 13390, status: 256
+INSTANT diff: 27 sec 828412854 ns, start time: 76472 sec 249949328 ns, end time: 76500 sec 78362182 ns
+end reading child_pid: 13391, status: 256
+INSTANT diff: 27 sec 818858998 ns, start time: 76472 sec 260495996 ns, end time: 76500 sec 79354994 ns
+end reading child_pid: 13392, status: 256
+INSTANT diff: 27 sec 819696706 ns, start time: 76472 sec 260683392 ns, end time: 76500 sec 80380098 ns
+end reading child_pid: 13393, status: 256
+INSTANT diff: 27 sec 837248845 ns, start time: 76472 sec 244367608 ns, end time: 76500 sec 81616453 ns
+end reading child_pid: 13379, status: 256
+INSTANT diff: 27 sec 830242229 ns, start time: 76472 sec 252713130 ns, end time: 76500 sec 82955359 ns
+end reading child_pid: 13378, status: 256
+========END: num_of_processes : 16 try: 2========
+
+========START: num_of_processes : 16 try: 3========
+start reading child pid: 0, filename: ./random8M_6
+start reading child pid: 0, filename: ./random8M_7
+start reading child pid: 0, filename: ./random8M_5
+start reading child pid: 0, filename: ./random8M_4
+start reading child pid: 0, filename: ./random8M_3
+start reading child pid: 0, filename: ./random8M_8
+start reading child pid: 0, filename: ./random8M_9
+start reading child pid: 0, filename: ./random8M_10
+start reading child pid: 0, filename: ./random8M_2
+start reading child pid: 0, filename: ./random8M_13
+start reading child pid: 0, filename: ./random8M_11
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_12
+start reading child pid: 0, filename: ./random8M_0
+start reading child pid: 0, filename: ./random8M_14
+start reading child pid: 0, filename: ./random8M_15
+INSTANT diff: 29 sec 126515834 ns, start time: 76500 sec 113523749 ns, end time: 76529 sec 240039583 ns
+end reading child_pid: 13400, status: 256
+INSTANT diff: 29 sec 165640527 ns, start time: 76500 sec 115617134 ns, end time: 76529 sec 281257661 ns
+end reading child_pid: 13399, status: 256
+INSTANT diff: 29 sec 170115423 ns, start time: 76500 sec 113132134 ns, end time: 76529 sec 283247557 ns
+end reading child_pid: 13402, status: 256
+INSTANT diff: 29 sec 176321257 ns, start time: 76500 sec 115293280 ns, end time: 76529 sec 291614537 ns
+end reading child_pid: 13403, status: 256
+INSTANT diff: 29 sec 179252767 ns, start time: 76500 sec 115786770 ns, end time: 76529 sec 295039537 ns
+INSTANT diff: 29 sec 177993132 ns, start time: 76500 sec 118110312 ns, end time: 76529 sec 296103444 ns
+end reading child_pid: 13398, status: 256
+INSTANT diff: 29 sec 178946725 ns, start time: 76500 sec 118292239 ns, end time: 76529 sec 297238964 ns
+end reading child_pid: 13401, status: 256
+end reading child_pid: 13404, status: 256
+INSTANT diff: 29 sec 186317977 ns, start time: 76500 sec 119221718 ns, end time: 76529 sec 305539695 ns
+INSTANT diff: 29 sec 183877195 ns, start time: 76500 sec 122997500 ns, end time: 76529 sec 306874695 ns
+INSTANT diff: 29 sec 178658913 ns, start time: 76500 sec 129265313 ns, end time: 76529 sec 307924226 ns
+end reading child_pid: 13397, status: 256
+INSTANT diff: 29 sec 178760944 ns, start time: 76500 sec 130310418 ns, end time: 76529 sec 309071362 ns
+INSTANT diff: 29 sec 179503808 ns, start time: 76500 sec 130482918 ns, end time: 76529 sec 309986726 ns
+INSTANT diff: 29 sec 174714589 ns, start time: 76500 sec 141476409 ns, end time: 76529 sec 316190998 ns
+INSTANT diff: 29 sec 186503966 ns, start time: 76500 sec 129799740 ns, end time: 76529 sec 316303706 ns
+end reading child_pid: 13405, status: 256
+end reading child_pid: 13396, status: 256
+end reading child_pid: 13406, status: 256
+end reading child_pid: 13407, status: 256
+end reading child_pid: 13408, status: 256
+end reading child_pid: 13409, status: 256
+INSTANT diff: 29 sec 198458758 ns, start time: 76500 sec 132995835 ns, end time: 76529 sec 331454593 ns
+INSTANT diff: 29 sec 190777456 ns, start time: 76500 sec 141921044 ns, end time: 76529 sec 332698500 ns
+end reading child_pid: 13395, status: 256
+end reading child_pid: 13410, status: 256
+========END: num_of_processes : 16 try: 3========
+
+========START: num_of_processes : 16 try: 4========
+start reading child pid: 0, filename: ./random8M_6
+start reading child pid: 0, filename: ./random8M_7
+start reading child pid: 0, filename: ./random8M_8
+start reading child pid: 0, filename: ./random8M_5
+start reading child pid: 0, filename: ./random8M_4
+start reading child pid: 0, filename: ./random8M_3
+start reading child pid: 0, filename: ./random8M_13
+start reading child pid: 0, filename: ./random8M_9
+start reading child pid: 0, filename: ./random8M_10
+start reading child pid: 0, filename: ./random8M_2
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_11
+start reading child pid: 0, filename: ./random8M_12
+start reading child pid: 0, filename: ./random8M_0
+start reading child pid: 0, filename: ./random8M_14
+start reading child pid: 0, filename: ./random8M_15
+INSTANT diff: 28 sec 618378726 ns, start time: 76529 sec 381340276 ns, end time: 76557 sec 999719002 ns
+end reading child_pid: 13415, status: 256
+INSTANT diff: 28 sec 620597841 ns, start time: 76529 sec 381055693 ns, end time: 76558 sec 1653534 ns
+end reading child_pid: 13416, status: 256
+INSTANT diff: 28 sec 620113831 ns, start time: 76529 sec 382735849 ns, end time: 76558 sec 2849680 ns
+INSTANT diff: 28 sec 622302164 ns, start time: 76529 sec 381541214 ns, end time: 76558 sec 3843378 ns
+end reading child_pid: 13418, status: 256
+end reading child_pid: 13417, status: 256
+INSTANT diff: 28 sec 640126228 ns, start time: 76529 sec 380658349 ns, end time: 76558 sec 20784577 ns
+end reading child_pid: 13419, status: 256
+INSTANT diff: 28 sec 640818207 ns, start time: 76529 sec 382931579 ns, end time: 76558 sec 23749786 ns
+end reading child_pid: 13414, status: 256
+INSTANT diff: 28 sec 638953884 ns, start time: 76529 sec 385809496 ns, end time: 76558 sec 24763380 ns
+end reading child_pid: 13420, status: 256
+INSTANT diff: 28 sec 640429457 ns, start time: 76529 sec 385315329 ns, end time: 76558 sec 25744786 ns
+end reading child_pid: 13421, status: 256
+INSTANT diff: 28 sec 640410915 ns, start time: 76529 sec 386358298 ns, end time: 76558 sec 26769213 ns
+end reading child_pid: 13422, status: 256
+INSTANT diff: 28 sec 641014354 ns, start time: 76529 sec 386763714 ns, end time: 76558 sec 27778068 ns
+INSTANT diff: 28 sec 642529562 ns, start time: 76529 sec 387263298 ns, end time: 76558 sec 29792860 ns
+end reading child_pid: 13423, status: 256
+INSTANT diff: 28 sec 642852322 ns, start time: 76529 sec 389315434 ns, end time: 76558 sec 32167756 ns
+end reading child_pid: 13426, status: 256
+INSTANT diff: 28 sec 644656177 ns, start time: 76529 sec 388366110 ns, end time: 76558 sec 33022287 ns
+INSTANT diff: 28 sec 647937323 ns, start time: 76529 sec 386464339 ns, end time: 76558 sec 34401662 ns
+end reading child_pid: 13413, status: 256
+end reading child_pid: 13424, status: 256
+INSTANT diff: 28 sec 654164667 ns, start time: 76529 sec 385974339 ns, end time: 76558 sec 40139006 ns
+end reading child_pid: 13412, status: 256
+end reading child_pid: 13425, status: 256
+INSTANT diff: 28 sec 654023000 ns, start time: 76529 sec 387011371 ns, end time: 76558 sec 41034371 ns
+end reading child_pid: 13411, status: 256
+========END: num_of_processes : 16 try: 4========
+
+========START: num_of_processes : 16 try: 5========
+start reading child pid: 0, filename: ./random8M_6
+start reading child pid: 0, filename: ./random8M_7
+start reading child pid: 0, filename: ./random8M_8
+start reading child pid: 0, filename: ./random8M_5
+start reading child pid: 0, filename: ./random8M_9
+start reading child pid: 0, filename: ./random8M_4
+start reading child pid: 0, filename: ./random8M_3
+start reading child pid: 0, filename: ./random8M_10
+start reading child pid: 0, filename: ./random8M_14
+start reading child pid: 0, filename: ./random8M_11
+start reading child pid: 0, filename: ./random8M_2
+start reading child pid: 0, filename: ./random8M_12
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_13
+start reading child pid: 0, filename: ./random8M_0
+start reading child pid: 0, filename: ./random8M_15
+INSTANT diff: 29 sec 143611839 ns, start time: 76558 sec 75769218 ns, end time: 76587 sec 219381057 ns
+end reading child_pid: 13432, status: 256
+INSTANT diff: 29 sec 146782568 ns, start time: 76558 sec 75403281 ns, end time: 76587 sec 222185849 ns
+end reading child_pid: 13434, status: 256
+INSTANT diff: 29 sec 168254601 ns, start time: 76558 sec 76606927 ns, end time: 76587 sec 244861528 ns
+end reading child_pid: 13431, status: 256
+INSTANT diff: 29 sec 169021997 ns, start time: 76558 sec 77028750 ns, end time: 76587 sec 246050747 ns
+end reading child_pid: 13433, status: 256
+INSTANT diff: 29 sec 170138246 ns, start time: 76558 sec 76783021 ns, end time: 76587 sec 246921267 ns
+end reading child_pid: 13436, status: 256
+INSTANT diff: 29 sec 169350017 ns, start time: 76558 sec 78497448 ns, end time: 76587 sec 247847465 ns
+end reading child_pid: 13437, status: 256
+INSTANT diff: 29 sec 179353873 ns, start time: 76558 sec 74833072 ns, end time: 76587 sec 254186945 ns
+end reading child_pid: 13435, status: 256
+INSTANT diff: 29 sec 179376790 ns, start time: 76558 sec 77799687 ns, end time: 76587 sec 257176477 ns
+end reading child_pid: 13430, status: 256
+INSTANT diff: 29 sec 174874341 ns, start time: 76558 sec 83378855 ns, end time: 76587 sec 258253196 ns
+end reading child_pid: 13438, status: 256
+INSTANT diff: 29 sec 176551528 ns, start time: 76558 sec 82680886 ns, end time: 76587 sec 259232414 ns
+end reading child_pid: 13439, status: 256
+INSTANT diff: 29 sec 176059237 ns, start time: 76558 sec 84160730 ns, end time: 76587 sec 260219967 ns
+end reading child_pid: 13440, status: 256
+INSTANT diff: 29 sec 176880227 ns, start time: 76558 sec 84328698 ns, end time: 76587 sec 261208925 ns
+end reading child_pid: 13441, status: 256
+INSTANT diff: 29 sec 175934236 ns, start time: 76558 sec 86299949 ns, end time: 76587 sec 262234185 ns
+end reading child_pid: 13442, status: 256
+INSTANT diff: 29 sec 177717883 ns, start time: 76558 sec 86693230 ns, end time: 76587 sec 264411113 ns
+end reading child_pid: 13427, status: 256
+INSTANT diff: 29 sec 182700280 ns, start time: 76558 sec 82756927 ns, end time: 76587 sec 265457207 ns
+end reading child_pid: 13429, status: 256
+INSTANT diff: 29 sec 183235748 ns, start time: 76558 sec 83556667 ns, end time: 76587 sec 266792415 ns
+end reading child_pid: 13428, status: 256
+========END: num_of_processes : 16 try: 5========
+
+========START: num_of_processes : 16 try: 6========
+start reading child pid: 0, filename: ./random8M_6
+start reading child pid: 0, filename: ./random8M_7
+start reading child pid: 0, filename: ./random8M_5
+start reading child pid: 0, filename: ./random8M_8
+start reading child pid: 0, filename: ./random8M_4
+start reading child pid: 0, filename: ./random8M_3
+start reading child pid: 0, filename: ./random8M_9
+start reading child pid: 0, filename: ./random8M_2
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_11
+start reading child pid: 0, filename: ./random8M_10
+start reading child pid: 0, filename: ./random8M_0
+start reading child pid: 0, filename: ./random8M_13
+start reading child pid: 0, filename: ./random8M_12
+start reading child pid: 0, filename: ./random8M_15
+start reading child pid: 0, filename: ./random8M_14
+INSTANT diff: 27 sec 638171198 ns, start time: 76587 sec 304091481 ns, end time: 76614 sec 942262679 ns
+end reading child_pid: 13450, status: 256
+INSTANT diff: 27 sec 658703074 ns, start time: 76587 sec 304863929 ns, end time: 76614 sec 963567003 ns
+end reading child_pid: 13447, status: 256
+INSTANT diff: 27 sec 671508076 ns, start time: 76587 sec 305619449 ns, end time: 76614 sec 977127525 ns
+end reading child_pid: 13446, status: 256
+INSTANT diff: 27 sec 674487763 ns, start time: 76587 sec 303723095 ns, end time: 76614 sec 978210858 ns
+end reading child_pid: 13448, status: 256
+INSTANT diff: 27 sec 671748075 ns, start time: 76587 sec 307453773 ns, end time: 76614 sec 979201848 ns
+end reading child_pid: 13449, status: 256
+INSTANT diff: 27 sec 672967399 ns, start time: 76587 sec 307278720 ns, end time: 76614 sec 980246119 ns
+end reading child_pid: 13452, status: 256
+INSTANT diff: 27 sec 671760680 ns, start time: 76587 sec 309562366 ns, end time: 76614 sec 981323046 ns
+end reading child_pid: 13453, status: 256
+INSTANT diff: 27 sec 672629638 ns, start time: 76587 sec 309774137 ns, end time: 76614 sec 982403775 ns
+end reading child_pid: 13454, status: 256
+INSTANT diff: 27 sec 681973753 ns, start time: 76587 sec 305038460 ns, end time: 76614 sec 987012213 ns
+end reading child_pid: 13451, status: 256
+INSTANT diff: 27 sec 676558492 ns, start time: 76587 sec 311706325 ns, end time: 76614 sec 988264817 ns
+end reading child_pid: 13443, status: 256
+INSTANT diff: 27 sec 681685524 ns, start time: 76587 sec 307602002 ns, end time: 76614 sec 989287526 ns
+end reading child_pid: 13445, status: 256
+INSTANT diff: 27 sec 677196252 ns, start time: 76587 sec 313431013 ns, end time: 76614 sec 990627265 ns
+end reading child_pid: 13455, status: 256
+INSTANT diff: 27 sec 672103908 ns, start time: 76587 sec 320528982 ns, end time: 76614 sec 992632890 ns
+end reading child_pid: 13457, status: 256
+INSTANT diff: 27 sec 686165211 ns, start time: 76587 sec 308676221 ns, end time: 76614 sec 994841432 ns
+end reading child_pid: 13444, status: 256
+INSTANT diff: 27 sec 682120159 ns, start time: 76587 sec 313756846 ns, end time: 76614 sec 995877005 ns
+INSTANT diff: 27 sec 675244065 ns, start time: 76587 sec 320716169 ns, end time: 76614 sec 995960234 ns
+end reading child_pid: 13456, status: 256
+end reading child_pid: 13458, status: 256
+========END: num_of_processes : 16 try: 6========
+
+========START: num_of_processes : 16 try: 7========
+start reading child pid: 0, filename: ./random8M_6
+start reading child pid: 0, filename: ./random8M_7
+start reading child pid: 0, filename: ./random8M_5
+start reading child pid: 0, filename: ./random8M_4
+start reading child pid: 0, filename: ./random8M_3
+start reading child pid: 0, filename: ./random8M_8
+start reading child pid: 0, filename: ./random8M_2
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_10
+start reading child pid: 0, filename: ./random8M_9
+start reading child pid: 0, filename: ./random8M_12
+start reading child pid: 0, filename: ./random8M_0
+start reading child pid: 0, filename: ./random8M_11
+start reading child pid: 0, filename: ./random8M_14
+start reading child pid: 0, filename: ./random8M_13
+start reading child pid: 0, filename: ./random8M_15
+INSTANT diff: 29 sec 193962821 ns, start time: 76615 sec 34271956 ns, end time: 76644 sec 228234777 ns
+end reading child_pid: 13463, status: 256
+INSTANT diff: 29 sec 196359332 ns, start time: 76615 sec 33576643 ns, end time: 76644 sec 229935975 ns
+end reading child_pid: 13464, status: 256
+INSTANT diff: 29 sec 195871259 ns, start time: 76615 sec 35640810 ns, end time: 76644 sec 231512069 ns
+INSTANT diff: 29 sec 197654436 ns, start time: 76615 sec 34766904 ns, end time: 76644 sec 232421340 ns
+end reading child_pid: 13465, status: 256
+end reading child_pid: 13466, status: 256
+INSTANT diff: 29 sec 210953708 ns, start time: 76615 sec 34938987 ns, end time: 76644 sec 245892695 ns
+end reading child_pid: 13462, status: 256
+INSTANT diff: 29 sec 207213916 ns, start time: 76615 sec 39818050 ns, end time: 76644 sec 247031966 ns
+end reading child_pid: 13468, status: 256
+INSTANT diff: 29 sec 208955323 ns, start time: 76615 sec 38970966 ns, end time: 76644 sec 247926289 ns
+end reading child_pid: 13469, status: 256
+INSTANT diff: 29 sec 215376000 ns, start time: 76615 sec 43338571 ns, end time: 76644 sec 258714571 ns
+end reading child_pid: 13470, status: 256
+INSTANT diff: 29 sec 216282197 ns, start time: 76615 sec 43505290 ns, end time: 76644 sec 259787487 ns
+end reading child_pid: 13471, status: 256
+INSTANT diff: 29 sec 209409489 ns, start time: 76615 sec 51385082 ns, end time: 76644 sec 260794571 ns
+end reading child_pid: 13472, status: 256
+INSTANT diff: 29 sec 210217197 ns, start time: 76615 sec 51567530 ns, end time: 76644 sec 261784727 ns
+end reading child_pid: 13473, status: 256
+INSTANT diff: 29 sec 210849072 ns, start time: 76615 sec 51951332 ns, end time: 76644 sec 262800404 ns
+end reading child_pid: 13474, status: 256
+INSTANT diff: 29 sec 228740375 ns, start time: 76615 sec 36244977 ns, end time: 76644 sec 264985352 ns
+end reading child_pid: 13467, status: 256
+INSTANT diff: 29 sec 229251000 ns, start time: 76615 sec 37698883 ns, end time: 76644 sec 266949883 ns
+end reading child_pid: 13461, status: 256
+INSTANT diff: 29 sec 226665480 ns, start time: 76615 sec 42855081 ns, end time: 76644 sec 269520561 ns
+end reading child_pid: 13459, status: 256
+INSTANT diff: 29 sec 233670011 ns, start time: 76615 sec 37869300 ns, end time: 76644 sec 271539311 ns
+end reading child_pid: 13460, status: 256
+========END: num_of_processes : 16 try: 7========
+
+========START: num_of_processes : 16 try: 8========
+start reading child pid: 0, filename: ./random8M_6
+start reading child pid: 0, filename: ./random8M_7
+start reading child pid: 0, filename: ./random8M_8
+start reading child pid: 0, filename: ./random8M_5
+start reading child pid: 0, filename: ./random8M_9
+start reading child pid: 0, filename: ./random8M_4
+start reading child pid: 0, filename: ./random8M_3
+start reading child pid: 0, filename: ./random8M_10
+start reading child pid: 0, filename: ./random8M_11
+start reading child pid: 0, filename: ./random8M_2
+start reading child pid: 0, filename: ./random8M_12
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_13
+start reading child pid: 0, filename: ./random8M_14
+start reading child pid: 0, filename: ./random8M_0
+start reading child pid: 0, filename: ./random8M_15
+INSTANT diff: 28 sec 585110079 ns, start time: 76644 sec 305349052 ns, end time: 76672 sec 890459131 ns
+end reading child_pid: 13480, status: 256
+INSTANT diff: 28 sec 588813464 ns, start time: 76644 sec 304403844 ns, end time: 76672 sec 893217308 ns
+end reading child_pid: 13482, status: 256
+INSTANT diff: 28 sec 604956434 ns, start time: 76644 sec 305569260 ns, end time: 76672 sec 910525694 ns
+end reading child_pid: 13483, status: 256
+INSTANT diff: 28 sec 607942267 ns, start time: 76644 sec 306693375 ns, end time: 76672 sec 914635642 ns
+end reading child_pid: 13479, status: 256
+INSTANT diff: 28 sec 609906174 ns, start time: 76644 sec 305738427 ns, end time: 76672 sec 915644601 ns
+end reading child_pid: 13481, status: 256
+INSTANT diff: 28 sec 609180288 ns, start time: 76644 sec 307446552 ns, end time: 76672 sec 916626840 ns
+end reading child_pid: 13484, status: 256
+INSTANT diff: 28 sec 608979975 ns, start time: 76644 sec 308627594 ns, end time: 76672 sec 917607569 ns
+end reading child_pid: 13485, status: 256
+INSTANT diff: 28 sec 614736018 ns, start time: 76644 sec 310801500 ns, end time: 76672 sec 925537518 ns
+end reading child_pid: 13477, status: 256
+INSTANT diff: 28 sec 619514767 ns, start time: 76644 sec 307151292 ns, end time: 76672 sec 926666059 ns
+end reading child_pid: 13478, status: 256
+INSTANT diff: 28 sec 613088725 ns, start time: 76644 sec 314636813 ns, end time: 76672 sec 927725538 ns
+end reading child_pid: 13486, status: 256
+INSTANT diff: 28 sec 613968830 ns, start time: 76644 sec 314813948 ns, end time: 76672 sec 928782778 ns
+end reading child_pid: 13487, status: 256
+INSTANT diff: 28 sec 613764142 ns, start time: 76644 sec 315995876 ns, end time: 76672 sec 929760018 ns
+end reading child_pid: 13488, status: 256
+INSTANT diff: 28 sec 612394559 ns, start time: 76644 sec 318339782 ns, end time: 76672 sec 930734341 ns
+end reading child_pid: 13489, status: 256
+INSTANT diff: 28 sec 612473673 ns, start time: 76644 sec 320463480 ns, end time: 76672 sec 932937153 ns
+end reading child_pid: 13490, status: 256
+INSTANT diff: 28 sec 614875549 ns, start time: 76644 sec 319111917 ns, end time: 76672 sec 933987466 ns
+INSTANT diff: 28 sec 619441069 ns, start time: 76644 sec 315828532 ns, end time: 76672 sec 935269601 ns
+end reading child_pid: 13475, status: 256
+end reading child_pid: 13476, status: 256
+========END: num_of_processes : 16 try: 8========
+
+========START: num_of_processes : 16 try: 9========
+start reading child pid: 0, filename: ./random8M_6
+start reading child pid: 0, filename: ./random8M_7
+start reading child pid: 0, filename: ./random8M_8
+start reading child pid: 0, filename: ./random8M_5
+start reading child pid: 0, filename: ./random8M_4
+start reading child pid: 0, filename: ./random8M_9
+start reading child pid: 0, filename: ./random8M_3
+start reading child pid: 0, filename: ./random8M_11
+start reading child pid: 0, filename: ./random8M_10
+start reading child pid: 0, filename: ./random8M_2
+start reading child pid: 0, filename: ./random8M_12
+start reading child pid: 0, filename: ./random8M_1
+start reading child pid: 0, filename: ./random8M_13
+start reading child pid: 0, filename: ./random8M_0
+start reading child pid: 0, filename: ./random8M_14
+start reading child pid: 0, filename: ./random8M_15
+INSTANT diff: 30 sec 118649700 ns, start time: 76672 sec 969660123 ns, end time: 76703 sec 88309823 ns
+end reading child_pid: 13496, status: 256
+INSTANT diff: 30 sec 142513763 ns, start time: 76672 sec 970357988 ns, end time: 76703 sec 112871751 ns
+end reading child_pid: 13495, status: 256
+INSTANT diff: 30 sec 142415326 ns, start time: 76672 sec 971655123 ns, end time: 76703 sec 114070449 ns
+end reading child_pid: 13497, status: 256
+INSTANT diff: 30 sec 144305273 ns, start time: 76672 sec 970686165 ns, end time: 76703 sec 114991438 ns
+end reading child_pid: 13498, status: 256
+INSTANT diff: 30 sec 143852774 ns, start time: 76672 sec 972126373 ns, end time: 76703 sec 115979147 ns
+end reading child_pid: 13500, status: 256
+INSTANT diff: 30 sec 144978763 ns, start time: 76672 sec 973077832 ns, end time: 76703 sec 118056595 ns
+end reading child_pid: 13502, status: 256
+INSTANT diff: 30 sec 155718191 ns, start time: 76672 sec 971475800 ns, end time: 76703 sec 127193991 ns
+end reading child_pid: 13494, status: 256
+INSTANT diff: 30 sec 155307617 ns, start time: 76672 sec 972888509 ns, end time: 76703 sec 128196126 ns
+end reading child_pid: 13501, status: 256
+INSTANT diff: 30 sec 151496002 ns, start time: 76672 sec 977720801 ns, end time: 76703 sec 129216803 ns
+end reading child_pid: 13503, status: 256
+INSTANT diff: 30 sec 147815794 ns, start time: 76672 sec 982435905 ns, end time: 76703 sec 130251699 ns
+end reading child_pid: 13504, status: 256
+INSTANT diff: 30 sec 173661420 ns, start time: 76672 sec 969273144 ns, end time: 76703 sec 142934564 ns
+end reading child_pid: 13499, status: 256
+INSTANT diff: 30 sec 161126732 ns, start time: 76672 sec 984885697 ns, end time: 76703 sec 146012429 ns
+end reading child_pid: 13505, status: 256
+INSTANT diff: 30 sec 160242096 ns, start time: 76672 sec 986883874 ns, end time: 76703 sec 147125970 ns
+end reading child_pid: 13506, status: 256
+INSTANT diff: 30 sec 162970325 ns, start time: 76672 sec 986696843 ns, end time: 76703 sec 149667168 ns
+end reading child_pid: 13491, status: 256
+INSTANT diff: 30 sec 175536784 ns, start time: 76672 sec 975274082 ns, end time: 76703 sec 150810866 ns
+end reading child_pid: 13493, status: 256
+INSTANT diff: 30 sec 171656836 ns, start time: 76672 sec 980516061 ns, end time: 76703 sec 152172897 ns
+end reading child_pid: 13492, status: 256
+========END: num_of_processes : 16 try: 9========
+
