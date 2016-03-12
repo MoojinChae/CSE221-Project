@@ -1,0 +1,16 @@
+dd if=/dev/urandom of=./random8M_0 bs=4096 count=2048
+dd if=/dev/urandom of=./random8M_1 bs=4096 count=2048
+dd if=/dev/urandom of=./random8M_2 bs=4096 count=2048
+dd if=/dev/urandom of=./random8M_3 bs=4096 count=2048
+dd if=/dev/urandom of=./random8M_4 bs=4096 count=2048
+dd if=/dev/urandom of=./random8M_5 bs=4096 count=2048
+dd if=/dev/urandom of=./random8M_6 bs=4096 count=2048
+dd if=/dev/urandom of=./random8M_7 bs=4096 count=2048
+dd if=/dev/urandom of=./random8M_8 bs=4096 count=2048
+dd if=/dev/urandom of=./random8M_9 bs=4096 count=2048
+dd if=/dev/urandom of=./random8M_10 bs=4096 count=2048
+dd if=/dev/urandom of=./random8M_11 bs=4096 count=2048
+dd if=/dev/urandom of=./random8M_12 bs=4096 count=2048
+dd if=/dev/urandom of=./random8M_13 bs=4096 count=2048
+dd if=/dev/urandom of=./random8M_14 bs=4096 count=2048
+dd if=/dev/urandom of=./random8M_15 bs=4096 count=2048
