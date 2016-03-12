@@ -1,0 +1,30 @@
+file_size = 67108864, iterations = 16384
+total_bytes_read = 67108864
+INSTANT time_diff: 137 sec 665110812 ns, start time: 97112 sec 527926947 ns, end time: 97250 sec 193037759 ns
+file_size = 67108864, iterations = 16384
+total_bytes_read = 67108864
+INSTANT time_diff: 123 sec 731016653 ns, start time: 97250 sec 202604214 ns, end time: 97373 sec 933620867 ns
+file_size = 67108864, iterations = 16384
+total_bytes_read = 67108864
+INSTANT time_diff: 117 sec 708766233 ns, start time: 97373 sec 943012896 ns, end time: 97491 sec 651779129 ns
+file_size = 67108864, iterations = 16384
+total_bytes_read = 67108864
+INSTANT time_diff: 128 sec 373517042 ns, start time: 97491 sec 660871991 ns, end time: 97620 sec 34389033 ns
+file_size = 67108864, iterations = 16384
+total_bytes_read = 67108864
+INSTANT time_diff: 116 sec 321727004 ns, start time: 97620 sec 44821322 ns, end time: 97736 sec 366548326 ns
+file_size = 67108864, iterations = 16384
+total_bytes_read = 67108864
+INSTANT time_diff: 109 sec 410833427 ns, start time: 97736 sec 376454886 ns, end time: 97845 sec 787288313 ns
+file_size = 67108864, iterations = 16384
+total_bytes_read = 67108864
+INSTANT time_diff: 106 sec 428028510 ns, start time: 97845 sec 800317737 ns, end time: 97952 sec 228346247 ns
+file_size = 67108864, iterations = 16384
+total_bytes_read = 67108864
+INSTANT time_diff: 136 sec 32586360 ns, start time: 97952 sec 236812026 ns, end time: 98088 sec 269398386 ns
+file_size = 67108864, iterations = 16384
+total_bytes_read = 67108864
+INSTANT time_diff: 111 sec 773917435 ns, start time: 98088 sec 278035102 ns, end time: 98200 sec 51952537 ns
+file_size = 67108864, iterations = 16384
+total_bytes_read = 67108864
+INSTANT time_diff: 111 sec 517340873 ns, start time: 98200 sec 60536649 ns, end time: 98311 sec 577877522 ns
