@@ -98,6 +98,10 @@ struct result read_file_to_size(char* filename, unsigned size) {
     res.cycle = cycle_diff;
     res.time = time_diff;
 
+    uint64_t total_time_in_ns = (((uint64_t)res.time.tv_sec * 1000000000) + res.time.tv_nsec);
+    printf("INSTANT start time: %ld sec %lld ns, end time: %ld sec %lld ns\n", start.tv_sec, (uint64_t)start.tv_nsec, end.tv_sec, (uint64_t)end.tv_nsec);
+    printf("INSTANT size: %u, time: %ld sec %lld ns, time in ns: %lld, cycles: %u\n", size, res.time.tv_sec, (uint64_t)res.time.tv_nsec, total_time_in_ns, res.cycle);
+
     return res;
 }
 
@@ -129,6 +133,7 @@ void read_file_and_calculate_average(char* filename, unsigned size) {
 
 int main(int argc, char* argv[]) {
 
+    const int gb = 1024 * 1024 * 1024;
     const int mb = 1024 * 1024;
     const int kb = 1024;
 
@@ -149,7 +154,12 @@ int main(int argc, char* argv[]) {
     read_file_and_calculate_average("./random128M", 128*mb);
     read_file_and_calculate_average("./random256M", 256*mb);
     read_file_and_calculate_average("./random512M", 512*mb);
-    read_file_and_calculate_average("./random1G", 1*mb*1024);
+    read_file_and_calculate_average("./random1G", 1*gb);
+
+    /*
+    read_file_and_calculate_average("./random1_128G", (1024 + 128)*mb);
+    read_file_and_calculate_average("./random1_256G", (1024 + 256)*mb);
+    */
 
     return 0;
 }
