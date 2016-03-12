@@ -55,8 +55,11 @@ int main(int argc, char* argv[]) {
         double avg = 0.0;
         double prev_avg = 0.0;
         double stddev = 0.0;
+
+        // Warm up
         read_file_to_size(size, true);
         read_file_to_size(size, true);
+
         for (int j = 0; j < 10; j++) {
             unsigned cycles = read_file_to_size(size, false);
             prev_avg = avg;
