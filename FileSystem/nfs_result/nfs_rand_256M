@@ -1,0 +1,15 @@
+file_size = 268435456, iterations = 65536
+total_bytes_read = 268435456
+INSTANT time_diff: 371 sec 53338525 ns, start time: 110610 sec 598949531 ns, end time: 110981 sec 652288056 ns
+file_size = 268435456, iterations = 65536
+total_bytes_read = 268435456
+INSTANT time_diff: 372 sec 63035708 ns, start time: 110981 sec 661325814 ns, end time: 111353 sec 724361522 ns
+file_size = 268435456, iterations = 65536
+total_bytes_read = 268435456
+INSTANT time_diff: 361 sec 746428466 ns, start time: 111353 sec 733185425 ns, end time: 111715 sec 479613891 ns
+file_size = 268435456, iterations = 65536
+total_bytes_read = 268435456
+INSTANT time_diff: 372 sec 214958161 ns, start time: 111715 sec 488162794 ns, end time: 112087 sec 703120955 ns
+file_size = 268435456, iterations = 65536
+total_bytes_read = 268435456
+INSTANT time_diff: 357 sec 152088282 ns, start time: 112087 sec 711524702 ns, end time: 112444 sec 863612984 ns
