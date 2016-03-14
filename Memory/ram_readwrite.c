@@ -23,145 +23,120 @@ void measure_read(float overhead){
     avg = 0.0;
     stddev = 0.0;
     for(int i=1; i<=LOOP_TIME_TEST_NUM; i++){
-        int * measure = array;
+        int * u = array;
         int m = 0;
-        int step = 512;
+        int iter = 1000;
         overall_t = 0;
-        for (int j=0; j<arr_size/step; j++){
+        for (int j=0; j<iter; j++){
             t = ccnt_read();
-            m = measure[0] + measure[1] + measure[2] + measure[3] +
-                measure[4] + measure[5] + measure[6] + measure[7] +
-                measure[8] + measure[9] + measure[10] + measure[11] +
-                measure[12] + measure[13] + measure[14] + measure[15] +
-                measure[16] + measure[17] + measure[18] + measure[19] +
-                measure[20] + measure[21] + measure[22] + measure[23] +
-                measure[24] + measure[25] + measure[26] + measure[27] +
-                measure[28] + measure[29] + measure[30] + measure[31] +
-                measure[32] + measure[33] + measure[34] + measure[35] +
-                measure[36] + measure[37] + measure[38] + measure[39] +
-                measure[40] + measure[41] + measure[42] + measure[43] +
-                measure[44] + measure[45] + measure[46] + measure[47] +
-                measure[48] + measure[49] + measure[50] + measure[51] +
-                measure[52] + measure[53] + measure[54] + measure[55] +
-                measure[56] + measure[57] + measure[58] + measure[59] +
-                measure[60] + measure[61] + measure[62] + measure[63] +
-                measure[64] + measure[65] + measure[66] + measure[67] +
-                measure[68] + measure[69] + measure[70] + measure[71] +
-                measure[72] + measure[73] + measure[74] + measure[75] +
-                measure[76] + measure[77] + measure[78] + measure[79] +
-                measure[80] + measure[81] + measure[82] + measure[83] +
-                measure[84] + measure[85] + measure[86] + measure[87] +
-                measure[88] + measure[89] + measure[90] + measure[91] +
-                measure[92] + measure[93] + measure[94] + measure[95] +
-                measure[96] + measure[97] + measure[98] + measure[99] +
-                measure[100] + measure[101] + measure[102] + measure[103] +
-                measure[104] + measure[105] + measure[106] + measure[107] +
-                measure[108] + measure[109] + measure[110] + measure[111] +
-                measure[112] + measure[113] + measure[114] + measure[115] +
-                measure[116] + measure[117] + measure[118] + measure[119] +
-                measure[120] + measure[121] + measure[122] + measure[123] +
-                measure[124] + measure[125] + measure[126] + measure[127] +
-                measure[128] + measure[129] + measure[130] + measure[131] +
-                measure[132] + measure[133] + measure[134] + measure[135] +
-                measure[136] + measure[137] + measure[138] + measure[139] +
-                measure[140] + measure[141] + measure[142] + measure[143] +
-                measure[144] + measure[145] + measure[146] + measure[147] +
-                measure[148] + measure[159] + measure[150] + measure[151] +
-                measure[152] + measure[153] + measure[154] + measure[155] +
-                measure[156] + measure[157] + measure[158] + measure[159] +
-                measure[160] + measure[161] + measure[162] + measure[123] +
-                measure[164] + measure[165] + measure[166] + measure[167] +
-                measure[168] + measure[169] + measure[170] + measure[171] +
-                measure[172] + measure[173] + measure[174] + measure[175] +
-                measure[176] + measure[177] + measure[178] + measure[179] +
-                measure[180] + measure[181] + measure[182] + measure[183] +
-                measure[184] + measure[185] + measure[186] + measure[187] +
-                measure[188] + measure[189] + measure[190] + measure[191] +
-                measure[192] + measure[193] + measure[194] + measure[195] +
-                measure[196] + measure[197] + measure[198] + measure[199] +
-                measure[200] + measure[201] + measure[202] + measure[203] +
-                measure[204] + measure[205] + measure[206] + measure[207] +
-                measure[208] + measure[209] + measure[210] + measure[211] +
-                measure[212] + measure[213] + measure[214] + measure[215] +
-                measure[216] + measure[217] + measure[218] + measure[219] +
-                measure[220] + measure[221] + measure[222] + measure[223] +
-                measure[224] + measure[225] + measure[226] + measure[227] +
-                measure[228] + measure[229] + measure[230] + measure[231] +
-                measure[232] + measure[233] + measure[234] + measure[235] +
-                measure[236] + measure[237] + measure[238] + measure[239] +
-                measure[240] + measure[241] + measure[242] + measure[243] +
-                measure[244] + measure[245] + measure[246] + measure[247] +
-                measure[248] + measure[259] + measure[250] + measure[251] +
-                measure[252] + measure[253] + measure[254] + measure[255] +
-                measure[256] + measure[257] + measure[258] + measure[259] +
-                measure[260] + measure[261] + measure[262] + measure[263] +
-                measure[264] + measure[265] + measure[266] + measure[267] +
-                measure[268] + measure[269] + measure[270] + measure[271] +
-                measure[272] + measure[273] + measure[274] + measure[275] +
-                measure[276] + measure[277] + measure[278] + measure[279] +
-                measure[280] + measure[281] + measure[282] + measure[283] +
-                measure[284] + measure[285] + measure[286] + measure[287] +
-                measure[288] + measure[289] + measure[290] + measure[291] +
-                measure[292] + measure[293] + measure[294] + measure[295] +
-                measure[296] + measure[297] + measure[298] + measure[299] +
-                measure[300] + measure[301] + measure[302] + measure[303] +
-                measure[304] + measure[305] + measure[306] + measure[307] +
-                measure[308] + measure[309] + measure[310] + measure[311] +
-                measure[312] + measure[313] + measure[314] + measure[315] +
-                measure[316] + measure[317] + measure[318] + measure[319] +
-                measure[320] + measure[321] + measure[322] + measure[323] +
-                measure[324] + measure[325] + measure[326] + measure[327] +
-                measure[328] + measure[329] + measure[330] + measure[331] +
-                measure[332] + measure[333] + measure[334] + measure[335] +
-                measure[336] + measure[337] + measure[338] + measure[339] +
-                measure[340] + measure[341] + measure[342] + measure[343] +
-                measure[344] + measure[345] + measure[346] + measure[347] +
-                measure[348] + measure[359] + measure[350] + measure[351] +
-                measure[352] + measure[353] + measure[354] + measure[355] +
-                measure[356] + measure[357] + measure[358] + measure[359] +
-                measure[360] + measure[361] + measure[362] + measure[363] +
-                measure[364] + measure[365] + measure[366] + measure[367] +
-                measure[368] + measure[369] + measure[370] + measure[371] +
-                measure[372] + measure[373] + measure[374] + measure[375] +
-                measure[376] + measure[377] + measure[378] + measure[379] +
-                measure[380] + measure[381] + measure[382] + measure[383] +
-                measure[384] + measure[385] + measure[386] + measure[387] +
-                measure[388] + measure[389] + measure[390] + measure[391] +
-                measure[392] + measure[393] + measure[394] + measure[395] +
-                measure[396] + measure[397] + measure[398] + measure[399] +
-                measure[400] + measure[401] + measure[402] + measure[403] +
-                measure[404] + measure[405] + measure[406] + measure[407] +
-                measure[408] + measure[409] + measure[410] + measure[411] +
-                measure[412] + measure[413] + measure[414] + measure[415] +
-                measure[416] + measure[417] + measure[418] + measure[419] +
-                measure[420] + measure[421] + measure[422] + measure[423] +
-                measure[424] + measure[425] + measure[426] + measure[427] +
-                measure[428] + measure[429] + measure[430] + measure[431] +
-                measure[432] + measure[433] + measure[434] + measure[435] +
-                measure[436] + measure[437] + measure[438] + measure[439] +
-                measure[440] + measure[441] + measure[442] + measure[443] +
-                measure[444] + measure[445] + measure[446] + measure[447] +
-                measure[448] + measure[459] + measure[450] + measure[451] +
-                measure[452] + measure[453] + measure[454] + measure[455] +
-                measure[460] + measure[461] + measure[462] + measure[463] +
-                measure[464] + measure[465] + measure[466] + measure[467] +
-                measure[468] + measure[469] + measure[470] + measure[471] +
-                measure[472] + measure[473] + measure[474] + measure[475] +
-                measure[476] + measure[477] + measure[478] + measure[479] +
-                measure[480] + measure[481] + measure[482] + measure[483] +
-                measure[484] + measure[485] + measure[486] + measure[487] +
-                measure[488] + measure[489] + measure[490] + measure[491] +
-                measure[492] + measure[493] + measure[494] + measure[495] +
-                measure[496] + measure[497] + measure[498] + measure[499] +
-                measure[500] + measure[501] + measure[502] + measure[503] +
-                measure[504] + measure[505] + measure[506] + measure[507] +
-                measure[508] + measure[509] + measure[510] + measure[511];
+            m = u[0] + u[16] + u[32] + u[48] + u[64] + u[80] + u[96] + u[112] + u[128] + u[144] + 
+            u[160] + u[176] + u[192] + u[208] + u[224] + u[240] + u[256] + u[272] + u[288] + u[304] + 
+            u[320] + u[336] + u[352] + u[368] + u[384] + u[400] + u[416] + u[432] + u[448] + u[464] + 
+            u[480] + u[496] + u[512] + u[528] + u[544] + u[560] + u[576] + u[592] + u[608] + u[624] + 
+            u[640] + u[656] + u[672] + u[688] + u[704] + u[720] + u[736] + u[752] + u[768] + u[784] + 
+            u[800] + u[816] + u[832] + u[848] + u[864] + u[880] + u[896] + u[912] + u[928] + u[944] + 
+            u[960] + u[976] + u[992] + u[1008] + u[1024] + u[1040] + u[1056] + u[1072] + u[1088] + u[1104] + 
+            u[1120] + u[1136] + u[1152] + u[1168] + u[1184] + u[1200] + u[1216] + u[1232] + u[1248] + u[1264] + 
+            u[1280] + u[1296] + u[1312] + u[1328] + u[1344] + u[1360] + u[1376] + u[1392] + u[1408] + u[1424] + 
+            u[1440] + u[1456] + u[1472] + u[1488] + u[1504] + u[1520] + u[1536] + u[1552] + u[1568] + u[1584] + 
+            u[1600] + u[1616] + u[1632] + u[1648] + u[1664] + u[1680] + u[1696] + u[1712] + u[1728] + u[1744] + 
+            u[1760] + u[1776] + u[1792] + u[1808] + u[1824] + u[1840] + u[1856] + u[1872] + u[1888] + u[1904] + 
+            u[1920] + u[1936] + u[1952] + u[1968] + u[1984] + u[2000] + u[2016] + u[2032] + u[2048] + u[2064] + 
+            u[2080] + u[2096] + u[2112] + u[2128] + u[2144] + u[2160] + u[2176] + u[2192] + u[2208] + u[2224] + 
+            u[2240] + u[2256] + u[2272] + u[2288] + u[2304] + u[2320] + u[2336] + u[2352] + u[2368] + u[2384] + 
+            u[2400] + u[2416] + u[2432] + u[2448] + u[2464] + u[2480] + u[2496] + u[2512] + u[2528] + u[2544] + 
+            u[2560] + u[2576] + u[2592] + u[2608] + u[2624] + u[2640] + u[2656] + u[2672] + u[2688] + u[2704] + 
+            u[2720] + u[2736] + u[2752] + u[2768] + u[2784] + u[2800] + u[2816] + u[2832] + u[2848] + u[2864] + 
+            u[2880] + u[2896] + u[2912] + u[2928] + u[2944] + u[2960] + u[2976] + u[2992] + u[3008] + u[3024] + 
+            u[3040] + u[3056] + u[3072] + u[3088] + u[3104] + u[3120] + u[3136] + u[3152] + u[3168] + u[3184] + 
+            u[3200] + u[3216] + u[3232] + u[3248] + u[3264] + u[3280] + u[3296] + u[3312] + u[3328] + u[3344] + 
+            u[3360] + u[3376] + u[3392] + u[3408] + u[3424] + u[3440] + u[3456] + u[3472] + u[3488] + u[3504] + 
+            u[3520] + u[3536] + u[3552] + u[3568] + u[3584] + u[3600] + u[3616] + u[3632] + u[3648] + u[3664] + 
+            u[3680] + u[3696] + u[3712] + u[3728] + u[3744] + u[3760] + u[3776] + u[3792] + u[3808] + u[3824] + 
+            u[3840] + u[3856] + u[3872] + u[3888] + u[3904] + u[3920] + u[3936] + u[3952] + u[3968] + u[3984] + 
+            u[4000] + u[4016] + u[4032] + u[4048] + u[4064] + u[4080] + u[4096] + u[4112] + u[4128] + u[4144] + 
+            u[4160] + u[4176] + u[4192] + u[4208] + u[4224] + u[4240] + u[4256] + u[4272] + u[4288] + u[4304] + 
+            u[4320] + u[4336] + u[4352] + u[4368] + u[4384] + u[4400] + u[4416] + u[4432] + u[4448] + u[4464] + 
+            u[4480] + u[4496] + u[4512] + u[4528] + u[4544] + u[4560] + u[4576] + u[4592] + u[4608] + u[4624] + 
+            u[4640] + u[4656] + u[4672] + u[4688] + u[4704] + u[4720] + u[4736] + u[4752] + u[4768] + u[4784] + 
+            u[4800] + u[4816] + u[4832] + u[4848] + u[4864] + u[4880] + u[4896] + u[4912] + u[4928] + u[4944] + 
+            u[4960] + u[4976] + u[4992] + u[5008] + u[5024] + u[5040] + u[5056] + u[5072] + u[5088] + u[5104] + 
+            u[5120] + u[5136] + u[5152] + u[5168] + u[5184] + u[5200] + u[5216] + u[5232] + u[5248] + u[5264] + 
+            u[5280] + u[5296] + u[5312] + u[5328] + u[5344] + u[5360] + u[5376] + u[5392] + u[5408] + u[5424] + 
+            u[5440] + u[5456] + u[5472] + u[5488] + u[5504] + u[5520] + u[5536] + u[5552] + u[5568] + u[5584] + 
+            u[5600] + u[5616] + u[5632] + u[5648] + u[5664] + u[5680] + u[5696] + u[5712] + u[5728] + u[5744] + 
+            u[5760] + u[5776] + u[5792] + u[5808] + u[5824] + u[5840] + u[5856] + u[5872] + u[5888] + u[5904] + 
+            u[5920] + u[5936] + u[5952] + u[5968] + u[5984] + u[6000] + u[6016] + u[6032] + u[6048] + u[6064] + 
+            u[6080] + u[6096] + u[6112] + u[6128] + u[6144] + u[6160] + u[6176] + u[6192] + u[6208] + u[6224] + 
+            u[6240] + u[6256] + u[6272] + u[6288] + u[6304] + u[6320] + u[6336] + u[6352] + u[6368] + u[6384] + 
+            u[6400] + u[6416] + u[6432] + u[6448] + u[6464] + u[6480] + u[6496] + u[6512] + u[6528] + u[6544] + 
+            u[6560] + u[6576] + u[6592] + u[6608] + u[6624] + u[6640] + u[6656] + u[6672] + u[6688] + u[6704] + 
+            u[6720] + u[6736] + u[6752] + u[6768] + u[6784] + u[6800] + u[6816] + u[6832] + u[6848] + u[6864] + 
+            u[6880] + u[6896] + u[6912] + u[6928] + u[6944] + u[6960] + u[6976] + u[6992] + u[7008] + u[7024] + 
+            u[7040] + u[7056] + u[7072] + u[7088] + u[7104] + u[7120] + u[7136] + u[7152] + u[7168] + u[7184] + 
+            u[7200] + u[7216] + u[7232] + u[7248] + u[7264] + u[7280] + u[7296] + u[7312] + u[7328] + u[7344] + 
+            u[7360] + u[7376] + u[7392] + u[7408] + u[7424] + u[7440] + u[7456] + u[7472] + u[7488] + u[7504] + 
+            u[7520] + u[7536] + u[7552] + u[7568] + u[7584] + u[7600] + u[7616] + u[7632] + u[7648] + u[7664] + 
+            u[7680] + u[7696] + u[7712] + u[7728] + u[7744] + u[7760] + u[7776] + u[7792] + u[7808] + u[7824] + 
+            u[7840] + u[7856] + u[7872] + u[7888] + u[7904] + u[7920] + u[7936] + u[7952] + u[7968] + u[7984] + 
+            u[8000] + u[8016] + u[8032] + u[8048] + u[8064] + u[8080] + u[8096] + u[8112] + u[8128] + u[8144] + 
+            u[8160] + u[8176] + u[8192] + u[8208] + u[8224] + u[8240] + u[8256] + u[8272] + u[8288] + u[8304] + 
+            u[8320] + u[8336] + u[8352] + u[8368] + u[8384] + u[8400] + u[8416] + u[8432] + u[8448] + u[8464] + 
+            u[8480] + u[8496] + u[8512] + u[8528] + u[8544] + u[8560] + u[8576] + u[8592] + u[8608] + u[8624] + 
+            u[8640] + u[8656] + u[8672] + u[8688] + u[8704] + u[8720] + u[8736] + u[8752] + u[8768] + u[8784] + 
+            u[8800] + u[8816] + u[8832] + u[8848] + u[8864] + u[8880] + u[8896] + u[8912] + u[8928] + u[8944] + 
+            u[8960] + u[8976] + u[8992] + u[9008] + u[9024] + u[9040] + u[9056] + u[9072] + u[9088] + u[9104] + 
+            u[9120] + u[9136] + u[9152] + u[9168] + u[9184] + u[9200] + u[9216] + u[9232] + u[9248] + u[9264] + 
+            u[9280] + u[9296] + u[9312] + u[9328] + u[9344] + u[9360] + u[9376] + u[9392] + u[9408] + u[9424] + 
+            u[9440] + u[9456] + u[9472] + u[9488] + u[9504] + u[9520] + u[9536] + u[9552] + u[9568] + u[9584] + 
+            u[9600] + u[9616] + u[9632] + u[9648] + u[9664] + u[9680] + u[9696] + u[9712] + u[9728] + u[9744] + 
+            u[9760] + u[9776] + u[9792] + u[9808] + u[9824] + u[9840] + u[9856] + u[9872] + u[9888] + u[9904] + 
+            u[9920] + u[9936] + u[9952] + u[9968] + u[9984] + u[10000] + u[10016] + u[10032] + u[10048] + u[10064] + 
+            u[10080] + u[10096] + u[10112] + u[10128] + u[10144] + u[10160] + u[10176] + u[10192] + u[10208] + u[10224] + 
+            u[10240] + u[10256] + u[10272] + u[10288] + u[10304] + u[10320] + u[10336] + u[10352] + u[10368] + u[10384] + 
+            u[10400] + u[10416] + u[10432] + u[10448] + u[10464] + u[10480] + u[10496] + u[10512] + u[10528] + u[10544] + 
+            u[10560] + u[10576] + u[10592] + u[10608] + u[10624] + u[10640] + u[10656] + u[10672] + u[10688] + u[10704] + 
+            u[10720] + u[10736] + u[10752] + u[10768] + u[10784] + u[10800] + u[10816] + u[10832] + u[10848] + u[10864] + 
+            u[10880] + u[10896] + u[10912] + u[10928] + u[10944] + u[10960] + u[10976] + u[10992] + u[11008] + u[11024] + 
+            u[11040] + u[11056] + u[11072] + u[11088] + u[11104] + u[11120] + u[11136] + u[11152] + u[11168] + u[11184] + 
+            u[11200] + u[11216] + u[11232] + u[11248] + u[11264] + u[11280] + u[11296] + u[11312] + u[11328] + u[11344] + 
+            u[11360] + u[11376] + u[11392] + u[11408] + u[11424] + u[11440] + u[11456] + u[11472] + u[11488] + u[11504] + 
+            u[11520] + u[11536] + u[11552] + u[11568] + u[11584] + u[11600] + u[11616] + u[11632] + u[11648] + u[11664] + 
+            u[11680] + u[11696] + u[11712] + u[11728] + u[11744] + u[11760] + u[11776] + u[11792] + u[11808] + u[11824] + 
+            u[11840] + u[11856] + u[11872] + u[11888] + u[11904] + u[11920] + u[11936] + u[11952] + u[11968] + u[11984] + 
+            u[12000] + u[12016] + u[12032] + u[12048] + u[12064] + u[12080] + u[12096] + u[12112] + u[12128] + u[12144] + 
+            u[12160] + u[12176] + u[12192] + u[12208] + u[12224] + u[12240] + u[12256] + u[12272] + u[12288] + u[12304] + 
+            u[12320] + u[12336] + u[12352] + u[12368] + u[12384] + u[12400] + u[12416] + u[12432] + u[12448] + u[12464] + 
+            u[12480] + u[12496] + u[12512] + u[12528] + u[12544] + u[12560] + u[12576] + u[12592] + u[12608] + u[12624] + 
+            u[12640] + u[12656] + u[12672] + u[12688] + u[12704] + u[12720] + u[12736] + u[12752] + u[12768] + u[12784] + 
+            u[12800] + u[12816] + u[12832] + u[12848] + u[12864] + u[12880] + u[12896] + u[12912] + u[12928] + u[12944] + 
+            u[12960] + u[12976] + u[12992] + u[13008] + u[13024] + u[13040] + u[13056] + u[13072] + u[13088] + u[13104] + 
+            u[13120] + u[13136] + u[13152] + u[13168] + u[13184] + u[13200] + u[13216] + u[13232] + u[13248] + u[13264] + 
+            u[13280] + u[13296] + u[13312] + u[13328] + u[13344] + u[13360] + u[13376] + u[13392] + u[13408] + u[13424] + 
+            u[13440] + u[13456] + u[13472] + u[13488] + u[13504] + u[13520] + u[13536] + u[13552] + u[13568] + u[13584] + 
+            u[13600] + u[13616] + u[13632] + u[13648] + u[13664] + u[13680] + u[13696] + u[13712] + u[13728] + u[13744] + 
+            u[13760] + u[13776] + u[13792] + u[13808] + u[13824] + u[13840] + u[13856] + u[13872] + u[13888] + u[13904] + 
+            u[13920] + u[13936] + u[13952] + u[13968] + u[13984] + u[14000] + u[14016] + u[14032] + u[14048] + u[14064] + 
+            u[14080] + u[14096] + u[14112] + u[14128] + u[14144] + u[14160] + u[14176] + u[14192] + u[14208] + u[14224] + 
+            u[14240] + u[14256] + u[14272] + u[14288] + u[14304] + u[14320] + u[14336] + u[14352] + u[14368] + u[14384] + 
+            u[14400] + u[14416] + u[14432] + u[14448] + u[14464] + u[14480] + u[14496] + u[14512] + u[14528] + u[14544] + 
+            u[14560] + u[14576] + u[14592] + u[14608] + u[14624] + u[14640] + u[14656] + u[14672] + u[14688] + u[14704] + 
+            u[14720] + u[14736] + u[14752] + u[14768] + u[14784] + u[14800] + u[14816] + u[14832] + u[14848] + u[14864] + 
+            u[14880] + u[14896] + u[14912] + u[14928] + u[14944] + u[14960] + u[14976] + u[14992] + u[15008] + u[15024] + 
+            u[15040] + u[15056] + u[15072] + u[15088] + u[15104] + u[15120] + u[15136] + u[15152] + u[15168] + u[15184] + 
+            u[15200] + u[15216] + u[15232] + u[15248] + u[15264] + u[15280] + u[15296] + u[15312] + u[15328] + u[15344] + 
+            u[15360] + u[15376] + u[15392] + u[15408] + u[15424] + u[15440] + u[15456] + u[15472] + u[15488] + u[15504] + 
+            u[15520] + u[15536] + u[15552] + u[15568] + u[15584] + u[15600] + u[15616] + u[15632] + u[15648] + u[15664] + 
+            u[15680] + u[15696] + u[15712] + u[15728] + u[15744] + u[15760] + u[15776] + u[15792] + u[15808] + u[15824] + 
+            u[15840] + u[15856] + u[15872] + u[15888] + u[15904] + u[15920] + u[15936] + u[15952] + u[15968] + u[15984];
             dummy_function(m);
             t = ccnt_read() - t;
             overall_t += t - overhead;
-            measure += step;
+
+            u += 15984 + 16;
+            if (u >= &array[arr_size - 15984]) u = array;
         }
-        float bandwidth = (sizeof(int) * arr_size) / (float)overall_t;
+        float bandwidth = (iter * 16000 * sizeof(int)) / (float)overall_t;
         bandwidth *= cpu_mhz;
         float prev_avg = avg;
         avg += (bandwidth - prev_avg) / i;
@@ -184,143 +159,118 @@ void measure_write(float overhead){
     avg = 0.0;
     stddev = 0.0;
     for(int i=1; i<=LOOP_TIME_TEST_NUM; i++){
-        int * measure = array;
+        int * u = array;
         overall_t = 0;
-        int step = 512;
-        for (int j=0; j<arr_size/step; j++){
+        int iter = 1000;
+        for (int j=0; j<iter; j++){
             t = ccnt_read();
-            measure[0]=1; measure[1]=1; measure[2]=1; measure[3]=1;
-            measure[4]=1; measure[5]=1; measure[6]=1; measure[7]=1;
-            measure[8]=1; measure[9]=1; measure[10]=1; measure[11]=1;
-            measure[12]=1; measure[13]=1; measure[14]=1; measure[15]=1;
-            measure[16]=1; measure[17]=1; measure[18]=1; measure[19]=1;
-            measure[20]=1; measure[21]=1; measure[22]=1; measure[23]=1;
-            measure[24]=1; measure[25]=1; measure[26]=1; measure[27]=1;
-            measure[28]=1; measure[29]=1; measure[30]=1; measure[31]=1;
-            measure[32]=1; measure[33]=1; measure[34]=1; measure[35]=1;
-            measure[36]=1; measure[37]=1; measure[38]=1; measure[39]=1;
-            measure[40]=1; measure[41]=1; measure[42]=1; measure[43]=1;
-            measure[44]=1; measure[45]=1; measure[46]=1; measure[47]=1;
-            measure[48]=1; measure[49]=1; measure[50]=1; measure[51]=1;
-            measure[52]=1; measure[53]=1; measure[54]=1; measure[55]=1;
-            measure[56]=1; measure[57]=1; measure[58]=1; measure[59]=1;
-            measure[60]=1; measure[61]=1; measure[62]=1; measure[63]=1;
-            measure[64]=1; measure[65]=1; measure[66]=1; measure[67]=1;
-            measure[68]=1; measure[69]=1; measure[70]=1; measure[71]=1;
-            measure[72]=1; measure[73]=1; measure[74]=1; measure[75]=1;
-            measure[76]=1; measure[77]=1; measure[78]=1; measure[79]=1;
-            measure[80]=1; measure[81]=1; measure[82]=1; measure[83]=1;
-            measure[84]=1; measure[85]=1; measure[86]=1; measure[87]=1;
-            measure[88]=1; measure[89]=1; measure[90]=1; measure[91]=1;
-            measure[92]=1; measure[93]=1; measure[94]=1; measure[95]=1;
-            measure[96]=1; measure[97]=1; measure[98]=1; measure[99]=1;
-            measure[100]=1; measure[101]=1; measure[102]=1; measure[103]=1;
-            measure[104]=1; measure[105]=1; measure[106]=1; measure[107]=1;
-            measure[108]=1; measure[109]=1; measure[110]=1; measure[111]=1;
-            measure[112]=1; measure[113]=1; measure[114]=1; measure[115]=1;
-            measure[116]=1; measure[117]=1; measure[118]=1; measure[119]=1;
-            measure[120]=1; measure[121]=1; measure[122]=1; measure[123]=1;
-            measure[124]=1; measure[125]=1; measure[126]=1; measure[127]=1;
-            measure[128]=1; measure[129]=1; measure[130]=1; measure[131]=1;
-            measure[132]=1; measure[133]=1; measure[134]=1; measure[135]=1;
-            measure[136]=1; measure[137]=1; measure[138]=1; measure[139]=1;
-            measure[140]=1; measure[141]=1; measure[142]=1; measure[143]=1;
-            measure[144]=1; measure[145]=1; measure[146]=1; measure[147]=1;
-            measure[148]=1; measure[159]=1; measure[150]=1; measure[151]=1;
-            measure[152]=1; measure[153]=1; measure[154]=1; measure[155]=1;
-            measure[156]=1; measure[157]=1; measure[158]=1; measure[159]=1;
-            measure[160]=1; measure[161]=1; measure[162]=1; measure[123]=1;
-            measure[164]=1; measure[165]=1; measure[166]=1; measure[167]=1;
-            measure[168]=1; measure[169]=1; measure[170]=1; measure[171]=1;
-            measure[172]=1; measure[173]=1; measure[174]=1; measure[175]=1;
-            measure[176]=1; measure[177]=1; measure[178]=1; measure[179]=1;
-            measure[180]=1; measure[181]=1; measure[182]=1; measure[183]=1;
-            measure[184]=1; measure[185]=1; measure[186]=1; measure[187]=1;
-            measure[188]=1; measure[189]=1; measure[190]=1; measure[191]=1;
-            measure[192]=1; measure[193]=1; measure[194]=1; measure[195]=1;
-            measure[196]=1; measure[197]=1; measure[198]=1; measure[199]=1;
-            measure[200]=1; measure[201]=1; measure[202]=1; measure[203]=1;
-            measure[204]=1; measure[205]=1; measure[206]=1; measure[207]=1;
-            measure[208]=1; measure[209]=1; measure[210]=1; measure[211]=1;
-            measure[212]=1; measure[213]=1; measure[214]=1; measure[215]=1;
-            measure[216]=1; measure[217]=1; measure[218]=1; measure[219]=1;
-            measure[220]=1; measure[221]=1; measure[222]=1; measure[223]=1;
-            measure[224]=1; measure[225]=1; measure[226]=1; measure[227]=1;
-            measure[228]=1; measure[229]=1; measure[230]=1; measure[231]=1;
-            measure[232]=1; measure[233]=1; measure[234]=1; measure[235]=1;
-            measure[236]=1; measure[237]=1; measure[238]=1; measure[239]=1;
-            measure[240]=1; measure[241]=1; measure[242]=1; measure[243]=1;
-            measure[244]=1; measure[245]=1; measure[246]=1; measure[247]=1;
-            measure[248]=1; measure[259]=1; measure[250]=1; measure[251]=1;
-            measure[252]=1; measure[253]=1; measure[254]=1; measure[255]=1;
-            measure[256]=1; measure[257]=1; measure[258]=1; measure[259]=1;
-            measure[260]=1; measure[261]=1; measure[262]=1; measure[263]=1;
-            measure[264]=1; measure[265]=1; measure[266]=1; measure[267]=1;
-            measure[268]=1; measure[269]=1; measure[270]=1; measure[271]=1;
-            measure[272]=1; measure[273]=1; measure[274]=1; measure[275]=1;
-            measure[276]=1; measure[277]=1; measure[278]=1; measure[279]=1;
-            measure[280]=1; measure[281]=1; measure[282]=1; measure[283]=1;
-            measure[284]=1; measure[285]=1; measure[286]=1; measure[287]=1;
-            measure[288]=1; measure[289]=1; measure[290]=1; measure[291]=1;
-            measure[292]=1; measure[293]=1; measure[294]=1; measure[295]=1;
-            measure[296]=1; measure[297]=1; measure[298]=1; measure[299]=1;
-            measure[300]=1; measure[301]=1; measure[302]=1; measure[303]=1;
-            measure[304]=1; measure[305]=1; measure[306]=1; measure[307]=1;
-            measure[308]=1; measure[309]=1; measure[310]=1; measure[311]=1;
-            measure[312]=1; measure[313]=1; measure[314]=1; measure[315]=1;
-            measure[316]=1; measure[317]=1; measure[318]=1; measure[319]=1;
-            measure[320]=1; measure[321]=1; measure[322]=1; measure[323]=1;
-            measure[324]=1; measure[325]=1; measure[326]=1; measure[327]=1;
-            measure[328]=1; measure[329]=1; measure[330]=1; measure[331]=1;
-            measure[332]=1; measure[333]=1; measure[334]=1; measure[335]=1;
-            measure[336]=1; measure[337]=1; measure[338]=1; measure[339]=1;
-            measure[340]=1; measure[341]=1; measure[342]=1; measure[343]=1;
-            measure[344]=1; measure[345]=1; measure[346]=1; measure[347]=1;
-            measure[348]=1; measure[359]=1; measure[350]=1; measure[351]=1;
-            measure[352]=1; measure[353]=1; measure[354]=1; measure[355]=1;
-            measure[356]=1; measure[357]=1; measure[358]=1; measure[359]=1;
-            measure[360]=1; measure[361]=1; measure[362]=1; measure[363]=1;
-            measure[364]=1; measure[365]=1; measure[366]=1; measure[367]=1;
-            measure[368]=1; measure[369]=1; measure[370]=1; measure[371]=1;
-            measure[372]=1; measure[373]=1; measure[374]=1; measure[375]=1;
-            measure[376]=1; measure[377]=1; measure[378]=1; measure[379]=1;
-            measure[380]=1; measure[381]=1; measure[382]=1; measure[383]=1;
-            measure[384]=1; measure[385]=1; measure[386]=1; measure[387]=1;
-            measure[388]=1; measure[389]=1; measure[390]=1; measure[391]=1;
-            measure[392]=1; measure[393]=1; measure[394]=1; measure[395]=1;
-            measure[396]=1; measure[397]=1; measure[398]=1; measure[399]=1;
-            measure[400]=1; measure[401]=1; measure[402]=1; measure[403]=1;
-            measure[404]=1; measure[405]=1; measure[406]=1; measure[407]=1;
-            measure[408]=1; measure[409]=1; measure[410]=1; measure[411]=1;
-            measure[412]=1; measure[413]=1; measure[414]=1; measure[415]=1;
-            measure[416]=1; measure[417]=1; measure[418]=1; measure[419]=1;
-            measure[420]=1; measure[421]=1; measure[422]=1; measure[423]=1;
-            measure[424]=1; measure[425]=1; measure[426]=1; measure[427]=1;
-            measure[428]=1; measure[429]=1; measure[430]=1; measure[431]=1;
-            measure[432]=1; measure[433]=1; measure[434]=1; measure[435]=1;
-            measure[436]=1; measure[437]=1; measure[438]=1; measure[439]=1;
-            measure[440]=1; measure[441]=1; measure[442]=1; measure[443]=1;
-            measure[444]=1; measure[445]=1; measure[446]=1; measure[447]=1;
-            measure[448]=1; measure[459]=1; measure[450]=1; measure[451]=1;
-            measure[452]=1; measure[453]=1; measure[454]=1; measure[455]=1;
-            measure[460]=1; measure[461]=1; measure[462]=1; measure[463]=1;
-            measure[464]=1; measure[465]=1; measure[466]=1; measure[467]=1;
-            measure[468]=1; measure[469]=1; measure[470]=1; measure[471]=1;
-            measure[472]=1; measure[473]=1; measure[474]=1; measure[475]=1;
-            measure[476]=1; measure[477]=1; measure[478]=1; measure[479]=1;
-            measure[480]=1; measure[481]=1; measure[482]=1; measure[483]=1;
-            measure[484]=1; measure[485]=1; measure[486]=1; measure[487]=1;
-            measure[488]=1; measure[489]=1; measure[490]=1; measure[491]=1;
-            measure[492]=1; measure[493]=1; measure[494]=1; measure[495]=1;
-            measure[496]=1; measure[497]=1; measure[498]=1; measure[499]=1;
-            measure[500]=1; measure[501]=1; measure[502]=1; measure[503]=1;
-            measure[504]=1; measure[505]=1; measure[506]=1; measure[507]=1;
-            measure[508]=1; measure[509]=1; measure[510]=1; measure[511]=1;
+            u[0] = 1; u[16] = 1; u[32] = 1; u[48] = 1; u[64] = 1; u[80] = 1; u[96] = 1; u[112] = 1; u[128] = 1; u[144] = 1; 
+            u[160] = 1; u[176] = 1; u[192] = 1; u[208] = 1; u[224] = 1; u[240] = 1; u[256] = 1; u[272] = 1; u[288] = 1; u[304] = 1; 
+            u[320] = 1; u[336] = 1; u[352] = 1; u[368] = 1; u[384] = 1; u[400] = 1; u[416] = 1; u[432] = 1; u[448] = 1; u[464] = 1; 
+            u[480] = 1; u[496] = 1; u[512] = 1; u[528] = 1; u[544] = 1; u[560] = 1; u[576] = 1; u[592] = 1; u[608] = 1; u[624] = 1; 
+            u[640] = 1; u[656] = 1; u[672] = 1; u[688] = 1; u[704] = 1; u[720] = 1; u[736] = 1; u[752] = 1; u[768] = 1; u[784] = 1; 
+            u[800] = 1; u[816] = 1; u[832] = 1; u[848] = 1; u[864] = 1; u[880] = 1; u[896] = 1; u[912] = 1; u[928] = 1; u[944] = 1; 
+            u[960] = 1; u[976] = 1; u[992] = 1; u[1008] = 1; u[1024] = 1; u[1040] = 1; u[1056] = 1; u[1072] = 1; u[1088] = 1; u[1104] = 1; 
+            u[1120] = 1; u[1136] = 1; u[1152] = 1; u[1168] = 1; u[1184] = 1; u[1200] = 1; u[1216] = 1; u[1232] = 1; u[1248] = 1; u[1264] = 1; 
+            u[1280] = 1; u[1296] = 1; u[1312] = 1; u[1328] = 1; u[1344] = 1; u[1360] = 1; u[1376] = 1; u[1392] = 1; u[1408] = 1; u[1424] = 1; 
+            u[1440] = 1; u[1456] = 1; u[1472] = 1; u[1488] = 1; u[1504] = 1; u[1520] = 1; u[1536] = 1; u[1552] = 1; u[1568] = 1; u[1584] = 1; 
+            u[1600] = 1; u[1616] = 1; u[1632] = 1; u[1648] = 1; u[1664] = 1; u[1680] = 1; u[1696] = 1; u[1712] = 1; u[1728] = 1; u[1744] = 1; 
+            u[1760] = 1; u[1776] = 1; u[1792] = 1; u[1808] = 1; u[1824] = 1; u[1840] = 1; u[1856] = 1; u[1872] = 1; u[1888] = 1; u[1904] = 1; 
+            u[1920] = 1; u[1936] = 1; u[1952] = 1; u[1968] = 1; u[1984] = 1; u[2000] = 1; u[2016] = 1; u[2032] = 1; u[2048] = 1; u[2064] = 1; 
+            u[2080] = 1; u[2096] = 1; u[2112] = 1; u[2128] = 1; u[2144] = 1; u[2160] = 1; u[2176] = 1; u[2192] = 1; u[2208] = 1; u[2224] = 1; 
+            u[2240] = 1; u[2256] = 1; u[2272] = 1; u[2288] = 1; u[2304] = 1; u[2320] = 1; u[2336] = 1; u[2352] = 1; u[2368] = 1; u[2384] = 1; 
+            u[2400] = 1; u[2416] = 1; u[2432] = 1; u[2448] = 1; u[2464] = 1; u[2480] = 1; u[2496] = 1; u[2512] = 1; u[2528] = 1; u[2544] = 1; 
+            u[2560] = 1; u[2576] = 1; u[2592] = 1; u[2608] = 1; u[2624] = 1; u[2640] = 1; u[2656] = 1; u[2672] = 1; u[2688] = 1; u[2704] = 1; 
+            u[2720] = 1; u[2736] = 1; u[2752] = 1; u[2768] = 1; u[2784] = 1; u[2800] = 1; u[2816] = 1; u[2832] = 1; u[2848] = 1; u[2864] = 1; 
+            u[2880] = 1; u[2896] = 1; u[2912] = 1; u[2928] = 1; u[2944] = 1; u[2960] = 1; u[2976] = 1; u[2992] = 1; u[3008] = 1; u[3024] = 1; 
+            u[3040] = 1; u[3056] = 1; u[3072] = 1; u[3088] = 1; u[3104] = 1; u[3120] = 1; u[3136] = 1; u[3152] = 1; u[3168] = 1; u[3184] = 1; 
+            u[3200] = 1; u[3216] = 1; u[3232] = 1; u[3248] = 1; u[3264] = 1; u[3280] = 1; u[3296] = 1; u[3312] = 1; u[3328] = 1; u[3344] = 1; 
+            u[3360] = 1; u[3376] = 1; u[3392] = 1; u[3408] = 1; u[3424] = 1; u[3440] = 1; u[3456] = 1; u[3472] = 1; u[3488] = 1; u[3504] = 1; 
+            u[3520] = 1; u[3536] = 1; u[3552] = 1; u[3568] = 1; u[3584] = 1; u[3600] = 1; u[3616] = 1; u[3632] = 1; u[3648] = 1; u[3664] = 1; 
+            u[3680] = 1; u[3696] = 1; u[3712] = 1; u[3728] = 1; u[3744] = 1; u[3760] = 1; u[3776] = 1; u[3792] = 1; u[3808] = 1; u[3824] = 1; 
+            u[3840] = 1; u[3856] = 1; u[3872] = 1; u[3888] = 1; u[3904] = 1; u[3920] = 1; u[3936] = 1; u[3952] = 1; u[3968] = 1; u[3984] = 1; 
+            u[4000] = 1; u[4016] = 1; u[4032] = 1; u[4048] = 1; u[4064] = 1; u[4080] = 1; u[4096] = 1; u[4112] = 1; u[4128] = 1; u[4144] = 1; 
+            u[4160] = 1; u[4176] = 1; u[4192] = 1; u[4208] = 1; u[4224] = 1; u[4240] = 1; u[4256] = 1; u[4272] = 1; u[4288] = 1; u[4304] = 1; 
+            u[4320] = 1; u[4336] = 1; u[4352] = 1; u[4368] = 1; u[4384] = 1; u[4400] = 1; u[4416] = 1; u[4432] = 1; u[4448] = 1; u[4464] = 1; 
+            u[4480] = 1; u[4496] = 1; u[4512] = 1; u[4528] = 1; u[4544] = 1; u[4560] = 1; u[4576] = 1; u[4592] = 1; u[4608] = 1; u[4624] = 1; 
+            u[4640] = 1; u[4656] = 1; u[4672] = 1; u[4688] = 1; u[4704] = 1; u[4720] = 1; u[4736] = 1; u[4752] = 1; u[4768] = 1; u[4784] = 1; 
+            u[4800] = 1; u[4816] = 1; u[4832] = 1; u[4848] = 1; u[4864] = 1; u[4880] = 1; u[4896] = 1; u[4912] = 1; u[4928] = 1; u[4944] = 1; 
+            u[4960] = 1; u[4976] = 1; u[4992] = 1; u[5008] = 1; u[5024] = 1; u[5040] = 1; u[5056] = 1; u[5072] = 1; u[5088] = 1; u[5104] = 1; 
+            u[5120] = 1; u[5136] = 1; u[5152] = 1; u[5168] = 1; u[5184] = 1; u[5200] = 1; u[5216] = 1; u[5232] = 1; u[5248] = 1; u[5264] = 1; 
+            u[5280] = 1; u[5296] = 1; u[5312] = 1; u[5328] = 1; u[5344] = 1; u[5360] = 1; u[5376] = 1; u[5392] = 1; u[5408] = 1; u[5424] = 1; 
+            u[5440] = 1; u[5456] = 1; u[5472] = 1; u[5488] = 1; u[5504] = 1; u[5520] = 1; u[5536] = 1; u[5552] = 1; u[5568] = 1; u[5584] = 1; 
+            u[5600] = 1; u[5616] = 1; u[5632] = 1; u[5648] = 1; u[5664] = 1; u[5680] = 1; u[5696] = 1; u[5712] = 1; u[5728] = 1; u[5744] = 1; 
+            u[5760] = 1; u[5776] = 1; u[5792] = 1; u[5808] = 1; u[5824] = 1; u[5840] = 1; u[5856] = 1; u[5872] = 1; u[5888] = 1; u[5904] = 1; 
+            u[5920] = 1; u[5936] = 1; u[5952] = 1; u[5968] = 1; u[5984] = 1; u[6000] = 1; u[6016] = 1; u[6032] = 1; u[6048] = 1; u[6064] = 1; 
+            u[6080] = 1; u[6096] = 1; u[6112] = 1; u[6128] = 1; u[6144] = 1; u[6160] = 1; u[6176] = 1; u[6192] = 1; u[6208] = 1; u[6224] = 1; 
+            u[6240] = 1; u[6256] = 1; u[6272] = 1; u[6288] = 1; u[6304] = 1; u[6320] = 1; u[6336] = 1; u[6352] = 1; u[6368] = 1; u[6384] = 1; 
+            u[6400] = 1; u[6416] = 1; u[6432] = 1; u[6448] = 1; u[6464] = 1; u[6480] = 1; u[6496] = 1; u[6512] = 1; u[6528] = 1; u[6544] = 1; 
+            u[6560] = 1; u[6576] = 1; u[6592] = 1; u[6608] = 1; u[6624] = 1; u[6640] = 1; u[6656] = 1; u[6672] = 1; u[6688] = 1; u[6704] = 1; 
+            u[6720] = 1; u[6736] = 1; u[6752] = 1; u[6768] = 1; u[6784] = 1; u[6800] = 1; u[6816] = 1; u[6832] = 1; u[6848] = 1; u[6864] = 1; 
+            u[6880] = 1; u[6896] = 1; u[6912] = 1; u[6928] = 1; u[6944] = 1; u[6960] = 1; u[6976] = 1; u[6992] = 1; u[7008] = 1; u[7024] = 1; 
+            u[7040] = 1; u[7056] = 1; u[7072] = 1; u[7088] = 1; u[7104] = 1; u[7120] = 1; u[7136] = 1; u[7152] = 1; u[7168] = 1; u[7184] = 1; 
+            u[7200] = 1; u[7216] = 1; u[7232] = 1; u[7248] = 1; u[7264] = 1; u[7280] = 1; u[7296] = 1; u[7312] = 1; u[7328] = 1; u[7344] = 1; 
+            u[7360] = 1; u[7376] = 1; u[7392] = 1; u[7408] = 1; u[7424] = 1; u[7440] = 1; u[7456] = 1; u[7472] = 1; u[7488] = 1; u[7504] = 1; 
+            u[7520] = 1; u[7536] = 1; u[7552] = 1; u[7568] = 1; u[7584] = 1; u[7600] = 1; u[7616] = 1; u[7632] = 1; u[7648] = 1; u[7664] = 1; 
+            u[7680] = 1; u[7696] = 1; u[7712] = 1; u[7728] = 1; u[7744] = 1; u[7760] = 1; u[7776] = 1; u[7792] = 1; u[7808] = 1; u[7824] = 1; 
+            u[7840] = 1; u[7856] = 1; u[7872] = 1; u[7888] = 1; u[7904] = 1; u[7920] = 1; u[7936] = 1; u[7952] = 1; u[7968] = 1; u[7984] = 1; 
+            u[8000] = 1; u[8016] = 1; u[8032] = 1; u[8048] = 1; u[8064] = 1; u[8080] = 1; u[8096] = 1; u[8112] = 1; u[8128] = 1; u[8144] = 1; 
+            u[8160] = 1; u[8176] = 1; u[8192] = 1; u[8208] = 1; u[8224] = 1; u[8240] = 1; u[8256] = 1; u[8272] = 1; u[8288] = 1; u[8304] = 1; 
+            u[8320] = 1; u[8336] = 1; u[8352] = 1; u[8368] = 1; u[8384] = 1; u[8400] = 1; u[8416] = 1; u[8432] = 1; u[8448] = 1; u[8464] = 1; 
+            u[8480] = 1; u[8496] = 1; u[8512] = 1; u[8528] = 1; u[8544] = 1; u[8560] = 1; u[8576] = 1; u[8592] = 1; u[8608] = 1; u[8624] = 1; 
+            u[8640] = 1; u[8656] = 1; u[8672] = 1; u[8688] = 1; u[8704] = 1; u[8720] = 1; u[8736] = 1; u[8752] = 1; u[8768] = 1; u[8784] = 1; 
+            u[8800] = 1; u[8816] = 1; u[8832] = 1; u[8848] = 1; u[8864] = 1; u[8880] = 1; u[8896] = 1; u[8912] = 1; u[8928] = 1; u[8944] = 1; 
+            u[8960] = 1; u[8976] = 1; u[8992] = 1; u[9008] = 1; u[9024] = 1; u[9040] = 1; u[9056] = 1; u[9072] = 1; u[9088] = 1; u[9104] = 1; 
+            u[9120] = 1; u[9136] = 1; u[9152] = 1; u[9168] = 1; u[9184] = 1; u[9200] = 1; u[9216] = 1; u[9232] = 1; u[9248] = 1; u[9264] = 1; 
+            u[9280] = 1; u[9296] = 1; u[9312] = 1; u[9328] = 1; u[9344] = 1; u[9360] = 1; u[9376] = 1; u[9392] = 1; u[9408] = 1; u[9424] = 1; 
+            u[9440] = 1; u[9456] = 1; u[9472] = 1; u[9488] = 1; u[9504] = 1; u[9520] = 1; u[9536] = 1; u[9552] = 1; u[9568] = 1; u[9584] = 1; 
+            u[9600] = 1; u[9616] = 1; u[9632] = 1; u[9648] = 1; u[9664] = 1; u[9680] = 1; u[9696] = 1; u[9712] = 1; u[9728] = 1; u[9744] = 1; 
+            u[9760] = 1; u[9776] = 1; u[9792] = 1; u[9808] = 1; u[9824] = 1; u[9840] = 1; u[9856] = 1; u[9872] = 1; u[9888] = 1; u[9904] = 1; 
+            u[9920] = 1; u[9936] = 1; u[9952] = 1; u[9968] = 1; u[9984] = 1; u[10000] = 1; u[10016] = 1; u[10032] = 1; u[10048] = 1; u[10064] = 1; 
+            u[10080] = 1; u[10096] = 1; u[10112] = 1; u[10128] = 1; u[10144] = 1; u[10160] = 1; u[10176] = 1; u[10192] = 1; u[10208] = 1; u[10224] = 1; 
+            u[10240] = 1; u[10256] = 1; u[10272] = 1; u[10288] = 1; u[10304] = 1; u[10320] = 1; u[10336] = 1; u[10352] = 1; u[10368] = 1; u[10384] = 1; 
+            u[10400] = 1; u[10416] = 1; u[10432] = 1; u[10448] = 1; u[10464] = 1; u[10480] = 1; u[10496] = 1; u[10512] = 1; u[10528] = 1; u[10544] = 1; 
+            u[10560] = 1; u[10576] = 1; u[10592] = 1; u[10608] = 1; u[10624] = 1; u[10640] = 1; u[10656] = 1; u[10672] = 1; u[10688] = 1; u[10704] = 1; 
+            u[10720] = 1; u[10736] = 1; u[10752] = 1; u[10768] = 1; u[10784] = 1; u[10800] = 1; u[10816] = 1; u[10832] = 1; u[10848] = 1; u[10864] = 1; 
+            u[10880] = 1; u[10896] = 1; u[10912] = 1; u[10928] = 1; u[10944] = 1; u[10960] = 1; u[10976] = 1; u[10992] = 1; u[11008] = 1; u[11024] = 1; 
+            u[11040] = 1; u[11056] = 1; u[11072] = 1; u[11088] = 1; u[11104] = 1; u[11120] = 1; u[11136] = 1; u[11152] = 1; u[11168] = 1; u[11184] = 1; 
+            u[11200] = 1; u[11216] = 1; u[11232] = 1; u[11248] = 1; u[11264] = 1; u[11280] = 1; u[11296] = 1; u[11312] = 1; u[11328] = 1; u[11344] = 1; 
+            u[11360] = 1; u[11376] = 1; u[11392] = 1; u[11408] = 1; u[11424] = 1; u[11440] = 1; u[11456] = 1; u[11472] = 1; u[11488] = 1; u[11504] = 1; 
+            u[11520] = 1; u[11536] = 1; u[11552] = 1; u[11568] = 1; u[11584] = 1; u[11600] = 1; u[11616] = 1; u[11632] = 1; u[11648] = 1; u[11664] = 1; 
+            u[11680] = 1; u[11696] = 1; u[11712] = 1; u[11728] = 1; u[11744] = 1; u[11760] = 1; u[11776] = 1; u[11792] = 1; u[11808] = 1; u[11824] = 1; 
+            u[11840] = 1; u[11856] = 1; u[11872] = 1; u[11888] = 1; u[11904] = 1; u[11920] = 1; u[11936] = 1; u[11952] = 1; u[11968] = 1; u[11984] = 1; 
+            u[12000] = 1; u[12016] = 1; u[12032] = 1; u[12048] = 1; u[12064] = 1; u[12080] = 1; u[12096] = 1; u[12112] = 1; u[12128] = 1; u[12144] = 1; 
+            u[12160] = 1; u[12176] = 1; u[12192] = 1; u[12208] = 1; u[12224] = 1; u[12240] = 1; u[12256] = 1; u[12272] = 1; u[12288] = 1; u[12304] = 1; 
+            u[12320] = 1; u[12336] = 1; u[12352] = 1; u[12368] = 1; u[12384] = 1; u[12400] = 1; u[12416] = 1; u[12432] = 1; u[12448] = 1; u[12464] = 1; 
+            u[12480] = 1; u[12496] = 1; u[12512] = 1; u[12528] = 1; u[12544] = 1; u[12560] = 1; u[12576] = 1; u[12592] = 1; u[12608] = 1; u[12624] = 1; 
+            u[12640] = 1; u[12656] = 1; u[12672] = 1; u[12688] = 1; u[12704] = 1; u[12720] = 1; u[12736] = 1; u[12752] = 1; u[12768] = 1; u[12784] = 1; 
+            u[12800] = 1; u[12816] = 1; u[12832] = 1; u[12848] = 1; u[12864] = 1; u[12880] = 1; u[12896] = 1; u[12912] = 1; u[12928] = 1; u[12944] = 1; 
+            u[12960] = 1; u[12976] = 1; u[12992] = 1; u[13008] = 1; u[13024] = 1; u[13040] = 1; u[13056] = 1; u[13072] = 1; u[13088] = 1; u[13104] = 1; 
+            u[13120] = 1; u[13136] = 1; u[13152] = 1; u[13168] = 1; u[13184] = 1; u[13200] = 1; u[13216] = 1; u[13232] = 1; u[13248] = 1; u[13264] = 1; 
+            u[13280] = 1; u[13296] = 1; u[13312] = 1; u[13328] = 1; u[13344] = 1; u[13360] = 1; u[13376] = 1; u[13392] = 1; u[13408] = 1; u[13424] = 1; 
+            u[13440] = 1; u[13456] = 1; u[13472] = 1; u[13488] = 1; u[13504] = 1; u[13520] = 1; u[13536] = 1; u[13552] = 1; u[13568] = 1; u[13584] = 1; 
+            u[13600] = 1; u[13616] = 1; u[13632] = 1; u[13648] = 1; u[13664] = 1; u[13680] = 1; u[13696] = 1; u[13712] = 1; u[13728] = 1; u[13744] = 1; 
+            u[13760] = 1; u[13776] = 1; u[13792] = 1; u[13808] = 1; u[13824] = 1; u[13840] = 1; u[13856] = 1; u[13872] = 1; u[13888] = 1; u[13904] = 1; 
+            u[13920] = 1; u[13936] = 1; u[13952] = 1; u[13968] = 1; u[13984] = 1; u[14000] = 1; u[14016] = 1; u[14032] = 1; u[14048] = 1; u[14064] = 1; 
+            u[14080] = 1; u[14096] = 1; u[14112] = 1; u[14128] = 1; u[14144] = 1; u[14160] = 1; u[14176] = 1; u[14192] = 1; u[14208] = 1; u[14224] = 1; 
+            u[14240] = 1; u[14256] = 1; u[14272] = 1; u[14288] = 1; u[14304] = 1; u[14320] = 1; u[14336] = 1; u[14352] = 1; u[14368] = 1; u[14384] = 1; 
+            u[14400] = 1; u[14416] = 1; u[14432] = 1; u[14448] = 1; u[14464] = 1; u[14480] = 1; u[14496] = 1; u[14512] = 1; u[14528] = 1; u[14544] = 1; 
+            u[14560] = 1; u[14576] = 1; u[14592] = 1; u[14608] = 1; u[14624] = 1; u[14640] = 1; u[14656] = 1; u[14672] = 1; u[14688] = 1; u[14704] = 1; 
+            u[14720] = 1; u[14736] = 1; u[14752] = 1; u[14768] = 1; u[14784] = 1; u[14800] = 1; u[14816] = 1; u[14832] = 1; u[14848] = 1; u[14864] = 1; 
+            u[14880] = 1; u[14896] = 1; u[14912] = 1; u[14928] = 1; u[14944] = 1; u[14960] = 1; u[14976] = 1; u[14992] = 1; u[15008] = 1; u[15024] = 1; 
+            u[15040] = 1; u[15056] = 1; u[15072] = 1; u[15088] = 1; u[15104] = 1; u[15120] = 1; u[15136] = 1; u[15152] = 1; u[15168] = 1; u[15184] = 1; 
+            u[15200] = 1; u[15216] = 1; u[15232] = 1; u[15248] = 1; u[15264] = 1; u[15280] = 1; u[15296] = 1; u[15312] = 1; u[15328] = 1; u[15344] = 1; 
+            u[15360] = 1; u[15376] = 1; u[15392] = 1; u[15408] = 1; u[15424] = 1; u[15440] = 1; u[15456] = 1; u[15472] = 1; u[15488] = 1; u[15504] = 1; 
+            u[15520] = 1; u[15536] = 1; u[15552] = 1; u[15568] = 1; u[15584] = 1; u[15600] = 1; u[15616] = 1; u[15632] = 1; u[15648] = 1; u[15664] = 1; 
+            u[15680] = 1; u[15696] = 1; u[15712] = 1; u[15728] = 1; u[15744] = 1; u[15760] = 1; u[15776] = 1; u[15792] = 1; u[15808] = 1; u[15824] = 1; 
+            u[15840] = 1; u[15856] = 1; u[15872] = 1; u[15888] = 1; u[15904] = 1; u[15920] = 1; u[15936] = 1; u[15952] = 1; u[15968] = 1; u[15984] = 1;
             t = ccnt_read() - t;
             overall_t += t - overhead;
-            measure += step;
+
+            u += 15984 + 16;
+            if (u >= &array[arr_size - 15984]) u = array;
         }
-        float bandwidth = (sizeof(int) * arr_size) / (float)overall_t;
+        float bandwidth = (iter * 16000 * sizeof(int)) / (float)overall_t;
         bandwidth *= cpu_mhz;
         float prev_avg = avg;
         avg += (bandwidth - prev_avg) / i;
