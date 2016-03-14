@@ -29,19 +29,19 @@ problem1: $(OBJECT1)
 	$(CC) $(OBJECT1) -o $@
 
 problem2: $(OBJECT2)
-	$(CC) $(OBJECT2) -o $@
+	$(CC) $(OBJECT2) -o $@ -lm
 
 problem3: $(OBJECT3)
-	$(CC) $(OBJECT3) -o $@
+	$(CC) $(OBJECT3) -o $@ -lm
 
 problem4_process: $(OBJECT4PROCESS)
-	$(CC) $(OBJECT4PROCESS) $(LDFLAGS) -o $@
+	$(CC) $(OBJECT4PROCESS) $(LDFLAGS) -o $@ -lm
 
 problem4_thread1: $(OBJECT4THREAD1)
-	$(CC) $(OBJECT4THREAD1) $(LDFLAGS) -o $@
+	$(CC) $(OBJECT4THREAD1) $(LDFLAGS) -o $@ -lm
 
 problem4_thread2: $(OBJECT4THREAD2)
-	$(CC) $(OBJECT4THREAD2) $(LDFLAGS) -o $@
+	$(CC) $(OBJECT4THREAD2) $(LDFLAGS) -o $@ -lm
 
 problem5_process: $(OBJECT5PROCESS)
 	$(CC) $(OBJECT5PROCESS) $(LDFLAGS) -o $@

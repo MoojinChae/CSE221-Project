@@ -17,7 +17,6 @@ void create_process(float overhead, int i){
     if (child_pid >1){
         child_pid = waitpid(child_pid, &status, 0);
         kill(child_pid, SIGKILL);
-        //printf("%dth process killed\n", i);
     }
     else if(child_pid == 0){
         printf("%dth process creation : %f\n", i, (float)(t-overhead));

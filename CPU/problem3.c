@@ -12,8 +12,7 @@ void prob3(float overhead){
     for (int i = 1; i <= num_iter; i++){
         t = ccnt_read();
         //syscall(SYS_getpid);
-        //syscall(SYS_getppid);
-        getppid();
+        getpid();
         t = ccnt_read() - t;
 
         printf("%dth system call creation : %f\n", i, (float)(t - overhead));
@@ -23,7 +22,7 @@ void prob3(float overhead){
 }
 
 int main(){
-    prob3(0);
+    prob3(8);
     return 0;
 }
 
