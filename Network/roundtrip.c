@@ -58,13 +58,12 @@ void measure_round_trip(float overhead, char* ip) {
         rn = read(sk, buffer, BUF_SIZE);
         gettimeofday(&tm2, NULL);
 
-        unsigned long long tm = (tm2.tv_sec - tm1.tv_sec) + (tm2.tv_usec - tm1.tv_usec);
-
         if (wn <= 0) error("ERROR writing from socket");
         if (rn <= 0) error("ERROR reading from socket");
         if (rn != BUF_SIZE) printf("Unsuccess receive! %d bytes\n", rn);
 
-        t_float = (float)(tm) / 1000;
+        t_float = ((tm2.tv_sec-tm1.tv_sec)*1000000 + tm2.tv_usec-tm1.tv_usec)/1000.0;
+        
         float prev_avg = avg;
         avg += (t_float - prev_avg) / i;
         stddev += (t_float - prev_avg) * (t_float - avg);

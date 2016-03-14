@@ -49,8 +49,7 @@ void measure_setup_overhead(float overhead, char * ip) {
         }
         gettimeofday(&tm2, NULL);
 
-        unsigned long long tm = (tm2.tv_sec - tm1.tv_sec) + (tm2.tv_usec - tm1.tv_usec);
-        t_float = (float)(tm) / 1000;
+        t_float = ((tm2.tv_sec-tm1.tv_sec)*1000000 + tm2.tv_usec-tm1.tv_usec)/1000.0;
 
 		float prev_avg = avg;
         avg += (t_float - prev_avg) / i;

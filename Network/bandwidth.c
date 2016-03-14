@@ -12,8 +12,7 @@
 #include "cpu.h"
 
 #define SEND_COUNT 100
-#define MSGSIZE 1001024
-#define BUFFERSIZE 1048576
+#define MSGSIZE 3276800
 
 void error(const char *msg) {
     perror(msg);
@@ -32,12 +31,11 @@ void measure_bandwidth(float overhead, char* ip) {
 
     bzero((char *) &server_addr, sizeof(server_addr));
     server_addr.sin_family = AF_INET;
-    server_addr.sin_port = htons(5374);
+    server_addr.sin_port = htons(5001);
     bcopy((char *)server->h_addr, (char *)&server_addr.sin_addr.s_addr, server->h_length);
 
 	for (int i = 0; i < MSGSIZE-1; i++)
 		buffer[i] = 'a';
-    int buff_size = BUFFERSIZE;
 
 	int wn;
 	avg = 0.0;
@@ -50,9 +48,7 @@ void measure_bandwidth(float overhead, char* ip) {
 	for(int i = 1; i <= SEND_COUNT ; i++) {
         sk = socket(AF_INET, SOCK_STREAM, 0);
         if (sk < 0) error("ERROR opening socket");
-
-        setsockopt(sk, SOL_SOCKET, SO_SNDBUF, &buff_size, (int)sizeof(buff_size));
-
+        
 		if (connect(sk,(struct sockaddr *) &server_addr, sizeof(server_addr)) < 0) {
             error("ERROR connecting");
         }
@@ -63,8 +59,7 @@ void measure_bandwidth(float overhead, char* ip) {
 
 		if (wn < 0) error("ERROR writing to socket");
 		
-        unsigned long long tm = (tm2.tv_sec - tm1.tv_sec) + (tm2.tv_usec - tm1.tv_usec);
-        t_float = (float)(tm) / 1000;
+        t_float = ((tm2.tv_sec-tm1.tv_sec)*1000000 + tm2.tv_usec-tm1.tv_usec)/1000.0;
 
         printf("[%d] Total Bytes Sent = %d and time = %fms\n", i, wn, t_float);
 		float prev_avg = avg;

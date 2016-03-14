@@ -8,7 +8,7 @@
 #include <netinet/in.h>
 
 #define SEND_COUNT 100
-#define MSGSIZE 1048576
+#define MSGSIZE 3276800
 
 void error(const char *msg) {
     perror(msg);
@@ -27,7 +27,7 @@ int main(int argc, char *argv[]) {
     bzero((char *) &server_addr, sizeof(server_addr));
     server_addr.sin_family = AF_INET;
     server_addr.sin_addr.s_addr = INADDR_ANY;
-    server_addr.sin_port = htons(5374);
+    server_addr.sin_port = htons(5001);
 
     if (bind(sk, (struct sockaddr *) &server_addr, sizeof(server_addr)) < 0) {
         error("ERROR on binding");
