@@ -12,7 +12,7 @@
 #include "cpu.h"
 
 #define SEND_COUNT 100
-#define MSGSIZE 1048576
+#define MSGSIZE 50*1048576
 
 void error(const char *msg) {
     perror(msg);
@@ -25,7 +25,7 @@ void measure_bandwidth(float overhead, char* ip) {
     int sk;
     struct sockaddr_in server_addr;
     struct hostent *server;
-    char buffer[MSGSIZE]; //4Mbytes
+    static char buffer[MSGSIZE]; //4Mbytes
 
     server = gethostbyname(ip);
 

@@ -8,7 +8,7 @@
 #include <netinet/in.h>
 
 #define SEND_COUNT 100
-#define MSGSIZE 1048576
+#define MSGSIZE 50*1048576
 
 void error(const char *msg) {
     perror(msg);
@@ -18,7 +18,7 @@ void error(const char *msg) {
 int main(int argc, char *argv[]) {
 	int sk, new_sk, port;
     socklen_t client_len;
-    char buffer[MSGSIZE];
+    static char buffer[MSGSIZE];
     struct sockaddr_in server_addr, client_addr;
 
     sk = socket(AF_INET, SOCK_STREAM, 0);
