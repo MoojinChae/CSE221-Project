@@ -36,7 +36,7 @@ void measure_round_trip() {
     if (bind(sk, (struct sockaddr *) &server_addr, sizeof(server_addr)) < 0) {
         error("ERROR on binding");
     }
-  
+    
     listen(sk, 5);
 
     client_len = sizeof(client_addr);

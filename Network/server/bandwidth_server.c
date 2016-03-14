@@ -8,7 +8,7 @@
 #include <netinet/in.h>
 
 #define SEND_COUNT 100
-#define MSGSIZE 3276800
+#define MSGSIZE 1048576
 
 void error(const char *msg) {
     perror(msg);
@@ -35,25 +35,29 @@ int main(int argc, char *argv[]) {
 
     listen(sk, 5);
     client_len = sizeof(client_addr);
+    printf("Starting!\n");
     int rn;
     for(int i = 1; i <= SEND_COUNT ; i++) {
     	new_sk = accept(sk, (struct sockaddr *) &client_addr, &client_len);
-	    if (new_sk < 0) error("ERROR on accept");
+        if (new_sk < 0) error("ERROR on accept");
 
-	    printf("[%d] Client connected!\n", i);
-	    while(1) {
-			rn = read(new_sk, buffer, strlen(buffer));
-			if (rn < 0) error("ERROR reading from socket");
-			else if (rn == 0) {
+        printf("[%d] Client connected!\n", i);
+        int total_received = 0;
+        while (total_received < MSGSIZE) {
+            rn = read(new_sk, buffer, MSGSIZE);
+            if (rn == -1) error("ERROR reading from socket");
+            else if (rn == 0) {
                 printf("Client finished sending\n");
                 break;
             }
-		}
-		
-		close(new_sk);
+            else {
+                total_received += rn;
+                printf("Received %d\n", total_received);
+            }
+        }
+        close(new_sk);
     }
-    
-	close(sk);
 
-	return 0;
+    close(sk);
+    return 0;
 }

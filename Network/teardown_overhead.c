@@ -32,18 +32,18 @@ void measure_teardown_overhead(float overhead, char * ip) {
     server_addr.sin_port = htons(5374);
     bcopy((char *)server->h_addr, (char *)&server_addr.sin_addr.s_addr, server->h_length);
 
-	avg = 0.0;
+    avg = 0.0;
     stddev = 0.0;
     min = 10000000.0;
     max = 0.0;
     printf("Responding...\n");
     static struct timeval tm1;
     static struct timeval tm2;
-	for(int i = 1; i <= SEND_COUNT ; i++) {
+    for(int i = 1; i <= SEND_COUNT ; i++) {
         sk = socket(AF_INET, SOCK_STREAM, 0);
         if (sk < 0) error("ERROR opening socket");
 
-		if (connect(sk,(struct sockaddr *) &server_addr, sizeof(server_addr)) < 0) {
+        if (connect(sk,(struct sockaddr *) &server_addr, sizeof(server_addr)) < 0) {
             error("ERROR connecting");
         }
 
@@ -53,19 +53,19 @@ void measure_teardown_overhead(float overhead, char * ip) {
 
         t_float = ((tm2.tv_sec-tm1.tv_sec)*1000000 + tm2.tv_usec-tm1.tv_usec)/1000.0;
 
-		float prev_avg = avg;
+        float prev_avg = avg;
         avg += (t_float - prev_avg) / i;
         stddev += (t_float- prev_avg) * (t_float - avg);
         if (t_float > max) max = t_float;
         if (t_float < min) min = t_float;
-	}
-	stddev = sqrt(stddev / (SEND_COUNT - 1));
+    }
+    stddev = sqrt(stddev / (SEND_COUNT - 1));
     printf("[%s] average = %fms, std = %f, min = %fms, max = %fms\n", ip, avg, stddev, min, max);
 
 }
 
 int main(int argc, char* argv[]) {
     measure_teardown_overhead(8, "localhost");
-	measure_teardown_overhead(8, "192.168.0.9");
+    measure_teardown_overhead(8, "192.168.0.9");
     return 0;
 }

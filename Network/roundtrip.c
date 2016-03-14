@@ -29,7 +29,7 @@ void measure_round_trip(float overhead, char* ip) {
     char message[BUF_SIZE];
     for (int i = 0; i < BUF_SIZE; i++)
         message[i] = 'a';
-  
+
     
     server = gethostbyname(ip);
 
@@ -75,7 +75,6 @@ void measure_round_trip(float overhead, char* ip) {
     }
     stddev = sqrt(stddev / (SEND_COUNT - 1));
     printf("[packet size : %d, %s] average = %fms, std = %f, min = %fms, max = %fms\n", BUF_SIZE + 66, ip, avg, stddev, min, max);
-    
     
 }
 
