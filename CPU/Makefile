@@ -44,7 +44,7 @@ problem4_thread2: $(OBJECT4THREAD2)
 	$(CC) $(OBJECT4THREAD2) $(LDFLAGS) -o $@
 
 problem5_process: $(OBJECT5PROCESS)
-	$(CC) $(OBJECT5PROCESS) $(LDFLAGS) -o $@
+	$(CC) $(OBJECT5PROCESS) $(LDFLAGS) -o $@ -lm
 
 problem5_thread: $(OBJECT5THREAD)
 	$(CC) $(OBJECT5THREAD) $(LDFLAGS) -o $@
